@@ -101,7 +101,11 @@ static const struct TrainerMon sParty_Gabrielle1[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_GruntPetalburgWoods[] = {
+=======
+static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -191,7 +195,11 @@ static const struct TrainerMon sParty_Declan[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_GruntRusturfTunnel[] = {
+=======
+static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -270,7 +278,11 @@ static const struct TrainerMon sParty_GruntWeatherInst3[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_GruntMuseum1[] = {
+=======
+static const struct TrainerMon sParty_GruntMuseum1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_GruntMuseum1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -305,7 +317,11 @@ static const struct TrainerMon sParty_GruntMuseum1[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_GruntMuseum2[] = {
+=======
+static const struct TrainerMon sParty_GruntMuseum2[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_GruntMuseum2[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -774,7 +790,11 @@ static const struct TrainerMon sParty_GabbyAndTy6[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Lola1[] = {
+=======
+static const struct TrainerMon sParty_Lola1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Lola1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -863,7 +883,11 @@ static const struct TrainerMon sParty_Lola5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Ricky1[] = {
+=======
+static const struct TrainerMon sParty_Ricky1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Ricky1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1572,7 +1596,11 @@ static const struct TrainerMon sParty_Valerie5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Cindy1[] = {
+=======
+static const struct TrainerMon sParty_Cindy1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Cindy1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1835,7 +1863,11 @@ static const struct TrainerMon sParty_Jessica5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Winston1[] = {
+=======
+static const struct TrainerMon sParty_Winston1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Winston1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3005,7 +3037,11 @@ static const struct TrainerMon sParty_Jeffrey5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Edward[] = {
+=======
+static const struct TrainerMon sParty_Edward[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Edward[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3562,6 +3598,16 @@ static const struct TrainerMon sParty_Roxanne1[] = {
 };
 
 static const struct TrainerMon sParty_Brawly1[] = {
+<<<<<<< HEAD
+=======
+    {
+    .iv = 100,
+    .lvl = 16,
+    .species = SPECIES_MACHOP,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_KARATE_CHOP, MOVE_LOW_KICK, MOVE_SEISMIC_TOSS, MOVE_BULK_UP}
+    },
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
     {
     .iv = 200,
     .lvl = 20,
@@ -3807,7 +3853,11 @@ static const struct TrainerMon sParty_Juan1[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Jerry1[] = {
+=======
+static const struct TrainerMon sParty_Jerry1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Jerry1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3904,7 +3954,11 @@ static const struct TrainerMon sParty_Jerry5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Karen1[] = {
+=======
+static const struct TrainerMon sParty_Karen1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Karen1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4224,7 +4278,11 @@ static const struct TrainerMon sParty_Bethany[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Isabel1[] = {
+=======
+static const struct TrainerMon sParty_Isabel1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Isabel1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4430,7 +4488,11 @@ static const struct TrainerMon sParty_Shelby5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = {
+=======
+static const struct TrainerMon sParty_Calvin1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Calvin1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4444,7 +4506,11 @@ static const struct TrainerMon sParty_Calvin1[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Billy[] = {
+=======
+static const struct TrainerMon sParty_Billy[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Billy[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4465,7 +4531,11 @@ static const struct TrainerMon sParty_Billy[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Josh[] = {
+=======
+static const struct TrainerMon sParty_Josh[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Josh[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4479,7 +4549,11 @@ static const struct TrainerMon sParty_Josh[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Tommy[] = {
+=======
+static const struct TrainerMon sParty_Tommy[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Tommy[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4500,7 +4574,11 @@ static const struct TrainerMon sParty_Tommy[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Joey[] = {
+=======
+static const struct TrainerMon sParty_Joey[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Joey[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4652,7 +4730,11 @@ static const struct TrainerMon sParty_Eddie[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Allen[] = {
+=======
+static const struct TrainerMon sParty_Allen[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Allen[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4673,7 +4755,11 @@ static const struct TrainerMon sParty_Allen[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Timmy[] = {
+=======
+static const struct TrainerMon sParty_Timmy[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Timmy[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5893,7 +5979,11 @@ static const struct TrainerMon sParty_Lao5[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Jocelyn[] = {
+=======
+static const struct TrainerMon sParty_Jocelyn[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Jocelyn[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5921,7 +6011,11 @@ static const struct TrainerMon sParty_Jocelyn[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Laura[] = {
+=======
+static const struct TrainerMon sParty_Laura[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Laura[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6617,7 +6711,11 @@ static const struct TrainerMon sParty_AmyAndLiv2[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_GinaAndMia1[] = {
+=======
+static const struct TrainerMon sParty_GinaAndMia1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_GinaAndMia1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6721,7 +6819,11 @@ static const struct TrainerMon sParty_AmyAndLiv6[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Huey[] = {
+=======
+static const struct TrainerMon sParty_Huey[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Huey[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6756,7 +6858,11 @@ static const struct TrainerMon sParty_Huey[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Edmond[] = {
+=======
+static const struct TrainerMon sParty_Edmond[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Edmond[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7045,7 +7151,11 @@ static const struct TrainerMon sParty_Conor[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Edwin1[] = {
+=======
+static const struct TrainerMon sParty_Edwin1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Edwin1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7190,7 +7300,11 @@ static const struct TrainerMon sParty_BrendanRoute103Mudkip[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_BrendanRoute110Mudkip[] = {
+=======
+static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7265,7 +7379,11 @@ static const struct TrainerMon sParty_BrendanRoute103Treecko[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_BrendanRoute110Treecko[] = {
+=======
+static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7340,7 +7458,11 @@ static const struct TrainerMon sParty_BrendanRoute103Torchic[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_BrendanRoute110Torchic[] = {
+=======
+static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7416,7 +7538,11 @@ static const struct TrainerMon sParty_MayRoute103Mudkip[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_MayRoute110Mudkip[] = {
+=======
+static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7491,7 +7617,11 @@ static const struct TrainerMon sParty_MayRoute103Treecko[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_MayRoute110Treecko[] = {
+=======
+static const struct TrainerMon sParty_MayRoute110Treecko[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_MayRoute110Treecko[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7566,7 +7696,11 @@ static const struct TrainerMon sParty_MayRoute103Torchic[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_MayRoute110Torchic[] = {
+=======
+static const struct TrainerMon sParty_MayRoute110Torchic[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_MayRoute110Torchic[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8235,7 +8369,11 @@ static const struct TrainerMon sParty_GruntJaggedPass[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Marc[] = {
+=======
+static const struct TrainerMon sParty_Marc[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Marc[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8273,7 +8411,11 @@ static const struct TrainerMon sParty_Lilith[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Cristian[] = {
+=======
+static const struct TrainerMon sParty_Cristian[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Cristian[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8602,7 +8744,11 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Tiana[] = {
+=======
+static const struct TrainerMon sParty_Tiana[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Tiana[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8623,7 +8769,11 @@ static const struct TrainerMon sParty_Tiana[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Haley1[] = {
+=======
+static const struct TrainerMon sParty_Haley1[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Haley1[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8644,7 +8794,11 @@ static const struct TrainerMon sParty_Haley1[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Janice[] = {
+=======
+static const struct TrainerMon sParty_Janice[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Janice[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8787,7 +8941,11 @@ static const struct TrainerMon sParty_Crissy[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
+=======
+static const struct TrainerMon sParty_Rick[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Rick[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8815,7 +8973,11 @@ static const struct TrainerMon sParty_Rick[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Lyle[] = {
+=======
+static const struct TrainerMon sParty_Lyle[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Lyle[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8850,7 +9012,11 @@ static const struct TrainerMon sParty_Lyle[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Jose[] = {
+=======
+static const struct TrainerMon sParty_Jose[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Jose[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9055,7 +9221,11 @@ static const struct TrainerMon sParty_Alan[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Clark[] = {
+=======
+static const struct TrainerMon sParty_Clark[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Clark[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10084,7 +10254,11 @@ static const struct TrainerMon sParty_Chris[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Dawson[] = {
+=======
+static const struct TrainerMon sParty_Dawson[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Dawson[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10105,7 +10279,11 @@ static const struct TrainerMon sParty_Dawson[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Sarah[] = {
+=======
+static const struct TrainerMon sParty_Sarah[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Sarah[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10134,7 +10312,11 @@ static const struct TrainerMon sParty_Darian[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Hailey[] = {
+=======
+static const struct TrainerMon sParty_Hailey[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Hailey[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10155,7 +10337,11 @@ static const struct TrainerMon sParty_Hailey[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Chandler[] = {
+=======
+static const struct TrainerMon sParty_Chandler[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Chandler[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10176,7 +10362,11 @@ static const struct TrainerMon sParty_Chandler[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Kaleb[] = {
+=======
+static const struct TrainerMon sParty_Kaleb[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Kaleb[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10210,7 +10400,11 @@ static const struct TrainerMon sParty_Kaleb[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Joseph[] = {
+=======
+static const struct TrainerMon sParty_Joseph[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Joseph[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10238,7 +10432,11 @@ static const struct TrainerMon sParty_Joseph[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Alyssa[] = {
+=======
+static const struct TrainerMon sParty_Alyssa[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Alyssa[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10834,7 +11032,11 @@ static const struct TrainerMon sParty_Marlene[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Devan[] = {
+=======
+static const struct TrainerMon sParty_Devan[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Devan[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10855,7 +11057,11 @@ static const struct TrainerMon sParty_Devan[] = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const struct TrainerMonItemCustomMoves sParty_Johnson[] = {
+=======
+static const struct TrainerMon sParty_Johnson[] = {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 static const struct TrainerMon sParty_Johnson[] = {
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1

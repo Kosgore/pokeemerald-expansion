@@ -3011,13 +3011,19 @@ static void FillPartnerParty(u16 trainerId)
     u16 monId;
     u32 otID;
 <<<<<<< HEAD
+<<<<<<< HEAD
     u8 trainerName[(PLAYER_NAME_LENGTH * 3) + 1];
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 #ifdef BATTLE_ENGINE
     u8 trainerName[(PLAYER_NAME_LENGTH * 3) + 1];
 #else
     u8 trainerName[PLAYER_NAME_LENGTH + 1];
 #endif
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
     SetFacilityPtrsGetLevel();
 
@@ -3051,13 +3057,19 @@ static void FillPartnerParty(u16 trainerId)
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     else if (trainerId >= TRAINER_CUSTOM_PARTNER)
     {
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 #ifdef BATTLE_ENGINE
     else if (trainerId >= TRAINER_CUSTOM_PARTNER)
     {
         const struct TrainerMon *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.TrainerMon;
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         otID = Random32();
 
@@ -3066,6 +3078,7 @@ static void FillPartnerParty(u16 trainerId)
 
         for (i = 0; i < 3 && i < gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].partySize; i++)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             do
             {
@@ -3113,6 +3126,8 @@ static void FillPartnerParty(u16 trainerId)
 
                 for (j = 0; j < 4; j++)
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
             const struct TrainerMon *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.TrainerMon;
 
             fixedIV = partyData[i].iv;
@@ -3189,11 +3204,15 @@ static void FillPartnerParty(u16 trainerId)
             if (partyData[i].moves[0] != 0)
             {
                 for (j = 0; j < MAX_MON_MOVES; j++)
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
                 {
                     SetMonData(&gPlayerParty[i + 3], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
                     SetMonData(&gPlayerParty[i + 3], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
                 break;
             }
@@ -3204,6 +3223,8 @@ static void FillPartnerParty(u16 trainerId)
         }
     }
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
             }
 
 // Check for non-constant IV spread.
@@ -3233,6 +3254,9 @@ static void FillPartnerParty(u16 trainerId)
         }
     }
 #endif
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
     else if (trainerId == TRAINER_EREADER)
     {
