@@ -3450,6 +3450,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     SetBoxMonData(boxMon, MON_DATA_PERSONALITY, &personality);
 
     switch (otIdType)
+<<<<<<< HEAD
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
     {
         case OT_ID_SHINY:
@@ -3492,6 +3493,11 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
                 totalRerolls--;
             }
 =======
+=======
+    {
+        case OT_ID_SHINY:
+        {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
             value = HIHALF(personality) ^ LOHALF(personality);
         }
         break;
@@ -3533,6 +3539,9 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
                 } while (shinyValue >= SHINY_ODDS && rolls < I_SHINY_CHARM_REROLLS);
             }
 #endif
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         }
     }
@@ -3700,7 +3709,11 @@ void CreateMonWithGenderNatureLetter(struct Pokemon *mon, u16 species, u8 level,
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     CreateMon(mon, species, level, fixedIV, TRUE, personality, OT_ID_PLAYER_ID, 0);
+=======
+    CreateMon(mon, species, level, fixedIV, 1, personality, otIdType, 0);
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
     CreateMon(mon, species, level, fixedIV, 1, personality, otIdType, 0);
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
