@@ -2118,7 +2118,7 @@ static const u8 sHurricaneDescription[] = _(
 
 static const u8 sHeadChargeDescription[] = _(
     "A charge using guard hair.\n"
-    "It hurts the user a little.");
+    "Lowers defensive stats.");
 
 static const u8 sGearGrindDescription[] = _(
     "Throws two steel gears\n"
