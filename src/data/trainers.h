@@ -28,6 +28,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sawyer1),
         .party = {.TrainerMon = sParty_Sawyer1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -49,6 +52,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout1),
         .party = {.TrainerMon = sParty_GruntAquaHideout1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -70,6 +76,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout2),
         .party = {.TrainerMon = sParty_GruntAquaHideout2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -91,6 +100,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout3),
         .party = {.TrainerMon = sParty_GruntAquaHideout3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -112,6 +124,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout4),
         .party = {.TrainerMon = sParty_GruntAquaHideout4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -133,6 +148,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSeafloorCavern1),
         .party = {.TrainerMon = sParty_GruntSeafloorCavern1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -154,6 +172,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSeafloorCavern2),
         .party = {.TrainerMon = sParty_GruntSeafloorCavern2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -175,6 +196,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSeafloorCavern3),
         .party = {.TrainerMon = sParty_GruntSeafloorCavern3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -196,6 +220,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gabrielle1),
         .party = {.TrainerMon = sParty_Gabrielle1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -217,6 +244,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntPetalburgWoods),
         .party = {.TrainerMon = sParty_GruntPetalburgWoods},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -238,6 +268,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Marcel),
         .party = {.TrainerMon = sParty_Marcel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -259,6 +292,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alberto),
         .party = {.TrainerMon = sParty_Alberto},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -280,6 +316,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ed),
         .party = {.TrainerMon = sParty_Ed},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -301,6 +340,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSeafloorCavern4),
         .party = {.TrainerMon = sParty_GruntSeafloorCavern4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -322,6 +364,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Declan),
         .party = {.TrainerMon = sParty_Declan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -343,6 +388,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntRusturfTunnel),
         .party = {.TrainerMon = sParty_GruntRusturfTunnel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -364,6 +412,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntWeatherInst1),
         .party = {.TrainerMon = sParty_GruntWeatherInst1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -385,6 +436,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntWeatherInst2),
         .party = {.TrainerMon = sParty_GruntWeatherInst2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -406,6 +460,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntWeatherInst3),
         .party = {.TrainerMon = sParty_GruntWeatherInst3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -427,6 +484,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMuseum1),
         .party = {.TrainerMon = sParty_GruntMuseum1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -448,6 +508,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMuseum2),
         .party = {.TrainerMon = sParty_GruntMuseum2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -469,6 +532,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter1),
         .party = {.TrainerMon = sParty_GruntSpaceCenter1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -490,6 +556,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMtPyre1),
         .party = {.TrainerMon = sParty_GruntMtPyre1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -511,6 +580,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMtPyre2),
         .party = {.TrainerMon = sParty_GruntMtPyre2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -532,6 +604,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMtPyre3),
         .party = {.TrainerMon = sParty_GruntMtPyre3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -553,6 +628,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntWeatherInst4),
         .party = {.TrainerMon = sParty_GruntWeatherInst4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -574,6 +652,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout5),
         .party = {.TrainerMon = sParty_GruntAquaHideout5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -595,6 +676,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout6),
         .party = {.TrainerMon = sParty_GruntAquaHideout6},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -616,6 +700,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fredrick),
         .party = {.TrainerMon = sParty_Fredrick},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -637,6 +724,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Matt),
         .party = {.TrainerMon = sParty_Matt},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -658,6 +748,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Zander),
         .party = {.TrainerMon = sParty_Zander},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -679,6 +772,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_ShellyWeatherInstitute),
         .party = {.TrainerMon = sParty_ShellyWeatherInstitute},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -700,6 +796,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_ShellySeafloorCavern),
         .party = {.TrainerMon = sParty_ShellySeafloorCavern},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -721,6 +820,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Archie),
         .party = {.TrainerMon = sParty_Archie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -742,6 +844,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Leah),
         .party = {.TrainerMon = sParty_Leah},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -763,6 +868,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Daisy),
         .party = {.TrainerMon = sParty_Daisy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -784,6 +892,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rose1),
         .party = {.TrainerMon = sParty_Rose1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -805,6 +916,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Felix),
         .party = {.TrainerMon = sParty_Felix},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -826,6 +940,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Violet),
         .party = {.TrainerMon = sParty_Violet},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -847,6 +964,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rose2),
         .party = {.TrainerMon = sParty_Rose2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -868,6 +988,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rose3),
         .party = {.TrainerMon = sParty_Rose3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -889,6 +1012,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rose4),
         .party = {.TrainerMon = sParty_Rose4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -910,6 +1036,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rose5),
         .party = {.TrainerMon = sParty_Rose5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -931,6 +1060,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dusty1),
         .party = {.TrainerMon = sParty_Dusty1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -952,6 +1084,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Chip),
         .party = {.TrainerMon = sParty_Chip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -973,6 +1108,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Foster),
         .party = {.TrainerMon = sParty_Foster},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -994,6 +1132,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dusty2),
         .party = {.TrainerMon = sParty_Dusty2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1015,6 +1156,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dusty3),
         .party = {.TrainerMon = sParty_Dusty3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1036,6 +1180,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dusty4),
         .party = {.TrainerMon = sParty_Dusty4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1057,6 +1204,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dusty5),
         .party = {.TrainerMon = sParty_Dusty5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1078,6 +1228,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GabbyAndTy1),
         .party = {.TrainerMon = sParty_GabbyAndTy1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1099,6 +1252,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GabbyAndTy2),
         .party = {.TrainerMon = sParty_GabbyAndTy2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1120,6 +1276,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GabbyAndTy3),
         .party = {.TrainerMon = sParty_GabbyAndTy3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1141,6 +1300,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GabbyAndTy4),
         .party = {.TrainerMon = sParty_GabbyAndTy4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1162,6 +1324,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GabbyAndTy5),
         .party = {.TrainerMon = sParty_GabbyAndTy5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1183,6 +1348,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GabbyAndTy6),
         .party = {.TrainerMon = sParty_GabbyAndTy6},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1204,6 +1372,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lola1),
         .party = {.TrainerMon = sParty_Lola1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1225,6 +1396,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Austina),
         .party = {.TrainerMon = sParty_Austina},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1246,6 +1420,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gwen),
         .party = {.TrainerMon = sParty_Gwen},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1267,6 +1444,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lola2),
         .party = {.TrainerMon = sParty_Lola2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1288,6 +1468,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lola3),
         .party = {.TrainerMon = sParty_Lola3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1309,6 +1492,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lola4),
         .party = {.TrainerMon = sParty_Lola4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1330,6 +1516,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lola5),
         .party = {.TrainerMon = sParty_Lola5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1351,6 +1540,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ricky1),
         .party = {.TrainerMon = sParty_Ricky1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1372,6 +1564,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Simon),
         .party = {.TrainerMon = sParty_Simon},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1393,6 +1588,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Charlie),
         .party = {.TrainerMon = sParty_Charlie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1414,6 +1612,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ricky2),
         .party = {.TrainerMon = sParty_Ricky2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1435,6 +1636,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ricky3),
         .party = {.TrainerMon = sParty_Ricky3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1456,6 +1660,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ricky4),
         .party = {.TrainerMon = sParty_Ricky4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1477,6 +1684,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ricky5),
         .party = {.TrainerMon = sParty_Ricky5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1498,6 +1708,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Randall),
         .party = {.TrainerMon = sParty_Randall},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1519,6 +1732,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Parker),
         .party = {.TrainerMon = sParty_Parker},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1540,6 +1756,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_George),
         .party = {.TrainerMon = sParty_George},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1561,6 +1780,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Berke),
         .party = {.TrainerMon = sParty_Berke},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1582,6 +1804,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Braxton),
         .party = {.TrainerMon = sParty_Braxton},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1603,6 +1828,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Vincent),
         .party = {.TrainerMon = sParty_Vincent},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1624,6 +1852,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Leroy),
         .party = {.TrainerMon = sParty_Leroy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1645,6 +1876,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wilton1),
         .party = {.TrainerMon = sParty_Wilton1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1666,6 +1900,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edgar),
         .party = {.TrainerMon = sParty_Edgar},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1687,6 +1924,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Albert),
         .party = {.TrainerMon = sParty_Albert},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1708,6 +1948,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Samuel),
         .party = {.TrainerMon = sParty_Samuel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1729,6 +1972,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Vito),
         .party = {.TrainerMon = sParty_Vito},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1750,6 +1996,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Owen),
         .party = {.TrainerMon = sParty_Owen},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1771,6 +2020,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wilton2),
         .party = {.TrainerMon = sParty_Wilton2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1792,6 +2044,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wilton3),
         .party = {.TrainerMon = sParty_Wilton3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1813,6 +2068,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wilton4),
         .party = {.TrainerMon = sParty_Wilton4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1834,6 +2092,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wilton5),
         .party = {.TrainerMon = sParty_Wilton5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1855,6 +2116,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Warren),
         .party = {.TrainerMon = sParty_Warren},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1876,6 +2140,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mary),
         .party = {.TrainerMon = sParty_Mary},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1897,6 +2164,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alexia),
         .party = {.TrainerMon = sParty_Alexia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1918,6 +2188,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jody),
         .party = {.TrainerMon = sParty_Jody},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1939,6 +2212,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wendy),
         .party = {.TrainerMon = sParty_Wendy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1960,6 +2236,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Keira),
         .party = {.TrainerMon = sParty_Keira},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -1981,6 +2260,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brooke1),
         .party = {.TrainerMon = sParty_Brooke1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2002,6 +2284,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jennifer),
         .party = {.TrainerMon = sParty_Jennifer},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2023,6 +2308,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hope),
         .party = {.TrainerMon = sParty_Hope},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2044,6 +2332,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shannon),
         .party = {.TrainerMon = sParty_Shannon},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2065,6 +2356,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Michelle),
         .party = {.TrainerMon = sParty_Michelle},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2086,6 +2380,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Caroline),
         .party = {.TrainerMon = sParty_Caroline},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2107,6 +2404,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Julie),
         .party = {.TrainerMon = sParty_Julie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2128,6 +2428,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brooke2),
         .party = {.TrainerMon = sParty_Brooke2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2149,6 +2452,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brooke3),
         .party = {.TrainerMon = sParty_Brooke3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2170,6 +2476,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brooke4),
         .party = {.TrainerMon = sParty_Brooke4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2191,6 +2500,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brooke5),
         .party = {.TrainerMon = sParty_Brooke5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2212,6 +2524,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Patricia),
         .party = {.TrainerMon = sParty_Patricia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2233,6 +2548,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kindra),
         .party = {.TrainerMon = sParty_Kindra},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2254,6 +2572,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tammy),
         .party = {.TrainerMon = sParty_Tammy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2275,6 +2596,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Valerie1),
         .party = {.TrainerMon = sParty_Valerie1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2296,6 +2620,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tasha),
         .party = {.TrainerMon = sParty_Tasha},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2317,6 +2644,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Valerie2),
         .party = {.TrainerMon = sParty_Valerie2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2338,6 +2668,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Valerie3),
         .party = {.TrainerMon = sParty_Valerie3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2359,6 +2692,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Valerie4),
         .party = {.TrainerMon = sParty_Valerie4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2380,6 +2716,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Valerie5),
         .party = {.TrainerMon = sParty_Valerie5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2401,6 +2740,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cindy1),
         .party = {.TrainerMon = sParty_Cindy1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2422,6 +2764,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Daphne),
         .party = {.TrainerMon = sParty_Daphne},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2443,6 +2788,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter2),
         .party = {.TrainerMon = sParty_GruntSpaceCenter2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2464,6 +2812,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cindy2),
         .party = {.TrainerMon = sParty_Cindy2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2485,6 +2836,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brianna),
         .party = {.TrainerMon = sParty_Brianna},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2506,6 +2860,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Naomi),
         .party = {.TrainerMon = sParty_Naomi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2527,6 +2884,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cindy3),
         .party = {.TrainerMon = sParty_Cindy3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2548,6 +2908,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cindy4),
         .party = {.TrainerMon = sParty_Cindy4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2569,6 +2932,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cindy5),
         .party = {.TrainerMon = sParty_Cindy5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2590,6 +2956,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cindy6),
         .party = {.TrainerMon = sParty_Cindy6},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2611,6 +2980,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Melissa),
         .party = {.TrainerMon = sParty_Melissa},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2632,6 +3004,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sheila),
         .party = {.TrainerMon = sParty_Sheila},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2653,6 +3028,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shirley),
         .party = {.TrainerMon = sParty_Shirley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2674,6 +3052,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jessica1),
         .party = {.TrainerMon = sParty_Jessica1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2695,6 +3076,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Connie),
         .party = {.TrainerMon = sParty_Connie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2716,6 +3100,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bridget),
         .party = {.TrainerMon = sParty_Bridget},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2737,6 +3124,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Olivia),
         .party = {.TrainerMon = sParty_Olivia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2758,6 +3148,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tiffany),
         .party = {.TrainerMon = sParty_Tiffany},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2779,6 +3172,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jessica2),
         .party = {.TrainerMon = sParty_Jessica2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2800,6 +3196,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jessica3),
         .party = {.TrainerMon = sParty_Jessica3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2821,6 +3220,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jessica4),
         .party = {.TrainerMon = sParty_Jessica4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2842,6 +3244,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jessica5),
         .party = {.TrainerMon = sParty_Jessica5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2863,6 +3268,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winston1),
         .party = {.TrainerMon = sParty_Winston1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2884,6 +3292,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mollie),
         .party = {.TrainerMon = sParty_Mollie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2905,6 +3316,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Garret),
         .party = {.TrainerMon = sParty_Garret},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2926,6 +3340,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winston2),
         .party = {.TrainerMon = sParty_Winston2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2947,6 +3364,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winston3),
         .party = {.TrainerMon = sParty_Winston3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2968,6 +3388,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winston4),
         .party = {.TrainerMon = sParty_Winston4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -2989,6 +3412,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winston5),
         .party = {.TrainerMon = sParty_Winston5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3010,6 +3436,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Steve1),
         .party = {.TrainerMon = sParty_Steve1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3031,6 +3460,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Thalia1),
         .party = {.TrainerMon = sParty_Thalia1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3052,6 +3484,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mark),
         .party = {.TrainerMon = sParty_Mark},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3073,6 +3508,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMtChimney1),
         .party = {.TrainerMon = sParty_GruntMtChimney1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3094,6 +3532,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Steve2),
         .party = {.TrainerMon = sParty_Steve2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3115,6 +3556,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Steve3),
         .party = {.TrainerMon = sParty_Steve3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3136,6 +3580,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Steve4),
         .party = {.TrainerMon = sParty_Steve4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3157,6 +3604,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Steve5),
         .party = {.TrainerMon = sParty_Steve5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3178,6 +3628,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Luis),
         .party = {.TrainerMon = sParty_Luis},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3199,6 +3652,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dominik),
         .party = {.TrainerMon = sParty_Dominik},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3220,6 +3676,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Douglas),
         .party = {.TrainerMon = sParty_Douglas},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3241,6 +3700,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Darrin),
         .party = {.TrainerMon = sParty_Darrin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3262,6 +3724,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tony1),
         .party = {.TrainerMon = sParty_Tony1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3283,6 +3748,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jerome),
         .party = {.TrainerMon = sParty_Jerome},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3304,6 +3772,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Matthew),
         .party = {.TrainerMon = sParty_Matthew},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3325,6 +3796,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_David),
         .party = {.TrainerMon = sParty_David},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3346,6 +3820,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Spencer),
         .party = {.TrainerMon = sParty_Spencer},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3367,6 +3844,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roland),
         .party = {.TrainerMon = sParty_Roland},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3388,6 +3868,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nolen),
         .party = {.TrainerMon = sParty_Nolen},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3409,6 +3892,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Stan),
         .party = {.TrainerMon = sParty_Stan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3430,6 +3916,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Barry),
         .party = {.TrainerMon = sParty_Barry},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3451,6 +3940,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dean),
         .party = {.TrainerMon = sParty_Dean},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3472,6 +3964,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rodney),
         .party = {.TrainerMon = sParty_Rodney},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3493,6 +3988,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Richard),
         .party = {.TrainerMon = sParty_Richard},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3514,6 +4012,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Herman),
         .party = {.TrainerMon = sParty_Herman},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3535,6 +4036,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Santiago),
         .party = {.TrainerMon = sParty_Santiago},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3556,6 +4060,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gilbert),
         .party = {.TrainerMon = sParty_Gilbert},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3577,6 +4084,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Franklin),
         .party = {.TrainerMon = sParty_Franklin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3598,6 +4108,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kevin),
         .party = {.TrainerMon = sParty_Kevin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3619,6 +4132,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jack),
         .party = {.TrainerMon = sParty_Jack},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3640,6 +4156,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dudley),
         .party = {.TrainerMon = sParty_Dudley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3661,6 +4180,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Chad),
         .party = {.TrainerMon = sParty_Chad},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3682,6 +4204,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tony2),
         .party = {.TrainerMon = sParty_Tony2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3703,6 +4228,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tony3),
         .party = {.TrainerMon = sParty_Tony3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3724,6 +4252,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tony4),
         .party = {.TrainerMon = sParty_Tony4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3745,6 +4276,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tony5),
         .party = {.TrainerMon = sParty_Tony5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3766,6 +4300,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Takao),
         .party = {.TrainerMon = sParty_Takao},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3787,6 +4324,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hitoshi),
         .party = {.TrainerMon = sParty_Hitoshi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3808,6 +4348,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kiyo),
         .party = {.TrainerMon = sParty_Kiyo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3829,6 +4372,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Koichi),
         .party = {.TrainerMon = sParty_Koichi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3850,6 +4396,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nob1),
         .party = {.TrainerMon = sParty_Nob1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3871,6 +4420,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nob2),
         .party = {.TrainerMon = sParty_Nob2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3892,6 +4444,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nob3),
         .party = {.TrainerMon = sParty_Nob3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3913,6 +4468,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nob4),
         .party = {.TrainerMon = sParty_Nob4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3934,6 +4492,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nob5),
         .party = {.TrainerMon = sParty_Nob5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3955,6 +4516,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Yuji),
         .party = {.TrainerMon = sParty_Yuji},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3976,6 +4540,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Daisuke),
         .party = {.TrainerMon = sParty_Daisuke},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -3997,6 +4564,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Atsushi),
         .party = {.TrainerMon = sParty_Atsushi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4018,6 +4588,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kirk),
         .party = {.TrainerMon = sParty_Kirk},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4039,6 +4612,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout7),
         .party = {.TrainerMon = sParty_GruntAquaHideout7},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4060,6 +4636,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntAquaHideout8),
         .party = {.TrainerMon = sParty_GruntAquaHideout8},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4081,6 +4660,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shawn),
         .party = {.TrainerMon = sParty_Shawn},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4102,6 +4684,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fernando1),
         .party = {.TrainerMon = sParty_Fernando1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4123,6 +4708,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dalton1),
         .party = {.TrainerMon = sParty_Dalton1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4144,6 +4732,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dalton2),
         .party = {.TrainerMon = sParty_Dalton2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4165,6 +4756,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dalton3),
         .party = {.TrainerMon = sParty_Dalton3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4186,6 +4780,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dalton4),
         .party = {.TrainerMon = sParty_Dalton4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4207,6 +4804,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dalton5),
         .party = {.TrainerMon = sParty_Dalton5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4228,6 +4828,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cole),
         .party = {.TrainerMon = sParty_Cole},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4249,6 +4852,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jeff),
         .party = {.TrainerMon = sParty_Jeff},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4270,6 +4876,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Axle),
         .party = {.TrainerMon = sParty_Axle},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4291,6 +4900,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jace),
         .party = {.TrainerMon = sParty_Jace},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4312,6 +4924,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Keegan),
         .party = {.TrainerMon = sParty_Keegan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4333,6 +4948,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bernie1),
         .party = {.TrainerMon = sParty_Bernie1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4354,6 +4972,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bernie2),
         .party = {.TrainerMon = sParty_Bernie2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4375,6 +4996,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bernie3),
         .party = {.TrainerMon = sParty_Bernie3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4396,6 +5020,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bernie4),
         .party = {.TrainerMon = sParty_Bernie4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4417,6 +5044,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bernie5),
         .party = {.TrainerMon = sParty_Bernie5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4438,6 +5068,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Drew),
         .party = {.TrainerMon = sParty_Drew},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4459,6 +5092,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Beau),
         .party = {.TrainerMon = sParty_Beau},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4480,6 +5116,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Larry),
         .party = {.TrainerMon = sParty_Larry},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4501,6 +5140,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shane),
         .party = {.TrainerMon = sParty_Shane},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4522,6 +5164,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Justin),
         .party = {.TrainerMon = sParty_Justin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4543,6 +5188,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ethan1),
         .party = {.TrainerMon = sParty_Ethan1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4564,6 +5212,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Autumn),
         .party = {.TrainerMon = sParty_Autumn},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4585,6 +5236,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Travis),
         .party = {.TrainerMon = sParty_Travis},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4606,6 +5260,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ethan2),
         .party = {.TrainerMon = sParty_Ethan2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4627,6 +5284,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ethan3),
         .party = {.TrainerMon = sParty_Ethan3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4648,6 +5308,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ethan4),
         .party = {.TrainerMon = sParty_Ethan4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4669,6 +5332,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ethan5),
         .party = {.TrainerMon = sParty_Ethan5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4690,6 +5356,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brent),
         .party = {.TrainerMon = sParty_Brent},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4711,6 +5380,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Donald),
         .party = {.TrainerMon = sParty_Donald},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4732,6 +5404,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Taylor),
         .party = {.TrainerMon = sParty_Taylor},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4753,6 +5428,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jeffrey1),
         .party = {.TrainerMon = sParty_Jeffrey1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4774,6 +5452,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Derek),
         .party = {.TrainerMon = sParty_Derek},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4795,6 +5476,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jeffrey2),
         .party = {.TrainerMon = sParty_Jeffrey2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4816,6 +5500,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jeffrey3),
         .party = {.TrainerMon = sParty_Jeffrey3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4837,6 +5524,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jeffrey4),
         .party = {.TrainerMon = sParty_Jeffrey4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4858,6 +5548,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jeffrey5),
         .party = {.TrainerMon = sParty_Jeffrey5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4879,6 +5572,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edward),
         .party = {.TrainerMon = sParty_Edward},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4900,6 +5596,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Preston),
         .party = {.TrainerMon = sParty_Preston},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4921,6 +5620,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Virgil),
         .party = {.TrainerMon = sParty_Virgil},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4942,6 +5644,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Blake),
         .party = {.TrainerMon = sParty_Blake},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4963,6 +5668,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_William),
         .party = {.TrainerMon = sParty_William},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -4984,6 +5692,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Joshua),
         .party = {.TrainerMon = sParty_Joshua},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5005,6 +5716,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cameron1),
         .party = {.TrainerMon = sParty_Cameron1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5026,6 +5740,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cameron2),
         .party = {.TrainerMon = sParty_Cameron2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5047,6 +5764,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cameron3),
         .party = {.TrainerMon = sParty_Cameron3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5068,6 +5788,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cameron4),
         .party = {.TrainerMon = sParty_Cameron4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5089,6 +5812,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cameron5),
         .party = {.TrainerMon = sParty_Cameron5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5110,6 +5836,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jaclyn),
         .party = {.TrainerMon = sParty_Jaclyn},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5131,6 +5860,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hannah),
         .party = {.TrainerMon = sParty_Hannah},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5152,6 +5884,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Samantha),
         .party = {.TrainerMon = sParty_Samantha},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5173,6 +5908,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Maura),
         .party = {.TrainerMon = sParty_Maura},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5194,6 +5932,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kayla),
         .party = {.TrainerMon = sParty_Kayla},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5215,6 +5956,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alexis),
         .party = {.TrainerMon = sParty_Alexis},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5236,6 +5980,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jacki1),
         .party = {.TrainerMon = sParty_Jacki1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5257,6 +6004,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jacki2),
         .party = {.TrainerMon = sParty_Jacki2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5278,6 +6028,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jacki3),
         .party = {.TrainerMon = sParty_Jacki3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5299,6 +6052,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jacki4),
         .party = {.TrainerMon = sParty_Jacki4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5320,6 +6076,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jacki5),
         .party = {.TrainerMon = sParty_Jacki5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5341,6 +6100,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Walter1),
         .party = {.TrainerMon = sParty_Walter1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5362,6 +6124,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Micah),
         .party = {.TrainerMon = sParty_Micah},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5383,6 +6148,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Thomas),
         .party = {.TrainerMon = sParty_Thomas},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5404,6 +6172,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Walter2),
         .party = {.TrainerMon = sParty_Walter2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5425,6 +6196,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Walter3),
         .party = {.TrainerMon = sParty_Walter3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5446,6 +6220,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Walter4),
         .party = {.TrainerMon = sParty_Walter4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5467,6 +6244,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Walter5),
         .party = {.TrainerMon = sParty_Walter5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5488,6 +6268,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sidney),
         .party = {.TrainerMon = sParty_Sidney},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5509,6 +6292,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Phoebe),
         .party = {.TrainerMon = sParty_Phoebe},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5530,6 +6316,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Glacia),
         .party = {.TrainerMon = sParty_Glacia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5551,6 +6340,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Drake),
         .party = {.TrainerMon = sParty_Drake},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5572,6 +6364,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roxanne1),
         .party = {.TrainerMon = sParty_Roxanne1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5593,6 +6388,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brawly1),
         .party = {.TrainerMon = sParty_Brawly1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5614,6 +6412,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wattson1),
         .party = {.TrainerMon = sParty_Wattson1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5635,6 +6436,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Flannery1),
         .party = {.TrainerMon = sParty_Flannery1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5656,6 +6460,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Norman1),
         .party = {.TrainerMon = sParty_Norman1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5677,6 +6484,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winona1),
         .party = {.TrainerMon = sParty_Winona1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5698,6 +6508,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TateAndLiza1),
         .party = {.TrainerMon = sParty_TateAndLiza1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5719,6 +6532,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Juan1),
         .party = {.TrainerMon = sParty_Juan1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5740,6 +6556,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jerry1),
         .party = {.TrainerMon = sParty_Jerry1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5761,6 +6580,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ted),
         .party = {.TrainerMon = sParty_Ted},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5782,6 +6604,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Paul),
         .party = {.TrainerMon = sParty_Paul},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5803,6 +6628,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jerry2),
         .party = {.TrainerMon = sParty_Jerry2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5824,6 +6652,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jerry3),
         .party = {.TrainerMon = sParty_Jerry3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5845,6 +6676,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jerry4),
         .party = {.TrainerMon = sParty_Jerry4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5866,6 +6700,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jerry5),
         .party = {.TrainerMon = sParty_Jerry5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5887,6 +6724,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Karen1),
         .party = {.TrainerMon = sParty_Karen1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5908,6 +6748,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Georgia),
         .party = {.TrainerMon = sParty_Georgia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5929,6 +6772,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Karen2),
         .party = {.TrainerMon = sParty_Karen2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5950,6 +6796,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Karen3),
         .party = {.TrainerMon = sParty_Karen3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5971,6 +6820,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Karen4),
         .party = {.TrainerMon = sParty_Karen4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -5992,6 +6844,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Karen5),
         .party = {.TrainerMon = sParty_Karen5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6013,6 +6868,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KateAndJoy),
         .party = {.TrainerMon = sParty_KateAndJoy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6034,6 +6892,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AnnaAndMeg1),
         .party = {.TrainerMon = sParty_AnnaAndMeg1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6055,6 +6916,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AnnaAndMeg2),
         .party = {.TrainerMon = sParty_AnnaAndMeg2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6076,6 +6940,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AnnaAndMeg3),
         .party = {.TrainerMon = sParty_AnnaAndMeg3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6097,6 +6964,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AnnaAndMeg4),
         .party = {.TrainerMon = sParty_AnnaAndMeg4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6118,6 +6988,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AnnaAndMeg5),
         .party = {.TrainerMon = sParty_AnnaAndMeg5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6139,6 +7012,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Victor),
         .party = {.TrainerMon = sParty_Victor},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6160,6 +7036,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Miguel1),
         .party = {.TrainerMon = sParty_Miguel1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6181,6 +7060,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Colton),
         .party = {.TrainerMon = sParty_Colton},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6202,6 +7084,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Miguel2),
         .party = {.TrainerMon = sParty_Miguel2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6223,6 +7108,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Miguel3),
         .party = {.TrainerMon = sParty_Miguel3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6244,6 +7132,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Miguel4),
         .party = {.TrainerMon = sParty_Miguel4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6265,6 +7156,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Miguel5),
         .party = {.TrainerMon = sParty_Miguel5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6286,6 +7180,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Victoria),
         .party = {.TrainerMon = sParty_Victoria},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6307,6 +7204,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Vanessa),
         .party = {.TrainerMon = sParty_Vanessa},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6328,6 +7228,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bethany),
         .party = {.TrainerMon = sParty_Bethany},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6349,6 +7252,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabel1),
         .party = {.TrainerMon = sParty_Isabel1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6370,6 +7276,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabel2),
         .party = {.TrainerMon = sParty_Isabel2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6391,6 +7300,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabel3),
         .party = {.TrainerMon = sParty_Isabel3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6412,6 +7324,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabel4),
         .party = {.TrainerMon = sParty_Isabel4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6433,6 +7348,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabel5),
         .party = {.TrainerMon = sParty_Isabel5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6454,6 +7372,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Timothy1),
         .party = {.TrainerMon = sParty_Timothy1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6475,6 +7396,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Timothy2),
         .party = {.TrainerMon = sParty_Timothy2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6496,6 +7420,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Timothy3),
         .party = {.TrainerMon = sParty_Timothy3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6517,6 +7444,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Timothy4),
         .party = {.TrainerMon = sParty_Timothy4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6538,6 +7468,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Timothy5),
         .party = {.TrainerMon = sParty_Timothy5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6559,6 +7492,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Vicky),
         .party = {.TrainerMon = sParty_Vicky},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6580,6 +7516,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shelby1),
         .party = {.TrainerMon = sParty_Shelby1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6601,6 +7540,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shelby2),
         .party = {.TrainerMon = sParty_Shelby2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6622,6 +7564,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shelby3),
         .party = {.TrainerMon = sParty_Shelby3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6643,6 +7588,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shelby4),
         .party = {.TrainerMon = sParty_Shelby4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6664,6 +7612,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shelby5),
         .party = {.TrainerMon = sParty_Shelby5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6685,6 +7636,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Calvin1),
         .party = {.TrainerMon = sParty_Calvin1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6706,6 +7660,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Billy),
         .party = {.TrainerMon = sParty_Billy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6727,6 +7684,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Josh),
         .party = {.TrainerMon = sParty_Josh},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6748,6 +7708,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tommy),
         .party = {.TrainerMon = sParty_Tommy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6769,6 +7732,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Joey),
         .party = {.TrainerMon = sParty_Joey},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6790,6 +7756,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ben),
         .party = {.TrainerMon = sParty_Ben},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6811,6 +7780,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Quincy),
         .party = {.TrainerMon = sParty_Quincy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6832,6 +7804,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katelynn),
         .party = {.TrainerMon = sParty_Katelynn},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6853,6 +7828,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jaylen),
         .party = {.TrainerMon = sParty_Jaylen},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6874,6 +7852,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dillon),
         .party = {.TrainerMon = sParty_Dillon},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6895,6 +7876,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Calvin2),
         .party = {.TrainerMon = sParty_Calvin2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6916,6 +7900,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Calvin3),
         .party = {.TrainerMon = sParty_Calvin3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6937,6 +7924,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Calvin4),
         .party = {.TrainerMon = sParty_Calvin4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6958,6 +7948,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Calvin5),
         .party = {.TrainerMon = sParty_Calvin5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -6979,6 +7972,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Eddie),
         .party = {.TrainerMon = sParty_Eddie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7000,6 +7996,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Allen),
         .party = {.TrainerMon = sParty_Allen},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7021,6 +8020,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Timmy),
         .party = {.TrainerMon = sParty_Timmy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7042,6 +8044,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wallace),
         .party = {.TrainerMon = sParty_Wallace},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7063,6 +8068,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andrew),
         .party = {.TrainerMon = sParty_Andrew},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7084,6 +8092,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ivan),
         .party = {.TrainerMon = sParty_Ivan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7105,6 +8116,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Claude),
         .party = {.TrainerMon = sParty_Claude},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7126,6 +8140,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Elliot1),
         .party = {.TrainerMon = sParty_Elliot1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7147,6 +8164,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ned),
         .party = {.TrainerMon = sParty_Ned},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7168,6 +8188,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dale),
         .party = {.TrainerMon = sParty_Dale},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7189,6 +8212,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nolan),
         .party = {.TrainerMon = sParty_Nolan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7210,6 +8236,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Barny),
         .party = {.TrainerMon = sParty_Barny},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7231,6 +8260,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wade),
         .party = {.TrainerMon = sParty_Wade},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7252,6 +8284,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Carter),
         .party = {.TrainerMon = sParty_Carter},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7273,6 +8308,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Elliot2),
         .party = {.TrainerMon = sParty_Elliot2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7294,6 +8332,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Elliot3),
         .party = {.TrainerMon = sParty_Elliot3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7315,6 +8356,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Elliot4),
         .party = {.TrainerMon = sParty_Elliot4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7336,6 +8380,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Elliot5),
         .party = {.TrainerMon = sParty_Elliot5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7357,6 +8404,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ronald),
         .party = {.TrainerMon = sParty_Ronald},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7378,6 +8428,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jacob),
         .party = {.TrainerMon = sParty_Jacob},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7399,6 +8452,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Anthony),
         .party = {.TrainerMon = sParty_Anthony},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7420,6 +8476,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Benjamin1),
         .party = {.TrainerMon = sParty_Benjamin1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7441,6 +8500,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Benjamin2),
         .party = {.TrainerMon = sParty_Benjamin2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7462,6 +8524,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Benjamin3),
         .party = {.TrainerMon = sParty_Benjamin3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7483,6 +8548,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Benjamin4),
         .party = {.TrainerMon = sParty_Benjamin4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7504,6 +8572,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Benjamin5),
         .party = {.TrainerMon = sParty_Benjamin5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7525,6 +8596,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Abigail1),
         .party = {.TrainerMon = sParty_Abigail1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7546,6 +8620,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jasmine),
         .party = {.TrainerMon = sParty_Jasmine},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7567,6 +8644,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Abigail2),
         .party = {.TrainerMon = sParty_Abigail2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7588,6 +8668,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Abigail3),
         .party = {.TrainerMon = sParty_Abigail3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7609,6 +8692,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Abigail4),
         .party = {.TrainerMon = sParty_Abigail4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7630,6 +8716,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Abigail5),
         .party = {.TrainerMon = sParty_Abigail5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7651,6 +8740,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dylan1),
         .party = {.TrainerMon = sParty_Dylan1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7672,6 +8764,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dylan2),
         .party = {.TrainerMon = sParty_Dylan2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7693,6 +8788,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dylan3),
         .party = {.TrainerMon = sParty_Dylan3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7714,6 +8812,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dylan4),
         .party = {.TrainerMon = sParty_Dylan4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7735,6 +8836,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dylan5),
         .party = {.TrainerMon = sParty_Dylan5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7756,6 +8860,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Maria1),
         .party = {.TrainerMon = sParty_Maria1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7777,6 +8884,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Maria2),
         .party = {.TrainerMon = sParty_Maria2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7798,6 +8908,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Maria3),
         .party = {.TrainerMon = sParty_Maria3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7819,6 +8932,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Maria4),
         .party = {.TrainerMon = sParty_Maria4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7840,6 +8956,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Maria5),
         .party = {.TrainerMon = sParty_Maria5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7861,6 +8980,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Camden),
         .party = {.TrainerMon = sParty_Camden},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7882,6 +9004,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Demetrius),
         .party = {.TrainerMon = sParty_Demetrius},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7903,6 +9028,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaiah1),
         .party = {.TrainerMon = sParty_Isaiah1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7924,6 +9052,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pablo1),
         .party = {.TrainerMon = sParty_Pablo1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7945,6 +9076,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Chase),
         .party = {.TrainerMon = sParty_Chase},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7966,6 +9100,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaiah2),
         .party = {.TrainerMon = sParty_Isaiah2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -7987,6 +9124,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaiah3),
         .party = {.TrainerMon = sParty_Isaiah3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8008,6 +9148,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaiah4),
         .party = {.TrainerMon = sParty_Isaiah4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8029,6 +9172,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaiah5),
         .party = {.TrainerMon = sParty_Isaiah5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8050,6 +9196,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isobel),
         .party = {.TrainerMon = sParty_Isobel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8071,6 +9220,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Donny),
         .party = {.TrainerMon = sParty_Donny},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8092,6 +9244,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Talia),
         .party = {.TrainerMon = sParty_Talia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8113,6 +9268,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katelyn1),
         .party = {.TrainerMon = sParty_Katelyn1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8134,6 +9292,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Allison),
         .party = {.TrainerMon = sParty_Allison},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8155,6 +9316,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katelyn2),
         .party = {.TrainerMon = sParty_Katelyn2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8176,6 +9340,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katelyn3),
         .party = {.TrainerMon = sParty_Katelyn3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8197,6 +9364,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katelyn4),
         .party = {.TrainerMon = sParty_Katelyn4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8218,6 +9388,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katelyn5),
         .party = {.TrainerMon = sParty_Katelyn5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8239,6 +9412,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nicolas1),
         .party = {.TrainerMon = sParty_Nicolas1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8260,6 +9436,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nicolas2),
         .party = {.TrainerMon = sParty_Nicolas2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8281,6 +9460,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nicolas3),
         .party = {.TrainerMon = sParty_Nicolas3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8302,6 +9484,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nicolas4),
         .party = {.TrainerMon = sParty_Nicolas4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8323,6 +9508,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nicolas5),
         .party = {.TrainerMon = sParty_Nicolas5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8344,6 +9532,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Aaron),
         .party = {.TrainerMon = sParty_Aaron},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8365,6 +9556,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Perry),
         .party = {.TrainerMon = sParty_Perry},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8386,6 +9580,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hugh),
         .party = {.TrainerMon = sParty_Hugh},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8407,6 +9604,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Phil),
         .party = {.TrainerMon = sParty_Phil},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8428,6 +9628,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jared),
         .party = {.TrainerMon = sParty_Jared},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8449,6 +9652,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Humberto),
         .party = {.TrainerMon = sParty_Humberto},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8470,6 +9676,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Presley),
         .party = {.TrainerMon = sParty_Presley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8491,6 +9700,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edwardo),
         .party = {.TrainerMon = sParty_Edwardo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8512,6 +9724,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Colin),
         .party = {.TrainerMon = sParty_Colin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8533,6 +9748,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Robert1),
         .party = {.TrainerMon = sParty_Robert1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8554,6 +9772,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Benny),
         .party = {.TrainerMon = sParty_Benny},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8575,6 +9796,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Chester),
         .party = {.TrainerMon = sParty_Chester},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8596,6 +9820,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Robert2),
         .party = {.TrainerMon = sParty_Robert2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8617,6 +9844,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Robert3),
         .party = {.TrainerMon = sParty_Robert3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8638,6 +9868,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Robert4),
         .party = {.TrainerMon = sParty_Robert4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8659,6 +9892,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Robert5),
         .party = {.TrainerMon = sParty_Robert5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8680,6 +9916,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alex),
         .party = {.TrainerMon = sParty_Alex},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8701,6 +9940,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Beck),
         .party = {.TrainerMon = sParty_Beck},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8722,6 +9964,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Yasu),
         .party = {.TrainerMon = sParty_Yasu},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8743,6 +9988,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Takashi),
         .party = {.TrainerMon = sParty_Takashi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8763,6 +10011,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dianne),
         .party = {.TrainerMon = sParty_Dianne},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8783,6 +10034,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jani),
         .party = {.TrainerMon = sParty_Jani},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8803,6 +10057,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lao1),
         .party = {.TrainerMon = sParty_Lao1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8823,6 +10080,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lung),
         .party = {.TrainerMon = sParty_Lung},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8843,6 +10103,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lao2),
         .party = {.TrainerMon = sParty_Lao2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8863,6 +10126,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lao3),
         .party = {.TrainerMon = sParty_Lao3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8883,6 +10149,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lao4),
         .party = {.TrainerMon = sParty_Lao4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8903,6 +10172,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lao5),
         .party = {.TrainerMon = sParty_Lao5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8924,6 +10196,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jocelyn),
         .party = {.TrainerMon = sParty_Jocelyn},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8945,6 +10220,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Laura),
         .party = {.TrainerMon = sParty_Laura},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8966,6 +10244,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cyndy1),
         .party = {.TrainerMon = sParty_Cyndy1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -8987,6 +10268,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cora),
         .party = {.TrainerMon = sParty_Cora},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9008,6 +10292,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Paula),
         .party = {.TrainerMon = sParty_Paula},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9029,6 +10316,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cyndy2),
         .party = {.TrainerMon = sParty_Cyndy2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9050,6 +10340,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cyndy3),
         .party = {.TrainerMon = sParty_Cyndy3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9071,6 +10364,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cyndy4),
         .party = {.TrainerMon = sParty_Cyndy4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9092,6 +10388,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cyndy5),
         .party = {.TrainerMon = sParty_Cyndy5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9113,6 +10412,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Madeline1),
         .party = {.TrainerMon = sParty_Madeline1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9134,6 +10436,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Clarissa),
         .party = {.TrainerMon = sParty_Clarissa},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9155,6 +10460,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Angelica),
         .party = {.TrainerMon = sParty_Angelica},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9176,6 +10484,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Madeline2),
         .party = {.TrainerMon = sParty_Madeline2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9197,6 +10508,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Madeline3),
         .party = {.TrainerMon = sParty_Madeline3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9218,6 +10532,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Madeline4),
         .party = {.TrainerMon = sParty_Madeline4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9239,6 +10556,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Madeline5),
         .party = {.TrainerMon = sParty_Madeline5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9260,6 +10580,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Beverly),
         .party = {.TrainerMon = sParty_Beverly},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9281,6 +10604,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Imani),
         .party = {.TrainerMon = sParty_Imani},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9302,6 +10628,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kyla),
         .party = {.TrainerMon = sParty_Kyla},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9323,6 +10652,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Denise),
         .party = {.TrainerMon = sParty_Denise},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9344,6 +10676,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Beth),
         .party = {.TrainerMon = sParty_Beth},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9365,6 +10700,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tara),
         .party = {.TrainerMon = sParty_Tara},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9386,6 +10724,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Missy),
         .party = {.TrainerMon = sParty_Missy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9407,6 +10748,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alice),
         .party = {.TrainerMon = sParty_Alice},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9428,6 +10772,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jenny1),
         .party = {.TrainerMon = sParty_Jenny1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9449,6 +10796,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Grace),
         .party = {.TrainerMon = sParty_Grace},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9470,6 +10820,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tanya),
         .party = {.TrainerMon = sParty_Tanya},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9491,6 +10844,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sharon),
         .party = {.TrainerMon = sParty_Sharon},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9512,6 +10868,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nikki),
         .party = {.TrainerMon = sParty_Nikki},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9533,6 +10892,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brenda),
         .party = {.TrainerMon = sParty_Brenda},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9554,6 +10916,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Katie),
         .party = {.TrainerMon = sParty_Katie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9575,6 +10940,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Susie),
         .party = {.TrainerMon = sParty_Susie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9596,6 +10964,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kara),
         .party = {.TrainerMon = sParty_Kara},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9617,6 +10988,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dana),
         .party = {.TrainerMon = sParty_Dana},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9638,6 +11012,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sienna),
         .party = {.TrainerMon = sParty_Sienna},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9659,6 +11036,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Debra),
         .party = {.TrainerMon = sParty_Debra},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9680,6 +11060,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Linda),
         .party = {.TrainerMon = sParty_Linda},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9701,6 +11084,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kaylee),
         .party = {.TrainerMon = sParty_Kaylee},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9722,6 +11108,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Laurel),
         .party = {.TrainerMon = sParty_Laurel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9743,6 +11132,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Carlee),
         .party = {.TrainerMon = sParty_Carlee},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9764,6 +11156,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jenny2),
         .party = {.TrainerMon = sParty_Jenny2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9785,6 +11180,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jenny3),
         .party = {.TrainerMon = sParty_Jenny3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9806,6 +11204,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jenny4),
         .party = {.TrainerMon = sParty_Jenny4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9827,6 +11228,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jenny5),
         .party = {.TrainerMon = sParty_Jenny5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9848,6 +11252,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Heidi),
         .party = {.TrainerMon = sParty_Heidi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9869,6 +11276,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Becky),
         .party = {.TrainerMon = sParty_Becky},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9890,6 +11300,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Carol),
         .party = {.TrainerMon = sParty_Carol},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9911,6 +11324,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nancy),
         .party = {.TrainerMon = sParty_Nancy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9932,6 +11348,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Martha),
         .party = {.TrainerMon = sParty_Martha},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9953,6 +11372,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Diana1),
         .party = {.TrainerMon = sParty_Diana1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9974,6 +11396,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cedric),
         .party = {.TrainerMon = sParty_Cedric},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -9995,6 +11420,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Irene),
         .party = {.TrainerMon = sParty_Irene},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10016,6 +11444,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Diana2),
         .party = {.TrainerMon = sParty_Diana2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10037,6 +11468,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Diana3),
         .party = {.TrainerMon = sParty_Diana3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10058,6 +11492,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Diana4),
         .party = {.TrainerMon = sParty_Diana4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10079,6 +11516,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Diana5),
         .party = {.TrainerMon = sParty_Diana5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10100,6 +11540,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AmyAndLiv1),
         .party = {.TrainerMon = sParty_AmyAndLiv1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10121,6 +11564,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AmyAndLiv2),
         .party = {.TrainerMon = sParty_AmyAndLiv2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10142,6 +11588,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GinaAndMia1),
         .party = {.TrainerMon = sParty_GinaAndMia1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10163,6 +11612,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MiuAndYuki),
         .party = {.TrainerMon = sParty_MiuAndYuki},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10184,6 +11636,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AmyAndLiv3),
         .party = {.TrainerMon = sParty_AmyAndLiv3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10205,6 +11660,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GinaAndMia2),
         .party = {.TrainerMon = sParty_GinaAndMia2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10226,6 +11684,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AmyAndLiv4),
         .party = {.TrainerMon = sParty_AmyAndLiv4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10247,6 +11708,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AmyAndLiv5),
         .party = {.TrainerMon = sParty_AmyAndLiv5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10268,6 +11732,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_AmyAndLiv6),
         .party = {.TrainerMon = sParty_AmyAndLiv6},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10289,6 +11756,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Huey),
         .party = {.TrainerMon = sParty_Huey},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10310,6 +11780,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edmond),
         .party = {.TrainerMon = sParty_Edmond},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10331,6 +11804,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ernest1),
         .party = {.TrainerMon = sParty_Ernest1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10352,6 +11828,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dwayne),
         .party = {.TrainerMon = sParty_Dwayne},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10373,6 +11852,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Phillip),
         .party = {.TrainerMon = sParty_Phillip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10394,6 +11876,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Leonard),
         .party = {.TrainerMon = sParty_Leonard},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10415,6 +11900,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Duncan),
         .party = {.TrainerMon = sParty_Duncan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10436,6 +11924,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ernest2),
         .party = {.TrainerMon = sParty_Ernest2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10457,6 +11948,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ernest3),
         .party = {.TrainerMon = sParty_Ernest3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10478,6 +11972,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ernest4),
         .party = {.TrainerMon = sParty_Ernest4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10499,6 +11996,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ernest5),
         .party = {.TrainerMon = sParty_Ernest5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10520,6 +12020,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Eli),
         .party = {.TrainerMon = sParty_Eli},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10541,6 +12044,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Annika),
         .party = {.TrainerMon = sParty_Annika},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10562,6 +12068,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jazmyn),
         .party = {.TrainerMon = sParty_Jazmyn},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10583,6 +12092,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jonas),
         .party = {.TrainerMon = sParty_Jonas},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10604,6 +12116,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kayley),
         .party = {.TrainerMon = sParty_Kayley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10625,6 +12140,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Auron),
         .party = {.TrainerMon = sParty_Auron},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10646,6 +12164,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kelvin),
         .party = {.TrainerMon = sParty_Kelvin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10667,6 +12188,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Marley),
         .party = {.TrainerMon = sParty_Marley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10688,6 +12212,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Reyna),
         .party = {.TrainerMon = sParty_Reyna},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10709,6 +12236,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hudson),
         .party = {.TrainerMon = sParty_Hudson},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10730,6 +12260,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Conor),
         .party = {.TrainerMon = sParty_Conor},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10751,6 +12284,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edwin1),
         .party = {.TrainerMon = sParty_Edwin1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10772,6 +12308,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hector),
         .party = {.TrainerMon = sParty_Hector},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10793,6 +12332,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TabithaMossdeep),
         .party = {.TrainerMon = sParty_TabithaMossdeep},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10814,6 +12356,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edwin2),
         .party = {.TrainerMon = sParty_Edwin2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10835,6 +12380,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edwin3),
         .party = {.TrainerMon = sParty_Edwin3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10856,6 +12404,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edwin4),
         .party = {.TrainerMon = sParty_Edwin4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10877,6 +12428,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Edwin5),
         .party = {.TrainerMon = sParty_Edwin5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10886,8 +12440,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -10905,6 +12462,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_WallyVR1),
         .party = {.TrainerMon = sParty_WallyVR1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10914,8 +12474,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -10933,6 +12496,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute103Mudkip),
         .party = {.TrainerMon = sParty_BrendanRoute103Mudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10942,8 +12508,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -10961,6 +12530,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute110Mudkip),
         .party = {.TrainerMon = sParty_BrendanRoute110Mudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10970,8 +12542,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -10989,6 +12564,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute119Mudkip),
         .party = {.TrainerMon = sParty_BrendanRoute119Mudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -10998,8 +12576,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11017,6 +12598,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute103Treecko),
         .party = {.TrainerMon = sParty_BrendanRoute103Treecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11026,8 +12610,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11045,6 +12632,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute110Treecko),
         .party = {.TrainerMon = sParty_BrendanRoute110Treecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11054,8 +12644,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11073,6 +12666,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute119Treecko),
         .party = {.TrainerMon = sParty_BrendanRoute119Treecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11082,8 +12678,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11101,6 +12700,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute103Torchic),
         .party = {.TrainerMon = sParty_BrendanRoute103Torchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11110,8 +12712,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11129,6 +12734,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute110Torchic),
         .party = {.TrainerMon = sParty_BrendanRoute110Torchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11138,8 +12746,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11157,6 +12768,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRoute119Torchic),
         .party = {.TrainerMon = sParty_BrendanRoute119Torchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11166,8 +12780,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11185,6 +12802,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute103Mudkip),
         .party = {.TrainerMon = sParty_MayRoute103Mudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11194,8 +12814,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11213,6 +12836,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute110Mudkip),
         .party = {.TrainerMon = sParty_MayRoute110Mudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11222,8 +12848,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11241,6 +12870,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute119Mudkip),
         .party = {.TrainerMon = sParty_MayRoute119Mudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11250,8 +12882,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11269,6 +12904,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute103Treecko),
         .party = {.TrainerMon = sParty_MayRoute103Treecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11278,8 +12916,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11297,6 +12938,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute110Treecko),
         .party = {.TrainerMon = sParty_MayRoute110Treecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11306,8 +12950,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11325,6 +12972,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute119Treecko),
         .party = {.TrainerMon = sParty_MayRoute119Treecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11334,8 +12984,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11353,6 +13006,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute103Torchic),
         .party = {.TrainerMon = sParty_MayRoute103Torchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11362,8 +13018,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11381,6 +13040,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute110Torchic),
         .party = {.TrainerMon = sParty_MayRoute110Torchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11390,8 +13052,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -11409,6 +13074,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRoute119Torchic),
         .party = {.TrainerMon = sParty_MayRoute119Torchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11430,6 +13098,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaac1),
         .party = {.TrainerMon = sParty_Isaac1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11451,6 +13122,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Davis),
         .party = {.TrainerMon = sParty_Davis},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11472,6 +13146,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mitchell),
         .party = {.TrainerMon = sParty_Mitchell},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11493,6 +13170,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaac2),
         .party = {.TrainerMon = sParty_Isaac2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11514,6 +13194,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaac3),
         .party = {.TrainerMon = sParty_Isaac3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11535,6 +13218,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaac4),
         .party = {.TrainerMon = sParty_Isaac4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11556,6 +13242,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isaac5),
         .party = {.TrainerMon = sParty_Isaac5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11577,6 +13266,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lydia1),
         .party = {.TrainerMon = sParty_Lydia1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11598,6 +13290,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Halle),
         .party = {.TrainerMon = sParty_Halle},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11619,6 +13314,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Garrison),
         .party = {.TrainerMon = sParty_Garrison},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11640,6 +13338,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lydia2),
         .party = {.TrainerMon = sParty_Lydia2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11661,6 +13362,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lydia3),
         .party = {.TrainerMon = sParty_Lydia3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11682,6 +13386,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lydia4),
         .party = {.TrainerMon = sParty_Lydia4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11703,6 +13410,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lydia5),
         .party = {.TrainerMon = sParty_Lydia5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11724,6 +13434,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jackson1),
         .party = {.TrainerMon = sParty_Jackson1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11745,6 +13458,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lorenzo),
         .party = {.TrainerMon = sParty_Lorenzo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11766,6 +13482,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sebastian),
         .party = {.TrainerMon = sParty_Sebastian},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11787,6 +13506,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jackson2),
         .party = {.TrainerMon = sParty_Jackson2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11808,6 +13530,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jackson3),
         .party = {.TrainerMon = sParty_Jackson3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11829,6 +13554,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jackson4),
         .party = {.TrainerMon = sParty_Jackson4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11850,6 +13578,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jackson5),
         .party = {.TrainerMon = sParty_Jackson5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11871,6 +13602,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Catherine1),
         .party = {.TrainerMon = sParty_Catherine1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11892,6 +13626,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jenna),
         .party = {.TrainerMon = sParty_Jenna},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11913,6 +13650,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sophia),
         .party = {.TrainerMon = sParty_Sophia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11934,6 +13674,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Catherine2),
         .party = {.TrainerMon = sParty_Catherine2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11955,6 +13698,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Catherine3),
         .party = {.TrainerMon = sParty_Catherine3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11976,6 +13722,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Catherine4),
         .party = {.TrainerMon = sParty_Catherine4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -11997,6 +13746,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Catherine5),
         .party = {.TrainerMon = sParty_Catherine5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12018,6 +13770,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Julio),
         .party = {.TrainerMon = sParty_Julio},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12039,6 +13794,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSeafloorCavern5),
         .party = {.TrainerMon = sParty_GruntSeafloorCavern5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12060,6 +13818,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntUnused),
         .party = {.TrainerMon = sParty_GruntUnused},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12081,6 +13842,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMtPyre4),
         .party = {.TrainerMon = sParty_GruntMtPyre4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12102,6 +13866,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntJaggedPass),
         .party = {.TrainerMon = sParty_GruntJaggedPass},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12123,6 +13890,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Marc),
         .party = {.TrainerMon = sParty_Marc},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12144,6 +13914,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brenden),
         .party = {.TrainerMon = sParty_Brenden},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12165,6 +13938,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lilith),
         .party = {.TrainerMon = sParty_Lilith},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12186,6 +13962,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cristian),
         .party = {.TrainerMon = sParty_Cristian},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12207,6 +13986,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sylvia),
         .party = {.TrainerMon = sParty_Sylvia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12228,6 +14010,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Leonardo),
         .party = {.TrainerMon = sParty_Leonardo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12249,6 +14034,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Athena),
         .party = {.TrainerMon = sParty_Athena},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12270,6 +14058,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Harrison),
         .party = {.TrainerMon = sParty_Harrison},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12291,6 +14082,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMtChimney2),
         .party = {.TrainerMon = sParty_GruntMtChimney2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12312,6 +14106,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Clarence),
         .party = {.TrainerMon = sParty_Clarence},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12333,6 +14130,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Terry),
         .party = {.TrainerMon = sParty_Terry},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12354,6 +14154,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nate),
         .party = {.TrainerMon = sParty_Nate},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12375,6 +14178,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kathleen),
         .party = {.TrainerMon = sParty_Kathleen},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12396,6 +14202,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Clifford),
         .party = {.TrainerMon = sParty_Clifford},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12417,6 +14226,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Nicholas),
         .party = {.TrainerMon = sParty_Nicholas},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12438,6 +14250,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter3),
         .party = {.TrainerMon = sParty_GruntSpaceCenter3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12459,6 +14274,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter4),
         .party = {.TrainerMon = sParty_GruntSpaceCenter4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12480,6 +14298,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter5),
         .party = {.TrainerMon = sParty_GruntSpaceCenter5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12501,6 +14322,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter6),
         .party = {.TrainerMon = sParty_GruntSpaceCenter6},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12522,6 +14346,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntSpaceCenter7),
         .party = {.TrainerMon = sParty_GruntSpaceCenter7},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12543,6 +14370,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Macey),
         .party = {.TrainerMon = sParty_Macey},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12552,8 +14382,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -12571,6 +14404,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRustboroTreecko),
         .party = {.TrainerMon = sParty_BrendanRustboroTreecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12580,8 +14416,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -12599,6 +14438,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRustboroMudkip),
         .party = {.TrainerMon = sParty_BrendanRustboroMudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12620,6 +14462,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Paxton),
         .party = {.TrainerMon = sParty_Paxton},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12641,6 +14486,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabella),
         .party = {.TrainerMon = sParty_Isabella},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12662,6 +14510,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntWeatherInst5),
         .party = {.TrainerMon = sParty_GruntWeatherInst5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12683,6 +14534,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TabithaMtChimney),
         .party = {.TrainerMon = sParty_TabithaMtChimney},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12704,6 +14558,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jonathan),
         .party = {.TrainerMon = sParty_Jonathan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12713,8 +14570,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -12732,6 +14592,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanRustboroTorchic),
         .party = {.TrainerMon = sParty_BrendanRustboroTorchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12741,8 +14604,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -12760,6 +14626,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRustboroMudkip),
         .party = {.TrainerMon = sParty_MayRustboroMudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12781,6 +14650,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MaxieMagmaHideout),
         .party = {.TrainerMon = sParty_MaxieMagmaHideout},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12802,6 +14674,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MaxieMtChimney),
         .party = {.TrainerMon = sParty_MaxieMtChimney},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12823,6 +14698,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tiana),
         .party = {.TrainerMon = sParty_Tiana},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12844,6 +14722,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Haley1),
         .party = {.TrainerMon = sParty_Haley1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12865,6 +14746,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Janice),
         .party = {.TrainerMon = sParty_Janice},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12886,6 +14770,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Vivi),
         .party = {.TrainerMon = sParty_Vivi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12907,6 +14794,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Haley2),
         .party = {.TrainerMon = sParty_Haley2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12928,6 +14818,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Haley3),
         .party = {.TrainerMon = sParty_Haley3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12949,6 +14842,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Haley4),
         .party = {.TrainerMon = sParty_Haley4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12970,6 +14866,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Haley5),
         .party = {.TrainerMon = sParty_Haley5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -12991,6 +14890,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sally),
         .party = {.TrainerMon = sParty_Sally},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13012,6 +14914,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Robin),
         .party = {.TrainerMon = sParty_Robin},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13033,6 +14938,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andrea),
         .party = {.TrainerMon = sParty_Andrea},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13054,6 +14962,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Crissy),
         .party = {.TrainerMon = sParty_Crissy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13075,6 +14986,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rick),
         .party = {.TrainerMon = sParty_Rick},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13096,6 +15010,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lyle),
         .party = {.TrainerMon = sParty_Lyle},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13117,6 +15034,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jose),
         .party = {.TrainerMon = sParty_Jose},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13138,6 +15058,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Doug),
         .party = {.TrainerMon = sParty_Doug},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13159,6 +15082,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Greg),
         .party = {.TrainerMon = sParty_Greg},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13180,6 +15106,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kent),
         .party = {.TrainerMon = sParty_Kent},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13201,6 +15130,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_James1),
         .party = {.TrainerMon = sParty_James1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13222,6 +15154,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_James2),
         .party = {.TrainerMon = sParty_James2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13243,6 +15178,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_James3),
         .party = {.TrainerMon = sParty_James3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13264,6 +15202,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_James4),
         .party = {.TrainerMon = sParty_James4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13285,6 +15226,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_James5),
         .party = {.TrainerMon = sParty_James5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13306,6 +15250,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brice),
         .party = {.TrainerMon = sParty_Brice},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13327,6 +15274,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Trent1),
         .party = {.TrainerMon = sParty_Trent1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13348,6 +15298,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lenny),
         .party = {.TrainerMon = sParty_Lenny},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13369,6 +15322,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lucas1),
         .party = {.TrainerMon = sParty_Lucas1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13390,6 +15346,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alan),
         .party = {.TrainerMon = sParty_Alan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13411,6 +15370,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Clark),
         .party = {.TrainerMon = sParty_Clark},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13432,6 +15394,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Eric),
         .party = {.TrainerMon = sParty_Eric},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13453,6 +15418,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lucas2),
         .party = {.TrainerMon = sParty_Lucas2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13474,6 +15442,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mike1),
         .party = {.TrainerMon = sParty_Mike1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13495,6 +15466,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mike2),
         .party = {.TrainerMon = sParty_Mike2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13516,6 +15490,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Trent2),
         .party = {.TrainerMon = sParty_Trent2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13537,6 +15514,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Trent3),
         .party = {.TrainerMon = sParty_Trent3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13558,6 +15538,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Trent4),
         .party = {.TrainerMon = sParty_Trent4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13579,6 +15562,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Trent5),
         .party = {.TrainerMon = sParty_Trent5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13600,6 +15586,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_DezAndLuke),
         .party = {.TrainerMon = sParty_DezAndLuke},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13621,6 +15610,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LeaAndJed),
         .party = {.TrainerMon = sParty_LeaAndJed},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13642,6 +15634,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KiraAndDan1),
         .party = {.TrainerMon = sParty_KiraAndDan1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13663,6 +15658,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KiraAndDan2),
         .party = {.TrainerMon = sParty_KiraAndDan2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13684,6 +15682,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KiraAndDan3),
         .party = {.TrainerMon = sParty_KiraAndDan3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13705,6 +15706,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KiraAndDan4),
         .party = {.TrainerMon = sParty_KiraAndDan4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13726,6 +15730,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KiraAndDan5),
         .party = {.TrainerMon = sParty_KiraAndDan5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13747,6 +15754,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Johanna),
         .party = {.TrainerMon = sParty_Johanna},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13768,6 +15778,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gerald),
         .party = {.TrainerMon = sParty_Gerald},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13789,6 +15802,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Vivian),
         .party = {.TrainerMon = sParty_Vivian},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13810,6 +15826,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Danielle),
         .party = {.TrainerMon = sParty_Danielle},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13831,6 +15850,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hideo),
         .party = {.TrainerMon = sParty_Hideo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13852,6 +15874,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Keigo),
         .party = {.TrainerMon = sParty_Keigo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13873,6 +15898,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Riley),
         .party = {.TrainerMon = sParty_Riley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13894,6 +15922,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Flint),
         .party = {.TrainerMon = sParty_Flint},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13915,6 +15946,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ashley),
         .party = {.TrainerMon = sParty_Ashley},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13924,8 +15958,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13943,6 +15980,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_WallyMauville),
         .party = {.TrainerMon = sParty_WallyMauville},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13952,8 +15992,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13971,6 +16014,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_WallyVR2),
         .party = {.TrainerMon = sParty_WallyVR2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -13980,8 +16026,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -13999,6 +16048,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_WallyVR3),
         .party = {.TrainerMon = sParty_WallyVR3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14008,8 +16060,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14027,6 +16082,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_WallyVR4),
         .party = {.TrainerMon = sParty_WallyVR4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14036,8 +16094,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14055,6 +16116,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_WallyVR5),
         .party = {.TrainerMon = sParty_WallyVR5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14064,8 +16128,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14083,6 +16150,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanLilycoveMudkip),
         .party = {.TrainerMon = sParty_BrendanLilycoveMudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14092,8 +16162,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14111,6 +16184,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanLilycoveTreecko),
         .party = {.TrainerMon = sParty_BrendanLilycoveTreecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14120,8 +16196,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14139,6 +16218,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanLilycoveTorchic),
         .party = {.TrainerMon = sParty_BrendanLilycoveTorchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14148,8 +16230,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14167,6 +16252,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayLilycoveMudkip),
         .party = {.TrainerMon = sParty_MayLilycoveMudkip},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14176,8 +16264,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14195,6 +16286,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayLilycoveTreecko),
         .party = {.TrainerMon = sParty_MayLilycoveTreecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14204,8 +16298,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -14223,6 +16320,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayLilycoveTorchic),
         .party = {.TrainerMon = sParty_MayLilycoveTorchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14244,6 +16344,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jonah),
         .party = {.TrainerMon = sParty_Jonah},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14265,6 +16368,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Henry),
         .party = {.TrainerMon = sParty_Henry},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14286,6 +16392,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roger),
         .party = {.TrainerMon = sParty_Roger},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14307,6 +16416,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alexa),
         .party = {.TrainerMon = sParty_Alexa},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14328,6 +16440,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Ruben),
         .party = {.TrainerMon = sParty_Ruben},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14349,6 +16464,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Koji1),
         .party = {.TrainerMon = sParty_Koji1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14370,6 +16488,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wayne),
         .party = {.TrainerMon = sParty_Wayne},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14391,6 +16512,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Aidan),
         .party = {.TrainerMon = sParty_Aidan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14412,6 +16536,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Reed),
         .party = {.TrainerMon = sParty_Reed},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14433,6 +16560,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tisha),
         .party = {.TrainerMon = sParty_Tisha},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14454,6 +16584,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_ToriAndTia),
         .party = {.TrainerMon = sParty_ToriAndTia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14475,6 +16608,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_KimAndIris),
         .party = {.TrainerMon = sParty_KimAndIris},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14496,6 +16632,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TyraAndIvy),
         .party = {.TrainerMon = sParty_TyraAndIvy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14517,6 +16656,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MelAndPaul),
         .party = {.TrainerMon = sParty_MelAndPaul},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14538,6 +16680,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_JohnAndJay1),
         .party = {.TrainerMon = sParty_JohnAndJay1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14559,6 +16704,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_JohnAndJay2),
         .party = {.TrainerMon = sParty_JohnAndJay2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14580,6 +16728,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_JohnAndJay3),
         .party = {.TrainerMon = sParty_JohnAndJay3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14601,6 +16752,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_JohnAndJay4),
         .party = {.TrainerMon = sParty_JohnAndJay4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14622,6 +16776,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_JohnAndJay5),
         .party = {.TrainerMon = sParty_JohnAndJay5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14643,6 +16800,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_ReliAndIan),
         .party = {.TrainerMon = sParty_ReliAndIan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14664,6 +16824,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LilaAndRoy1),
         .party = {.TrainerMon = sParty_LilaAndRoy1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14685,6 +16848,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LilaAndRoy2),
         .party = {.TrainerMon = sParty_LilaAndRoy2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14706,6 +16872,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LilaAndRoy3),
         .party = {.TrainerMon = sParty_LilaAndRoy3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14727,6 +16896,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LilaAndRoy4),
         .party = {.TrainerMon = sParty_LilaAndRoy4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14748,6 +16920,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LilaAndRoy5),
         .party = {.TrainerMon = sParty_LilaAndRoy5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14769,6 +16944,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_LisaAndRay),
         .party = {.TrainerMon = sParty_LisaAndRay},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14790,6 +16968,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Chris),
         .party = {.TrainerMon = sParty_Chris},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14811,6 +16992,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dawson),
         .party = {.TrainerMon = sParty_Dawson},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14832,6 +17016,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sarah),
         .party = {.TrainerMon = sParty_Sarah},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14853,6 +17040,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Darian),
         .party = {.TrainerMon = sParty_Darian},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14874,6 +17064,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hailey),
         .party = {.TrainerMon = sParty_Hailey},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14895,6 +17088,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Chandler),
         .party = {.TrainerMon = sParty_Chandler},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14916,6 +17112,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kaleb),
         .party = {.TrainerMon = sParty_Kaleb},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14937,6 +17136,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Joseph),
         .party = {.TrainerMon = sParty_Joseph},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14958,6 +17160,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alyssa),
         .party = {.TrainerMon = sParty_Alyssa},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -14979,6 +17184,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Marcos),
         .party = {.TrainerMon = sParty_Marcos},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15000,6 +17208,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rhett),
         .party = {.TrainerMon = sParty_Rhett},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15021,6 +17232,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tyron),
         .party = {.TrainerMon = sParty_Tyron},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15042,6 +17256,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Celina),
         .party = {.TrainerMon = sParty_Celina},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15063,6 +17280,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bianca),
         .party = {.TrainerMon = sParty_Bianca},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15084,6 +17304,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Hayden),
         .party = {.TrainerMon = sParty_Hayden},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15105,6 +17328,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sophie),
         .party = {.TrainerMon = sParty_Sophie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15126,6 +17352,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Coby),
         .party = {.TrainerMon = sParty_Coby},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15147,6 +17376,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lawrence),
         .party = {.TrainerMon = sParty_Lawrence},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15168,6 +17400,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wyatt),
         .party = {.TrainerMon = sParty_Wyatt},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15189,6 +17424,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Angelina),
         .party = {.TrainerMon = sParty_Angelina},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15210,6 +17448,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kai),
         .party = {.TrainerMon = sParty_Kai},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15231,6 +17472,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Charlotte),
         .party = {.TrainerMon = sParty_Charlotte},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15252,6 +17496,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Deandre),
         .party = {.TrainerMon = sParty_Deandre},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15273,6 +17520,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout1),
         .party = {.TrainerMon = sParty_GruntMagmaHideout1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15294,6 +17544,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout2),
         .party = {.TrainerMon = sParty_GruntMagmaHideout2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15315,6 +17568,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout3),
         .party = {.TrainerMon = sParty_GruntMagmaHideout3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15336,6 +17592,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout4),
         .party = {.TrainerMon = sParty_GruntMagmaHideout4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15357,6 +17616,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout5),
         .party = {.TrainerMon = sParty_GruntMagmaHideout5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15378,6 +17640,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout6),
         .party = {.TrainerMon = sParty_GruntMagmaHideout6},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15399,6 +17664,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout7),
         .party = {.TrainerMon = sParty_GruntMagmaHideout7},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15420,6 +17688,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout8),
         .party = {.TrainerMon = sParty_GruntMagmaHideout8},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15441,6 +17712,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout9),
         .party = {.TrainerMon = sParty_GruntMagmaHideout9},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15462,6 +17736,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout10),
         .party = {.TrainerMon = sParty_GruntMagmaHideout10},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15483,6 +17760,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout11),
         .party = {.TrainerMon = sParty_GruntMagmaHideout11},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15504,6 +17784,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout12),
         .party = {.TrainerMon = sParty_GruntMagmaHideout12},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15525,6 +17808,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout13),
         .party = {.TrainerMon = sParty_GruntMagmaHideout13},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15546,6 +17832,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout14),
         .party = {.TrainerMon = sParty_GruntMagmaHideout14},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15567,6 +17856,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout15),
         .party = {.TrainerMon = sParty_GruntMagmaHideout15},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15588,6 +17880,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_GruntMagmaHideout16),
         .party = {.TrainerMon = sParty_GruntMagmaHideout16},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15609,6 +17904,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TabithaMagmaHideout),
         .party = {.TrainerMon = sParty_TabithaMagmaHideout},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15630,6 +17928,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Darcy),
         .party = {.TrainerMon = sParty_Darcy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15651,6 +17952,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MaxieMossdeep),
         .party = {.TrainerMon = sParty_MaxieMossdeep},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15672,6 +17976,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pete),
         .party = {.TrainerMon = sParty_Pete},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15693,6 +18000,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Isabelle),
         .party = {.TrainerMon = sParty_Isabelle},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15714,6 +18024,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andres1),
         .party = {.TrainerMon = sParty_Andres1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15735,6 +18048,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Josue),
         .party = {.TrainerMon = sParty_Josue},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15756,6 +18072,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Camron),
         .party = {.TrainerMon = sParty_Camron},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15777,6 +18096,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cory1),
         .party = {.TrainerMon = sParty_Cory1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15798,6 +18120,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Carolina),
         .party = {.TrainerMon = sParty_Carolina},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15819,6 +18144,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Elijah),
         .party = {.TrainerMon = sParty_Elijah},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15840,6 +18168,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Celia),
         .party = {.TrainerMon = sParty_Celia},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15861,6 +18192,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bryan),
         .party = {.TrainerMon = sParty_Bryan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15882,6 +18216,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Branden),
         .party = {.TrainerMon = sParty_Branden},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15903,6 +18240,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Bryant),
         .party = {.TrainerMon = sParty_Bryant},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15924,6 +18264,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Shayla),
         .party = {.TrainerMon = sParty_Shayla},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15945,6 +18288,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Kyra),
         .party = {.TrainerMon = sParty_Kyra},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15966,6 +18312,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Jaiden),
         .party = {.TrainerMon = sParty_Jaiden},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -15987,6 +18336,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alix),
         .party = {.TrainerMon = sParty_Alix},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16008,6 +18360,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Helene),
         .party = {.TrainerMon = sParty_Helene},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16029,6 +18384,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Marlene),
         .party = {.TrainerMon = sParty_Marlene},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16050,6 +18408,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Devan),
         .party = {.TrainerMon = sParty_Devan},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16071,6 +18432,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Johnson),
         .party = {.TrainerMon = sParty_Johnson},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16092,6 +18456,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Melina),
         .party = {.TrainerMon = sParty_Melina},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16113,6 +18480,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brandi),
         .party = {.TrainerMon = sParty_Brandi},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16134,6 +18504,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Aisha),
         .party = {.TrainerMon = sParty_Aisha},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16155,6 +18528,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Makayla),
         .party = {.TrainerMon = sParty_Makayla},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16176,6 +18552,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fabian),
         .party = {.TrainerMon = sParty_Fabian},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16197,6 +18576,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Dayton),
         .party = {.TrainerMon = sParty_Dayton},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16218,6 +18600,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Rachel),
         .party = {.TrainerMon = sParty_Rachel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16239,6 +18624,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Leonel),
         .party = {.TrainerMon = sParty_Leonel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16260,6 +18648,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Callie),
         .party = {.TrainerMon = sParty_Callie},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16281,6 +18672,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cale),
         .party = {.TrainerMon = sParty_Cale},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16302,6 +18696,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Myles),
         .party = {.TrainerMon = sParty_Myles},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16323,6 +18720,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pat),
         .party = {.TrainerMon = sParty_Pat},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16344,6 +18744,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cristin1),
         .party = {.TrainerMon = sParty_Cristin1},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16353,8 +18756,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16372,6 +18778,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRustboroTreecko),
         .party = {.TrainerMon = sParty_MayRustboroTreecko},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16381,8 +18790,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -16400,6 +18812,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayRustboroTorchic),
         .party = {.TrainerMon = sParty_MayRustboroTorchic},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16421,6 +18836,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roxanne2),
         .party = {.TrainerMon = sParty_Roxanne2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16442,6 +18860,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roxanne3),
         .party = {.TrainerMon = sParty_Roxanne3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16463,6 +18884,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roxanne4),
         .party = {.TrainerMon = sParty_Roxanne4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16484,6 +18908,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Roxanne5),
         .party = {.TrainerMon = sParty_Roxanne5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16505,6 +18932,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brawly2),
         .party = {.TrainerMon = sParty_Brawly2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16526,6 +18956,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brawly3),
         .party = {.TrainerMon = sParty_Brawly3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16547,6 +18980,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brawly4),
         .party = {.TrainerMon = sParty_Brawly4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16568,6 +19004,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brawly5),
         .party = {.TrainerMon = sParty_Brawly5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16589,6 +19028,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wattson2),
         .party = {.TrainerMon = sParty_Wattson2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16610,6 +19052,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wattson3),
         .party = {.TrainerMon = sParty_Wattson3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16631,6 +19076,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wattson4),
         .party = {.TrainerMon = sParty_Wattson4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16652,6 +19100,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Wattson5),
         .party = {.TrainerMon = sParty_Wattson5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16673,6 +19124,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Flannery2),
         .party = {.TrainerMon = sParty_Flannery2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16694,6 +19148,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Flannery3),
         .party = {.TrainerMon = sParty_Flannery3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16715,6 +19172,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Flannery4),
         .party = {.TrainerMon = sParty_Flannery4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16736,6 +19196,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Flannery5),
         .party = {.TrainerMon = sParty_Flannery5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16757,6 +19220,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Norman2),
         .party = {.TrainerMon = sParty_Norman2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16778,6 +19244,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Norman3),
         .party = {.TrainerMon = sParty_Norman3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16799,6 +19268,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Norman4),
         .party = {.TrainerMon = sParty_Norman4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16820,6 +19292,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Norman5),
         .party = {.TrainerMon = sParty_Norman5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16841,6 +19316,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winona2),
         .party = {.TrainerMon = sParty_Winona2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16862,6 +19340,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winona3),
         .party = {.TrainerMon = sParty_Winona3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16883,6 +19364,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winona4),
         .party = {.TrainerMon = sParty_Winona4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16904,6 +19388,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Winona5),
         .party = {.TrainerMon = sParty_Winona5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16925,6 +19412,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TateAndLiza2),
         .party = {.TrainerMon = sParty_TateAndLiza2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16946,6 +19436,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TateAndLiza3),
         .party = {.TrainerMon = sParty_TateAndLiza3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16967,6 +19460,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TateAndLiza4),
         .party = {.TrainerMon = sParty_TateAndLiza4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -16988,6 +19484,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_TateAndLiza5),
         .party = {.TrainerMon = sParty_TateAndLiza5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17009,6 +19508,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Juan2),
         .party = {.TrainerMon = sParty_Juan2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17030,6 +19532,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Juan3),
         .party = {.TrainerMon = sParty_Juan3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17051,6 +19556,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Juan4),
         .party = {.TrainerMon = sParty_Juan4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17072,6 +19580,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Juan5),
         .party = {.TrainerMon = sParty_Juan5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17093,6 +19604,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Angelo),
         .party = {.TrainerMon = sParty_Angelo},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17114,6 +19628,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Darius),
         .party = {.TrainerMon = sParty_Darius},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17123,8 +19640,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -17142,6 +19662,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Steven),
         .party = {.TrainerMon = sParty_Steven},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17163,6 +19686,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Anabel),
         .party = {.TrainerMon = sParty_Anabel},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17184,6 +19710,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Tucker),
         .party = {.TrainerMon = sParty_Tucker},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17205,6 +19734,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Spenser),
         .party = {.TrainerMon = sParty_Spenser},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17226,6 +19758,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Greta),
         .party = {.TrainerMon = sParty_Greta},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17247,6 +19782,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Noland),
         .party = {.TrainerMon = sParty_Noland},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17268,6 +19806,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Lucy),
         .party = {.TrainerMon = sParty_Lucy},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17289,6 +19830,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Brandon),
         .party = {.TrainerMon = sParty_Brandon},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17310,6 +19854,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andres2),
         .party = {.TrainerMon = sParty_Andres2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17331,6 +19878,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andres3),
         .party = {.TrainerMon = sParty_Andres3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17352,6 +19902,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andres4),
         .party = {.TrainerMon = sParty_Andres4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17373,6 +19926,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Andres5),
         .party = {.TrainerMon = sParty_Andres5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17394,6 +19950,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cory2),
         .party = {.TrainerMon = sParty_Cory2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17415,6 +19974,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cory3),
         .party = {.TrainerMon = sParty_Cory3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17436,6 +19998,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cory4),
         .party = {.TrainerMon = sParty_Cory4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17457,6 +20022,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cory5),
         .party = {.TrainerMon = sParty_Cory5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17478,6 +20046,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pablo2),
         .party = {.TrainerMon = sParty_Pablo2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17499,6 +20070,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pablo3),
         .party = {.TrainerMon = sParty_Pablo3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17520,6 +20094,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pablo4),
         .party = {.TrainerMon = sParty_Pablo4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17541,6 +20118,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Pablo5),
         .party = {.TrainerMon = sParty_Pablo5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17562,6 +20142,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Koji2),
         .party = {.TrainerMon = sParty_Koji2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17583,6 +20166,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Koji3),
         .party = {.TrainerMon = sParty_Koji3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17604,6 +20190,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Koji4),
         .party = {.TrainerMon = sParty_Koji4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17625,6 +20214,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Koji5),
         .party = {.TrainerMon = sParty_Koji5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17646,6 +20238,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cristin2),
         .party = {.TrainerMon = sParty_Cristin2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17667,6 +20262,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cristin3),
         .party = {.TrainerMon = sParty_Cristin3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17688,6 +20286,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cristin4),
         .party = {.TrainerMon = sParty_Cristin4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17709,6 +20310,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Cristin5),
         .party = {.TrainerMon = sParty_Cristin5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17730,6 +20334,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fernando2),
         .party = {.TrainerMon = sParty_Fernando2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17751,6 +20358,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fernando3),
         .party = {.TrainerMon = sParty_Fernando3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17772,6 +20382,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fernando4),
         .party = {.TrainerMon = sParty_Fernando4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17793,6 +20406,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Fernando5),
         .party = {.TrainerMon = sParty_Fernando5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17814,6 +20430,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sawyer2),
         .party = {.TrainerMon = sParty_Sawyer2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17835,6 +20454,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sawyer3),
         .party = {.TrainerMon = sParty_Sawyer3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17856,6 +20478,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sawyer4),
         .party = {.TrainerMon = sParty_Sawyer4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17877,6 +20502,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Sawyer5),
         .party = {.TrainerMon = sParty_Sawyer5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17898,6 +20526,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gabrielle2),
         .party = {.TrainerMon = sParty_Gabrielle2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17919,6 +20550,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gabrielle3),
         .party = {.TrainerMon = sParty_Gabrielle3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17940,6 +20574,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gabrielle4),
         .party = {.TrainerMon = sParty_Gabrielle4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17961,6 +20598,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Gabrielle5),
         .party = {.TrainerMon = sParty_Gabrielle5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -17982,6 +20622,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Thalia2),
         .party = {.TrainerMon = sParty_Thalia2},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18003,6 +20646,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Thalia3),
         .party = {.TrainerMon = sParty_Thalia3},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18024,6 +20670,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Thalia4),
         .party = {.TrainerMon = sParty_Thalia4},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18045,6 +20694,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Thalia5),
         .party = {.TrainerMon = sParty_Thalia5},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18065,6 +20717,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Mariela),
         .party = {.TrainerMon = sParty_Mariela},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18085,6 +20740,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Alvaro),
         .party = {.TrainerMon = sParty_Alvaro},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18105,6 +20763,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Everett),
         .party = {.TrainerMon = sParty_Everett},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18114,8 +20775,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -18132,6 +20796,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Red),
         .party = {.TrainerMon = sParty_Red},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18141,8 +20808,11 @@ const struct Trainer gTrainers[] = {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .trainerClass = TRAINER_CLASS_RIVAL,
 =======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_3,
@@ -18159,6 +20829,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_Leaf),
         .party = {.TrainerMon = sParty_Leaf},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18179,6 +20852,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_BrendanLinkPlaceholder),
         .party = {.TrainerMon = sParty_BrendanLinkPlaceholder},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
@@ -18199,6 +20875,9 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_MayLinkPlaceholder),
         .party = {.TrainerMon = sParty_MayLinkPlaceholder},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1

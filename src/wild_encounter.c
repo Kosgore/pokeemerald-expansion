@@ -461,7 +461,11 @@ static void CreateWildMon(u16 species, u8 level)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         CreateMonWithGenderNatureLetter(&gEnemyParty[0], species, level, USE_RANDOM_IVS, gender, PickWildMonNature(), 0);
+=======
+        CreateMonWithGenderNatureLetter(&gEnemyParty[0], species, level, 32, gender, PickWildMonNature(), 0, OT_ID_PLAYER_ID);
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
 =======
         CreateMonWithGenderNatureLetter(&gEnemyParty[0], species, level, 32, gender, PickWildMonNature(), 0, OT_ID_PLAYER_ID);
 >>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
