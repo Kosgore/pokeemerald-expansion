@@ -3445,6 +3445,17 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
 
     // Determine original trainer ID
     if (otIdType == OT_ID_RANDOM_NO_SHINY)
+<<<<<<< HEAD
+=======
+    SetBoxMonData(boxMon, MON_DATA_PERSONALITY, &personality);
+
+    switch (otIdType)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> parent of 236b3f6fd (feat: A change has been made)
     {
         u32 shinyValue;
         do
@@ -3485,6 +3496,76 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
                 personality = Random32();
                 totalRerolls--;
             }
+<<<<<<< HEAD
+=======
+=======
+    {
+        case OT_ID_SHINY:
+        {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+    {
+        case OT_ID_SHINY:
+        {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+    {
+        case OT_ID_SHINY:
+        {
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+            value = HIHALF(personality) ^ LOHALF(personality);
+        }
+        break;
+
+        case OT_ID_RANDOM_NO_SHINY:
+        {
+            u32 shinyValue = 0;
+            do
+            {
+                value = Random32();
+                shinyValue = HIHALF(value) ^ LOHALF(value) ^ HIHALF(personality) ^ LOHALF(personality);
+            } while (shinyValue < SHINY_ODDS);
+        }
+        break;
+
+        case OT_ID_PRESET:
+        {
+            value = fixedOtId;
+        }
+        break;
+
+        default:
+        {
+            value = gSaveBlock2Ptr->playerTrainerId[0]
+                 | (gSaveBlock2Ptr->playerTrainerId[1] << 8)
+                 | (gSaveBlock2Ptr->playerTrainerId[2] << 16)
+                 | (gSaveBlock2Ptr->playerTrainerId[3] << 24);
+
+#ifdef ITEM_SHINY_CHARM
+            if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
+            {
+                u32 shinyValue;
+                u32 rolls = 0;
+                do
+                {
+                    personality = Random32();
+                    shinyValue = HIHALF(value) ^ LOHALF(value) ^ HIHALF(personality) ^ LOHALF(personality);
+                    rolls++;
+                } while (shinyValue >= SHINY_ODDS && rolls < I_SHINY_CHARM_REROLLS);
+            }
+#endif
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> parent of 236b3f6fd (feat: A change has been made)
         }
     }
 
@@ -3643,7 +3724,27 @@ void CreateMonWithGenderNatureLetter(struct Pokemon *mon, u16 species, u8 level,
             || gender != GetGenderFromSpeciesAndPersonality(species, personality));
     }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     CreateMon(mon, species, level, fixedIV, TRUE, personality, OT_ID_PLAYER_ID, 0);
+=======
+    CreateMon(mon, species, level, fixedIV, 1, personality, otIdType, 0);
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+    CreateMon(mon, species, level, fixedIV, 1, personality, otIdType, 0);
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+    CreateMon(mon, species, level, fixedIV, 1, personality, otIdType, 0);
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+    CreateMon(mon, species, level, fixedIV, 1, personality, otIdType, 0);
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+    CreateMon(mon, species, level, fixedIV, TRUE, personality, OT_ID_PLAYER_ID, 0);
+>>>>>>> parent of 236b3f6fd (feat: A change has been made)
 }
 
 // This is only used to create Wally's Ralts.
