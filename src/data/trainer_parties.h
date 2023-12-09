@@ -4048,38 +4048,58 @@ static const struct TrainerMon sParty_Drake[] = {
 
 static const struct TrainerMon sParty_Roxanne1[] = {
     {
-    .iv = 150,
-    .lvl = 13,
+    .iv = 31,
+    .evs = {4, 100, 152, 252, 0, 0},
+    .lvl = 14,
     .species = SPECIES_GEODUDE,
     .heldItem = ITEM_SALAC_BERRY,
-    .moves = {MOVE_BULLDOZE, MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_ROCK_TOMB}
+    .ability = ABILITY_SLOT_1,
+    .moves = {MOVE_BULLDOZE, MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_ROCK_POLISH}
     },
     {
-    .iv = 160,
+    .ivs = {31, 0, 31, 31, 31, 31},
+    .evs = {0, 0, 252, 0, 4, 252},
     .lvl = 14,
     .species = SPECIES_CORSOLA,
     .heldItem = ITEM_LEFTOVERS,
+    .ability = ABILITY_SLOT_1,
     .moves = {MOVE_STEALTH_ROCK, MOVE_ANCIENT_POWER, MOVE_WATER_PULSE, MOVE_PROTECT}
     },
     {
-    .iv = 160,
+    .iv = 31,
+    .evs = {4, 0, 252, 0, 0, 252},
     .lvl = 14,
     .species = SPECIES_CARBINK,
     .heldItem = ITEM_LIGHT_CLAY,
+    .ability = ABILITY_HIDDEN,
     .moves = {MOVE_FAIRY_WIND, MOVE_ROCK_TOMB, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
     },
-	{
-    .iv = 200,
+    {
+    .iv = 31,
+    .evs = {4, 252, 0, 252, 0, 0},
     .lvl = 15,
     .species = SPECIES_DWEBBLE,
     .heldItem = ITEM_WHITE_HERB,
+    .ability = ABILITY_HIDDEN,
     .moves = {MOVE_SHELL_SMASH, MOVE_BUG_BITE, MOVE_BULLDOZE, MOVE_ROCK_TOMB}
     },
-	{
-    .iv = 200,
+    {
+    .ivs = {31, 0, 31, 31, 31, 31},
+    .evs = {252, 0, 0, 4, 252, 0},
+    .lvl = 15,
+    .species = SPECIES_LILEEP,
+    .heldItem = ITEM_WISE_GLASSES,
+    .ability = ABILITY_SLOT_1,
+    .moves = {MOVE_ANCIENT_POWER, MOVE_ABSORB, MOVE_INGRAIN, MOVE_ACID}
+    },
+    {
+    .iv = 31,
+    .evs = {4, 252, 252, 0, 0, 0},
     .lvl = 16,
     .species = SPECIES_NOSEPASS,
+    .shiny = TRUE,
     .heldItem = ITEM_SITRUS_BERRY,
+    .ability = ABILITY_SLOT_2,
     .moves = {MOVE_THUNDER_WAVE, MOVE_IRON_DEFENSE, MOVE_MAGNET_BOMB, MOVE_ROCK_TOMB}
     }
 };
