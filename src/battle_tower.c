@@ -3002,12 +3002,35 @@ void TryHideBattleTowerReporter(void)
 
 static void FillPartnerParty(u16 trainerId)
 {
+    u32 nameHash = 0;
+    u32 personalityValue;
+    u8 fixedIV;
+    u8 ability, gender, friendship;
     s32 i, j;
     u32 ivs, level;
-    u32 friendship;
     u16 monId;
     u32 otID;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     u8 trainerName[(PLAYER_NAME_LENGTH * 3) + 1];
+=======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+#ifdef BATTLE_ENGINE
+    u8 trainerName[(PLAYER_NAME_LENGTH * 3) + 1];
+#else
+    u8 trainerName[PLAYER_NAME_LENGTH + 1];
+#endif
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
     SetFacilityPtrsGetLevel();
 
     if (trainerId == TRAINER_STEVEN_PARTNER)
@@ -3039,8 +3062,27 @@ static void FillPartnerParty(u16 trainerId)
             CalculateMonStats(&gPlayerParty[MULTI_PARTY_SIZE + i]);
         }
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     else if (trainerId >= TRAINER_CUSTOM_PARTNER)
     {
+=======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+#ifdef BATTLE_ENGINE
+    else if (trainerId >= TRAINER_CUSTOM_PARTNER)
+    {
+        const struct TrainerMon *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.TrainerMon;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
         otID = Random32();
 
         for (i = 0; i < 3; i++)
@@ -3048,6 +3090,9 @@ static void FillPartnerParty(u16 trainerId)
 
         for (i = 0; i < 3 && i < gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].partySize; i++)
         {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             do
             {
                 j = Random32();
@@ -3093,10 +3138,101 @@ static void FillPartnerParty(u16 trainerId)
                 SetMonData(&gPlayerParty[i + 3], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
 
                 for (j = 0; j < 4; j++)
+=======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+            const struct TrainerMon *partyData = gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].party.TrainerMon;
+
+            fixedIV = partyData[i].iv;
+
+// Comment out the following line if you have changed .iv to go 0-31, instead of 0-255 as in vanilla.
+            fixedIV = fixedIV * MAX_PER_STAT_IVS / 255;
+
+            fixedIV = fixedIV + TRAINER_IV_MODIFIER;
+
+            for (j = 0; gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].trainerName[j] != EOS; j++)
+                nameHash += gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].trainerName[j];
+
+            gender = MON_MALE; // defaults to 0
+
+            if (gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].doubleBattle == TRUE)
+                personalityValue = 0x80;
+            else if (gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].encounterMusic_gender & 0x80)
+            {
+                personalityValue = 0x78;
+                gender = MON_MALE;
+            }
+            else
+            {
+                personalityValue = 0x88;
+                gender = MON_FEMALE;
+            }
+
+            if (partyData[i].gender == TRAINER_MON_MALE)
+                gender = MON_MALE;
+            else if (partyData[i].gender == TRAINER_MON_FEMALE)
+                gender = MON_FEMALE;
+
+
+            if ((partyData[i].nature > 0) || (partyData[i].gender > 0))
+                CreateMonWithGenderNatureLetter(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, fixedIV, gender, partyData[i].nature, 0, partyData[i].shiny ? OT_ID_SHINY : OT_ID_RANDOM_NO_SHINY);
+            else
+            {
+                CreateMon(&gPlayerParty[i + 3], partyData[i].species, partyData[i].lvl, fixedIV, TRUE, personalityValue, partyData[i].shiny ? OT_ID_SHINY : OT_ID_RANDOM_NO_SHINY, 0);
+            }
+
+            if (partyData[i].friendship > 0)
+            {
+                if (partyData[i].friendship == TRAINER_MON_UNFRIENDLY)
+                    friendship = 0;
+                else if (partyData[i].friendship == TRAINER_MON_FRIENDLY)
+                    friendship = MAX_FRIENDSHIP;
+                SetMonData(&gPlayerParty[i + 3], MON_DATA_FRIENDSHIP, &friendship);
+            }
+
+            if (partyData[i].nickname[0] != '\0')
+                SetMonData(&gPlayerParty[i + 3], MON_DATA_NICKNAME, &partyData[i].nickname);
+
+// Should take only constants of ABILITY_SLOT_1, ABILITY_SLOT_2, or ABILITY_HIDDEN.
+// If desired, implement else where undefined abilities are chosen between slots 1 and 2, a la gen IV.
+            if (partyData[i].ability > 0)
+            {
+                ability = partyData[i].ability;
+
+                if (partyData[i].ability == ABILITY_SLOT_1)
+                    ability = 0;
+
+                SetMonData(&gPlayerParty[i + 3], MON_DATA_ABILITY_NUM, &ability);
+            }
+
+// Check if ball was defined for that pokemon.
+            if (partyData[i].ball > 0)
+                SetMonData(&gPlayerParty[i + 3], MON_DATA_POKEBALL, &partyData[i].ball);
+
+// Check if heldItem was defined.
+            if (partyData[i].heldItem > 0)
+                SetMonData(&gPlayerParty[i + 3], MON_DATA_HELD_ITEM, &partyData[i].heldItem);
+
+// Check if moves were defined.
+            if (partyData[i].moves[0] != 0)
+            {
+                for (j = 0; j < MAX_MON_MOVES; j++)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
                 {
                     SetMonData(&gPlayerParty[i + 3], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
                     SetMonData(&gPlayerParty[i + 3], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
                 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                 break;
             }
             }
@@ -3105,6 +3241,47 @@ static void FillPartnerParty(u16 trainerId)
             SetMonData(&gPlayerParty[i + 3], MON_DATA_OT_NAME, trainerName);
         }
     }
+=======
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+            }
+
+// Check for non-constant IV spread.
+            if (partyData[i].iv == 0)
+            {
+                for (j = 0; j < NUM_STATS; j++)
+                {
+                    SetMonData(&gPlayerParty[i + 3], MON_DATA_HP_IV + j, &partyData[i].ivs[j]);
+                }
+            }
+            else if (partyData[i].iv == WORST_IVS)
+            {
+                for (j = 0; j < NUM_STATS; j++)
+                {
+                    SetMonData(&gPlayerParty[i + 3], MON_DATA_HP_IV + j, 0);
+                }
+            }
+
+// Set effort values regardless.  Default is 0.
+            for (j = 0; j < NUM_STATS; j++)
+            {
+                SetMonData(&gPlayerParty[i + 3], MON_DATA_HP_EV + j, &partyData[i].evs[j]);
+            }
+            StringCopy(trainerName, gTrainers[trainerId - TRAINER_CUSTOM_PARTNER].trainerName);
+            SetMonData(&gPlayerParty[i + 3], MON_DATA_OT_NAME, trainerName);
+            CalculateMonStats(&gPlayerParty[i + 3]);
+        }
+    }
+#endif
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
+=======
+>>>>>>> a1d38183f593b720ec7a375006b22eb90ec03bf1
     else if (trainerId == TRAINER_EREADER)
     {
         // Scrapped, lol.

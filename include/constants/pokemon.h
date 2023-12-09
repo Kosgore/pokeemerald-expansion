@@ -204,6 +204,7 @@
 #define EV_ITEM_RAISE_LIMIT MAX_PER_STAT_EVS
 #else
 #define EV_ITEM_RAISE_LIMIT 255
+#define EV_ITEM_RAISE_LIMIT 255
 #endif
 
 // Battle move flags
