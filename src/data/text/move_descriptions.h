@@ -17,8 +17,8 @@ static const u8 sKarateChopDescription[] = _(
     "high critical-hit ratio.");
 
 static const u8 sDoubleSlapDescription[] = _(
-    "Repeatedly slaps the foe\n"
-    "2 to 5 times.");
+    "Quickly slaps the foe\n"
+    "two times in a row.");
 
 static const u8 sCometPunchDescription[] = _(
     "Repeatedly punches the foe\n"
@@ -401,8 +401,8 @@ static const u8 sQuickAttackDescription[] = _(
     "that always strikes first.");
 
 static const u8 sRageDescription[] = _(
-    "Raises the user's Attack\n"
-    "every time it is hit.");
+    "An attack that always\n"
+    "inflicts 40 HP damage.");
 
 static const u8 sTeleportDescription[] = _(
     "A psychic move for fleeing\n"
@@ -933,8 +933,8 @@ static const u8 sIronTailDescription[] = _(
     "tail. May lower Defense.");
 
 static const u8 sMetalClawDescription[] = _(
-    "A claw attack that may\n"
-    "raise the user's Attack.");
+    "A claw attack that has\n"
+    "a higher chance to crit.");
 
 static const u8 sVitalThrowDescription[] = _(
     "Makes the user's move last,\n"
@@ -1001,8 +1001,8 @@ static const u8 sFutureSightDescription[] = _(
     "strike 2 turns later.");
 
 static const u8 sRockSmashDescription[] = _(
-    "A rock-crushing attack\n"
-    "that may lower Defense.");
+    "Shatters a rock, sending\n"
+    "shards to lower Defense.");
 
 static const u8 sWhirlpoolDescription[] = _(
     "Traps and hurts the foe in\n"
@@ -1234,7 +1234,7 @@ static const u8 sPoisonFangDescription[] = _(
 
 static const u8 sCrushClawDescription[] = _(
     "Tears at the foe with sharp\n"
-    "claws. May lower Defense.");
+    "claws. Lowers Defense.");
 
 static const u8 sBlastBurnDescription[] = _(
     "Powerful, but leaves the\n"
@@ -1329,8 +1329,8 @@ static const u8 sSheerColdDescription[] = _(
     "causes fainting if it hits.");
 
 static const u8 sMuddyWaterDescription[] = _(
-    "Attacks with muddy water.\n"
-    "May lower accuracy.");
+    "Stomps causing muddy water\n"
+    "to erupt. Deals Sp damage.");
 
 static const u8 sBulletSeedDescription[] = _(
     "Shoots 2 to 5 seeds in a row\n"
@@ -1358,7 +1358,7 @@ static const u8 sHowlDescription[] = _(
 
 static const u8 sDragonClawDescription[] = _(
     "Slashes the foe with sharp\n"
-    "claws.");
+    "claws. High crit ratio.");
 
 static const u8 sFrenzyPlantDescription[] = _(
     "Powerful, but leaves the\n"
@@ -2118,7 +2118,7 @@ static const u8 sHurricaneDescription[] = _(
 
 static const u8 sHeadChargeDescription[] = _(
     "A charge using guard hair.\n"
-    "It hurts the user a little.");
+    "Lowers defensive stats.");
 
 static const u8 sGearGrindDescription[] = _(
     "Throws two steel gears\n"
@@ -3049,9 +3049,38 @@ static const u8 sTakeHeartDescription[] = _(
     "The user lifts its spirits to\n"
     "heal and strengthen itself.");
 
+static const u8 sMoonsaultSlamDescription[] = _(
+    "A reckless slam that puts\n"
+    "the users life at risk.");
+
+static const u8 sShriekDescription[] = _(
+    "A ghostly wail that uses\n"
+    "sound waves to injure.");
+
+static const u8 sGlitterFangDescription[] = _(
+    "A sharp-fanged attack.\n"
+    "May confuse the foe.");
+
+static const u8 sAquaCutterDescription[] = _(
+    "Expels pressurized water to\n"
+    "cut with high crit ratio.");
+
+static const u8 sFlashFreezeDescription[] = _(
+    "A sinister gust of cold air\n"
+    "freezes the target.");
+
+static const u8 sDeathRollDescription[] = _(
+    "A deadly grappling attack\n"
+    "that damages the user.");
+
+static const u8 sKhamasinDescription[] = _(
+    "Hits both foes with stinging,\n"
+    "hot sand that may burn.");
+
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
     "effect is in development.");
+    
 
 #undef BINDING_TURNS
 
@@ -3838,4 +3867,11 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SANDSEAR_STORM - 1] = sSandsearStormDescription,
     [MOVE_LUNAR_BLESSING - 1] = sLunarBlessingDescription,
     [MOVE_TAKE_HEART - 1] = sTakeHeartDescription,
+    [MOVE_MOONSAULT_SLAM - 1] = sMoonsaultSlamDescription,
+    [MOVE_SHRIEK - 1] = sShriekDescription,
+    [MOVE_GLITTER_FANG - 1] = sGlitterFangDescription,
+    [MOVE_AQUA_CUTTER - 1] = sAquaCutterDescription,
+    [MOVE_FLASH_FREEZE - 1] = sFlashFreezeDescription,
+    [MOVE_DEATH_ROLL - 1] = sDeathRollDescription,
+    [MOVE_KHAMASIN - 1] = sKhamasinDescription
 };

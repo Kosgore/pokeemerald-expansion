@@ -1,3 +1,31 @@
+LavaridgeCity_MegaDealer::
+	lock
+	faceplayer
+	message LavaridgeCity_MegaDealer_Text_0
+	waitmessage
+	pokemart LavaridgeCity_Mega
+	msgbox LavaridgeCity_MegaDealer_Text_1
+	release
+	end
+
+
+LavaridgeCity_EventScript_SunStone::
+	finditem ITEM_SUN_STONE
+	end
+
+
+.align 2
+LavaridgeCity_Mega::
+    .2byte ITEM_GENGARITE 
+    .2byte ITEM_STEELIXITE
+    .2byte ITEM_PIDGEOTITE
+    .2byte ITEM_BEEDRILLITE
+    .2byte ITEM_ALAKAZITE
+	.2byte ITEM_ALTARIANITE    
+    .2byte ITEM_NONE
+    release
+    end
+
 .set LOCALID_RIVAL_ON_BIKE, 7
 .set LOCALID_RIVAL, 8
 
@@ -407,3 +435,8 @@ LavaridgeTown_Text_HerbShopSign:
 	.string "POKéMON HERB SHOP\n"
 	.string "“Bitter taste--better cure!”$"
 
+LavaridgeCity_MegaDealer_Text_0:
+	.string "Looking to get Mega?$"
+
+LavaridgeCity_MegaDealer_Text_1:
+	.string "Good day.$"

@@ -92,7 +92,7 @@
 #define MAX_STAT_STAGE    12
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 3277 // Actual probability is SHINY_ODDS/65536
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -203,7 +203,7 @@
 #if I_VITAMIN_EV_CAP >= GEN_8
 #define EV_ITEM_RAISE_LIMIT MAX_PER_STAT_EVS
 #else
-#define EV_ITEM_RAISE_LIMIT 100
+#define EV_ITEM_RAISE_LIMIT 255
 #endif
 
 // Battle move flags
@@ -235,6 +235,10 @@
 #define FLAG_THAW_USER                            (1 << 25)
 #define FLAG_HIT_IN_SUBSTITUTE                    (1 << 26) // Hyperspace Fury
 #define FLAG_TWO_STRIKES                          (1 << 27) // A move with this flag will strike twice, and may apply its effect on each hit
+#define FLAG_SLASHER_BOOST                        (1 << 28) 
+#define FLAG_IRON_HEEL_BOOST                      (1 << 29)
+#define FLAG_BONE_ATTACK                          (1 << 30)
+#define FLAG_WIND_ATTACK                          (1 << 31)
 
 // Split defines.
 #define SPLIT_PHYSICAL  0x0

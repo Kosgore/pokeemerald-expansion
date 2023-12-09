@@ -1,0 +1,6 @@
+mapscripts LonesomeGrotto_MapScripts {}
+
+script LonesomeGrotto_EventScript_DawnStone {
+	finditem(ITEM_DAWN_STONE)
+	end
+}

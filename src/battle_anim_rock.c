@@ -1009,3 +1009,56 @@ void AnimTask_SeismicTossBgAccelerateDownAtEnd(u8 taskId)
         DestroyAnimVisualTask(taskId);
     }
 }
+
+void AnimTask_GetMoonsaultSlamDamageLevel(u8 taskId)
+{
+    if (gAnimMoveDmg < 33)
+        gBattleAnimArgs[ARG_RET_ID] = 0;
+    if ((u32)gAnimMoveDmg - 33 < 33)
+        gBattleAnimArgs[ARG_RET_ID] = 1;
+    if (gAnimMoveDmg > 65)
+        gBattleAnimArgs[ARG_RET_ID] = 2;
+
+    DestroyAnimVisualTask(taskId);
+}
+
+void AnimTask_MoveMoonsaultSlamBg(u8 taskId)
+{
+    if (gTasks[taskId].data[0] == 0)
+    {
+        UpdateAnimBg3ScreenSize(FALSE);
+        gTasks[taskId].data[1] = 200;
+    }
+
+    gBattle_BG3_Y += gTasks[taskId].data[1] / 10;
+    gTasks[taskId].data[1] -= 3;
+
+    if (gTasks[taskId].data[0] == 120)
+    {
+        UpdateAnimBg3ScreenSize(TRUE);
+        DestroyAnimVisualTask(taskId);
+    }
+
+    gTasks[taskId].data[0]++;
+}
+
+void AnimTask_MoonsaultSlamBgAccelerateDownAtEnd(u8 taskId)
+{
+    if (gTasks[taskId].data[0] == 0)
+    {
+        UpdateAnimBg3ScreenSize(FALSE);
+        gTasks[taskId].data[0]++;
+        gTasks[taskId].data[2] = gBattle_BG3_Y;
+    }
+
+    gTasks[taskId].data[1] += 80;
+    gTasks[taskId].data[1] &= 0xFF;
+    gBattle_BG3_Y = gTasks[taskId].data[2] + Cos(4, gTasks[taskId].data[1]);
+
+    if (gBattleAnimArgs[7] == 0xFFF)
+    {
+        gBattle_BG3_Y = 0;
+        UpdateAnimBg3ScreenSize(TRUE);
+        DestroyAnimVisualTask(taskId);
+    }
+}

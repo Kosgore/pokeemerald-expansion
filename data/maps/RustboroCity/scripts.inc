@@ -851,8 +851,7 @@ RustboroCity_EventScript_MayEncounter::
 	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
 	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
-	call RustboroCity_EventScript_RestoreBgm
-	releaseall
+	goto RustboroCity_EventScript_BattleMay
 	end
 
 RustboroCity_EventScript_MayAskToBattle::
@@ -860,6 +859,7 @@ RustboroCity_EventScript_MayAskToBattle::
 	msgbox RustboroCity_Text_MayWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
 	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	releaseall
 	end
 
@@ -1157,10 +1157,7 @@ RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "How about a little battle?$"
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
-	.string "MAY: Oh, what's the matter?\p"
-	.string "Haven't you caught or raised your\n"
-	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "MAY: Too bad!$"
 
 RustboroCity_Text_MayWantToBattle:
 	.string "MAY: So, what do you think?\n"

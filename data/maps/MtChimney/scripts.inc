@@ -1,3 +1,8 @@
+MtChimney_EventScript_MegaRing::
+	finditem ITEM_MEGA_RING
+	end
+
+
 .set LOCALID_ARCHIE, 1
 .set LOCALID_MAXIE, 2
 .set LOCALID_TABITHA, 3
@@ -843,4 +848,3 @@ MtChimney_Text_SawyerRematchDefeat:
 MtChimney_Text_SawyerPostRematch:
 	.string "Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"
-

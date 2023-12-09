@@ -159,6 +159,7 @@
 #define MAP_MAUVILLE_CITY_POKEMON_CENTER_1F (5 | (10 << 8))
 #define MAP_MAUVILLE_CITY_POKEMON_CENTER_2F (6 | (10 << 8))
 #define MAP_MAUVILLE_CITY_MART              (7 | (10 << 8))
+#define MAP_MAUVILLE_CITY_BATTLE_MART       (8 | (10 << 8))
 
 // gMapGroup_IndoorRustboro
 #define MAP_RUSTBORO_CITY_DEVON_CORP_1F     (0 | (11 << 8))
@@ -178,6 +179,7 @@
 #define MAP_RUSTBORO_CITY_FLAT2_2F          (14 | (11 << 8))
 #define MAP_RUSTBORO_CITY_FLAT2_3F          (15 | (11 << 8))
 #define MAP_RUSTBORO_CITY_HOUSE3            (16 | (11 << 8))
+#define MAP_RUSTBORO_CITY_BATTLE_MART       (17 | (11 << 8))
 
 // gMapGroup_IndoorFortree
 #define MAP_FORTREE_CITY_HOUSE1            (0 | (12 << 8))
@@ -190,6 +192,7 @@
 #define MAP_FORTREE_CITY_HOUSE4            (7 | (12 << 8))
 #define MAP_FORTREE_CITY_HOUSE5            (8 | (12 << 8))
 #define MAP_FORTREE_CITY_DECORATION_SHOP   (9 | (12 << 8))
+#define MAP_FORTREE_CITY_BATTLE_MART       (10 | (12 << 8))
 
 // gMapGroup_IndoorLilycove
 #define MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F        (0 | (13 << 8))
@@ -554,6 +557,10 @@
 #define MAP_NAVEL_ROCK_DOWN11                               (86 | (26 << 8))
 #define MAP_NAVEL_ROCK_BOTTOM                               (87 | (26 << 8))
 #define MAP_TRAINER_HILL_ELEVATOR                           (88 | (26 << 8))
+#define MAP_LONESOME_GROTTO                                 (89 | (26 << 8))
+#define MAP_STOWAWAY_CAVE                                   (90 | (26 << 8))
+#define MAP_SPOOKY_FOREST                                   (91 | (26 << 8))
+#define MAP_THICK_BRUSH                                     (92 | (26 << 8))
 
 // gMapGroup_IndoorRoute104Prototype
 #define MAP_ROUTE104_PROTOTYPE                          (0 | (27 << 8))

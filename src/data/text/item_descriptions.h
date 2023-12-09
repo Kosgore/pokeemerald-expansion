@@ -3081,9 +3081,9 @@ static const u8 sTM14Desc[] = _(
     "may freeze the foe.");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+    "User fires sludge\n"
+    "at the target. May\n"
+    "cause poisoning.");
 
 static const u8 sTM16Desc[] = _(
     "Creates a wall of\n"
@@ -3141,9 +3141,9 @@ static const u8 sTM26Desc[] = _(
     "on flying foes.");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "A powerful psychic\n"
+    "attack that deals\n"
+    "physical damage.");
 
 static const u8 sTM28Desc[] = _(
     "Digs underground\n"
@@ -3176,9 +3176,9 @@ static const u8 sTM33Desc[] = _(
     "physical attacks.");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+    "Shocks the foe then\n"
+    "rushes back to swap\n"
+    "place with an ally.");
 
 static const u8 sTM35Desc[] = _(
     "Looses a stream of\n"
@@ -3251,44 +3251,62 @@ static const u8 sTM48Desc[] = _(
     "turn this is used.");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "Hurls filthy waste\n"
+    "to do heavy damage\n"
+    "and inflict poison.");
 
 static const u8 sTM50Desc[] = _(
     "Enables full-power\n"
     "attack, but sharply\n"
     "lowers Sp. Atk.");
 
-static const u8 sTM51Desc[] = _( // Todo
-    "?????");
+static const u8 sTM51Desc[] = _(
+    "The user lands and\n"
+    "rests to heal half\n"
+    "of it's maximum HP.");
 
-static const u8 sTM52Desc[] = _( // Todo
-    "?????");
+static const u8 sTM52Desc[] = _( 
+    "The users focuses\n"
+    "and unleashes it's\n"
+    "true power.");
 
-static const u8 sTM53Desc[] = _( // Todo
-    "?????");
+static const u8 sTM53Desc[] = _( 
+    "Draws power from\n"
+    "nature to attack\n"
+    "May lower SpDef.");
 
-static const u8 sTM54Desc[] = _( // Todo
-    "?????");
+static const u8 sTM54Desc[] = _( 
+    "Stomps the ground\n"
+    "to slow everything\n"
+    "around the user.");
 
 static const u8 sTM55Desc[] = _( // Todo
     "?????");
 
-static const u8 sTM56Desc[] = _( // Todo
-    "?????");
+static const u8 sTM56Desc[] = _(
+    "After attacking,\n"
+    "the user retreats\n"
+    "and swaps out.");
 
 static const u8 sTM57Desc[] = _( // Todo
-    "?????");
+    "An fiery punch\n"
+    "that may burn the\n"
+    "foe.");
 
 static const u8 sTM58Desc[] = _( // Todo
-    "?????");
+    "An electrified\n"
+    "punch that may\n"
+    "paralyze the foe.");
 
 static const u8 sTM59Desc[] = _( // Todo
-    "?????");
+    "An icy cold punch\n"
+    "that may freeze the\n"
+    "foe.");
 
-static const u8 sTM60Desc[] = _( // Todo
-    "?????");
+static const u8 sTM60Desc[] = _(
+    "Throws a stealthy\n"
+    "punch to always hit\n"
+    "from the shadows");
 
 static const u8 sTM61Desc[] = _( // Todo
     "?????");

@@ -1,3 +1,28 @@
+PetalburgCity_BerryGirl::
+	lock
+	faceplayer
+	message PetalburgCity_BerryGirl_Text_0
+	waitmessage
+	pokemart PetalburgCity_BerryMart
+	msgbox PetalburgCity_BerryGirl_Text_1
+	release
+	end
+
+
+.align 2
+PetalburgCity_BerryMart::
+    .2byte ITEM_ORAN_BERRY
+    .2byte ITEM_LEPPA_BERRY
+    .2byte ITEM_CHERI_BERRY
+    .2byte ITEM_CHESTO_BERRY
+    .2byte ITEM_PECHA_BERRY
+    .2byte ITEM_RAWST_BERRY
+    .2byte ITEM_ASPEAR_BERRY
+    .2byte ITEM_PERSIM_BERRY
+    .2byte ITEM_NONE
+    release
+    end
+
 .set LOCALID_WALLY, 2
 .set LOCALID_BOY, 3
 .set LOCALID_WALLYS_DAD, 5
@@ -765,3 +790,9 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_BerryGirl_Text_0:
+	.string "Would you like some berries?$"
+
+PetalburgCity_BerryGirl_Text_1:
+	.string "Have a nice day!$"

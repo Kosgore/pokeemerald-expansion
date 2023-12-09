@@ -781,6 +781,13 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SANDSEAR_STORM] = _("Sandsear Storm"),
     [MOVE_LUNAR_BLESSING] = _("Lunar Blessing"),
     [MOVE_TAKE_HEART] = _("Take Heart"),
+    [MOVE_MOONSAULT_SLAM] = _("Moonsault Slam"),
+    [MOVE_SHRIEK] = _("Shriek"),
+    [MOVE_GLITTER_FANG] = _("Glitter Fang"),
+    [MOVE_AQUA_CUTTER] = _("Aqua Cutter"),
+    [MOVE_FLASH_FREEZE] = _("Flash Freeze"),
+    [MOVE_DEATH_ROLL] = _("Death Roll"),
+    [MOVE_KHAMASIN] = _("Khamasin"),
 };
 #else
 // 12 letters
@@ -1565,6 +1572,13 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SANDSEAR_STORM] = _("SndsearStorm"),
     [MOVE_LUNAR_BLESSING] = _("LunarBlessng"),
     [MOVE_TAKE_HEART] = _("Take Heart"),
+    [MOVE_MOONSAULT_SLAM] = _("Moonslt Slam"),
+    [MOVE_SHRIEK] = _("Shriek"),
+    [MOVE_GLITTER_FANG] = _("Glitter Fang"),
+    [MOVE_AQUA_CUTTER] = _("Aqua Cutter"),
+    [MOVE_FLASH_FREEZE] = _("Flash Freeze"),
+    [MOVE_DEATH_ROLL] = _("Death Roll"),
+    [MOVE_KHAMASIN] = _("Khamasin"),
 };
 #endif
 

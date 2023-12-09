@@ -63,6 +63,7 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "cable_club.h"
+#include "constants/species.h"
 
 extern struct Evolution gEvolutionTable[][EVOS_PER_MON];
 
@@ -4499,12 +4500,14 @@ u32 GetBattlerTotalSpeedStat(u8 battlerId)
 
     // other abilities
     if (ability == ABILITY_QUICK_FEET && gBattleMons[battlerId].status1 & STATUS1_ANY)
-        speed = (speed * 150) / 100;
+        speed *= 2;
     else if (ability == ABILITY_SURGE_SURFER && gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)
         speed *= 2;
     else if (ability == ABILITY_SLOW_START && gDisableStructs[battlerId].slowStartTimer != 0)
         speed /= 2;
-
+  //  else if (ability == ABILITY_TOCHUKASO && (gBattleMons[battlerId].species != SPECIES_PARAS || gBattleMons[battlerId].species != SPECIES_PARASECT))
+  //      speed /= 2;
+        
     // stat stages
     speed *= gStatStageRatios[gBattleMons[battlerId].statStages[STAT_SPEED]][0];
     speed /= gStatStageRatios[gBattleMons[battlerId].statStages[STAT_SPEED]][1];

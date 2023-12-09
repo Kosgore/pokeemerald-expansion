@@ -393,7 +393,10 @@
 #define EFFECT_EXTREME_EVOBOOST             387
 #define EFFECT_DAMAGE_SET_TERRAIN           388 // genesis supernova
 #define EFFECT_DARK_VOID                    389
+#define EFFECT_FLASH_FREEZE                 390
+#define EFFECT_MUDDY_WATER                  391
+#define EFFECT_VICTORY_DANCE                392
 
-#define NUM_BATTLE_MOVE_EFFECTS             389
+#define NUM_BATTLE_MOVE_EFFECTS             392
 
 #endif  // GUARD_CONSTANTS_BATTLE_MOVE_EFFECTS_H
