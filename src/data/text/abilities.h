@@ -289,6 +289,18 @@ static const u8 sToxicDebrisDescription[] = _("Throws poison spikes if hit.");
 static const u8 sArmorTailDescription[] = _("Protects from priority.");
 static const u8 sEarthEaterDescription[] = _("Eats ground to heal HP.");
 static const u8 sMyceliumMightDescription[] = _("Status moves never fail.");
+static const u8 sIronHeelDescription[] = _("Boosts kicking moves.");
+static const u8 sBloomTenderDescription[] = _("Boosts ally's Grass moves");
+static const u8 sCacophonyDescription[] = _("Boost all sound moves.");
+static const u8 sUnownPowerDescription[] = _("Reveals type on move.");
+static const u8 sBallisticDescription[] = _("Boosts some projectiles.");
+static const u8 sWraithGripDescription[] = _("Ghost moves evade prot.");
+static const u8 sSiegeMachineDescription[] = _("Boosts strong moves.");
+static const u8 sVigilantDescription[] = _("Ups Speed on entry.");
+static const u8 sManEaterDescription[] = _("Deals more damage to men.");
+static const u8 sFloatyDescription[] = _("Resists ground and hazards.");
+static const u8 sReverberationDescription[] = _("Contact lowers SpDef.");
+static const u8 sGravWellDescription[] = _("Gravity Increases.");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -592,6 +604,19 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_ARMOR_TAIL] = _("Armor Tail"),
     [ABILITY_EARTH_EATER] = _("Earth Eater"),
     [ABILITY_MYCELIUM_MIGHT] = _("Mycelium Might"),
+    [ABILITY_IRON_HEEL] = _("Iron Heel"),
+    [ABILITY_BLOOM_TENDER] = _("Bloom Tender"),
+    [ABILITY_CACOPHONY] = _("Cacophony"),
+    [ABILITY_UNOWN_POWER] = _("Unown Power"),
+    [ABILITY_BALLISTIC] = _("Ballistic"),
+    [ABILITY_WRAITH_GRIP] = _("Wraith's Grasp"),
+    [ABILITY_SIEGE_MACHINE] = _("Siege Machine"),
+    [ABILITY_VIGILANT] = _("Vigilant"),
+    [ABILITY_SHARP_THORNS] = _("Sharp Thorns"),
+    [ABILITY_FLOATY] = _("Floaty"),
+    [ABILITY_TOCHUKASO] = _("Tochukaso"),
+    [ABILITY_REVERBERATION] = _("Reverberation"),
+    [ABILITY_GRAVITY_WELL] = _("Gravity Well"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -895,6 +920,19 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_ARMOR_TAIL] = _("Armor Tail"),
     [ABILITY_EARTH_EATER] = _("Earth Eater"),
     [ABILITY_MYCELIUM_MIGHT] = _("MceliumMight"),
+    [ABILITY_IRON_HEEL] = _("Iron Heel"),
+    [ABILITY_BLOOM_TENDER] = _("Bloom Tender"),
+    [ABILITY_CACOPHONY] = _("Cacophony"),
+    [ABILITY_UNOWN_POWER] = _("Unown Power"),
+    [ABILITY_BALLISTIC] = _("Ballistic"),
+    [ABILITY_WRAITH_GRIP] = _("Wraith Grip"),
+    [ABILITY_SIEGE_MACHINE] = _("SiegeMachine"),
+    [ABILITY_VIGILANT] = _("Vigilant"),
+    [ABILITY_SHARP_THORNS] = _("Sharp Thorns"),
+    [ABILITY_FLOATY] = _("Floaty"),
+    [ABILITY_TOCHUKASO] = _("Tochukaso"),
+    [ABILITY_REVERBERATION] = _("Revrberation"),
+    [ABILITY_GRAVITY_WELL] = _("Gravity Well"),
 };
 #endif
 
@@ -1199,4 +1237,17 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_ARMOR_TAIL] = sArmorTailDescription,
     [ABILITY_EARTH_EATER] = sEarthEaterDescription,
     [ABILITY_MYCELIUM_MIGHT] = sMyceliumMightDescription,
+    [ABILITY_IRON_HEEL] = sIronHeelDescription,
+    [ABILITY_BLOOM_TENDER] = sBloomTenderDescription,
+    [ABILITY_CACOPHONY] = sCacophonyDescription,
+    [ABILITY_UNOWN_POWER] = sUnownPowerDescription,
+    [ABILITY_BALLISTIC] = sBallisticDescription,
+    [ABILITY_WRAITH_GRIP] = sWraithGripDescription,
+    [ABILITY_SIEGE_MACHINE] = sSiegeMachineDescription,
+    [ABILITY_VIGILANT] = sVigilantDescription,
+    [ABILITY_SHARP_THORNS] = sRoughSkinDescription,
+    [ABILITY_FLOATY] = sFloatyDescription,
+    [ABILITY_TOCHUKASO] = sMummyDescription,
+    [ABILITY_REVERBERATION] = sReverberationDescription,
+    [ABILITY_GRAVITY_WELL] = sGravWellDescription,
 };
