@@ -300,7 +300,8 @@ static const u8 sVigilantDescription[] = _("Ups Speed on entry.");
 static const u8 sManEaterDescription[] = _("Deals more damage to men.");
 static const u8 sFloatyDescription[] = _("Resists ground and hazards.");
 static const u8 sReverberationDescription[] = _("Contact lowers SpDef.");
-static const u8 sGravWellDescription[] = _("Gravity Increases.");
+static const u8 sGravWellDescription[] = _("Gravity increases.");
+static const u8 sScavengerDescription[] = _("Boosts bone moves.");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -617,6 +618,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_TOCHUKASO] = _("Tochukaso"),
     [ABILITY_REVERBERATION] = _("Reverberation"),
     [ABILITY_GRAVITY_WELL] = _("Gravity Well"),
+    [ABILITY_SCAVENGER] = _("Scavenger"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -933,6 +935,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_TOCHUKASO] = _("Tochukaso"),
     [ABILITY_REVERBERATION] = _("Revrberation"),
     [ABILITY_GRAVITY_WELL] = _("Gravity Well"),
+    [ABILITY_SCAVENGER] = _("Scavenger"),
 };
 #endif
 
@@ -1250,4 +1253,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_TOCHUKASO] = sMummyDescription,
     [ABILITY_REVERBERATION] = sReverberationDescription,
     [ABILITY_GRAVITY_WELL] = sGravWellDescription,
+    [ABILITY_SCAVENGER] = sScavengerDescription,
 };

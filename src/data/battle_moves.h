@@ -37,7 +37,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_KARATE_CHOP] =
     {
         .effect = EFFECT_HIT,
-        .power = 50,
+        .power = 70,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 25,
@@ -899,7 +899,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_EMBER] =
     {
         .effect = EFFECT_BURN_HIT,
-        .power = 40,
+        .power = 35,
         .type = TYPE_FIRE,
         .accuracy = 100,
         .pp = 25,
@@ -13223,14 +13223,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_SALT_CURE] =
     {
         .effect = EFFECT_SALT_CURE,
-        .power = 40,
+        .power = 0,
         .type = TYPE_ROCK,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .split = SPLIT_PHYSICAL,
+        .split = SPLIT_STATUS,
         .zMoveEffect = Z_EFFECT_NONE,
         .sheerForceBoost = TRUE,
         .metronomeBanned = TRUE,
@@ -13534,7 +13534,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_CHILLING_WATER] =
     {
         .effect = EFFECT_ATTACK_DOWN_HIT,
-        .power = 50,
+        .power = 60,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 20,
@@ -13548,7 +13548,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_HYPER_DRILL] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_FEINT,
         .power = 100,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -13815,6 +13815,22 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         .split = SPLIT_SPECIAL,
         .zMoveEffect = Z_EFFECT_NONE,
     },
+
+    [MOVE_FLASH_FREEZE] =
+    {
+        .effect = EFFECT_FLASH_FREEZE,
+        .power = 0,
+        .type = TYPE_ICE,
+        .accuracy = 65,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .split = SPLIT_STATUS,
+        .zMoveEffect = Z_EFFECT_SPATK_UP_1,
+    },
+
+
 
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
