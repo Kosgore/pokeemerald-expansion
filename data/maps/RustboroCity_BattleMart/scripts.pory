@@ -1,0 +1,36 @@
+mapscripts RustboroCity_BattleMart_MapScripts {
+
+}
+
+script RustboroCity_BattleMart_Employee{
+    lock
+    faceplayer
+    message("Looking for something?")
+    waitmessage
+    pokemart(RustboroCity_BattleMart)
+    msgbox("Come back when you're a little mmmm richer.")
+    release
+    end
+} 
+
+raw`
+
+.align 2
+RustboroCity_BattleMart::
+    .2byte ITEM_MIRACLE_SEED
+    .2byte ITEM_CHARCOAL
+    .2byte ITEM_MYSTIC_WATER
+    .2byte ITEM_AIR_BALLOON
+    .2byte ITEM_MUSCLE_BAND
+    .2byte ITEM_WISE_GLASSES
+    .2byte ITEM_ADRENALINE_ORB
+    .2byte ITEM_FOCUS_SASH
+    .2byte ITEM_WHITE_HERB
+    .2byte ITEM_POWER_HERB
+    .2byte ITEM_MENTAL_HERB
+    .2byte ITEM_MIRROR_HERB    
+    .2byte ITEM_NONE
+    release
+    end
+
+`

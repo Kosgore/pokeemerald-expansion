@@ -3281,8 +3281,9 @@ static const u8 sTM50Desc[] = _(
     "attack, but sharply\n"
     "lowers Sp. Atk.");
 
-static const u8 sTM51Desc[] = _( // Todo
-    "?????");
+static const u8 sTM51Desc[] = _(
+    "A chilling attack\n"
+    "that slows foes.");
 
 static const u8 sTM52Desc[] = _( // Todo
     "?????");
@@ -3386,8 +3387,10 @@ static const u8 sTM84Desc[] = _( // Todo
 static const u8 sTM85Desc[] = _( // Todo
     "?????");
 
-static const u8 sTM86Desc[] = _( // Todo
-    "?????");
+static const u8 sTM86Desc[] = _( 
+    "A snare attack\n"
+    "that hurts heavier\n"
+    "targets more.");
 
 static const u8 sTM87Desc[] = _( // Todo
     "?????");

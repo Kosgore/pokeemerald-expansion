@@ -4269,6 +4269,7 @@ const u16 gEggMoves[] = {
 
     egg_moves(VULPIX_ALOLAN,
         MOVE_AGILITY,
+        MOVE_FAIRY_WIND,
         MOVE_CHARM,
         MOVE_DISABLE,
         MOVE_ENCORE,

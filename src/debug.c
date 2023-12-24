@@ -176,6 +176,7 @@ enum { // Give Fill
     DEBUG_FILL_MENU_ITEM_PC_BOXES_FAST,
     DEBUG_FILL_MENU_ITEM_PC_BOXES_SLOW,
     DEBUG_FILL_MENU_ITEM_PC_ITEMS,
+    DEBUG_FILL_MENU_ITEM_POCKET_MEDICINE,
     DEBUG_FILL_MENU_ITEM_POCKET_ITEMS,
     DEBUG_FILL_MENU_ITEM_POCKET_BALLS,
     DEBUG_FILL_MENU_ITEM_POCKET_TMHM,
@@ -361,6 +362,7 @@ static void DebugAction_Give_DayCareEgg(u8 taskId);
 static void DebugAction_Fill_PCBoxes_Fast(u8 taskId);
 static void DebugAction_Fill_PCBoxes_Slow(u8 taskId);
 static void DebugAction_Fill_PCItemStorage(u8 taskId);
+static void DebugAction_Fill_PocketMedicine(u8 taskId);
 static void DebugAction_Fill_PocketItems(u8 taskId);
 static void DebugAction_Fill_PocketPokeBalls(u8 taskId);
 static void DebugAction_Fill_PocketTMHM(u8 taskId);
@@ -533,6 +535,7 @@ static const u8 sDebugText_Give_DaycareEgg[] =          _("Daycare Egg");
 static const u8 sDebugText_Fill_Pc_Fast[] =        _("Fill PCBoxes Fast");
 static const u8 sDebugText_Fill_Pc_Slow[] =        _("Fill PCBoxes Slow (LAG!)");
 static const u8 sDebugText_Fill_Pc_Items[] =       _("Fill PCItems");
+static const u8 sDebugText_Fill_PocketMedicine[] =    _("Fill Pocket Medicine");
 static const u8 sDebugText_Fill_PocketItems[] =    _("Fill Pocket Items");
 static const u8 sDebugText_Fill_PocketPokeBalls[] =_("Fill Pocket PokeBalls");
 static const u8 sDebugText_Fill_PocketTMHM[] =     _("Fill Pocket TMHM");
@@ -698,6 +701,7 @@ static const struct ListMenuItem sDebugMenu_Items_Fill[] =
     [DEBUG_FILL_MENU_ITEM_PC_BOXES_FAST]    = {sDebugText_Fill_Pc_Fast,         DEBUG_FILL_MENU_ITEM_PC_BOXES_FAST},
     [DEBUG_FILL_MENU_ITEM_PC_BOXES_SLOW]    = {sDebugText_Fill_Pc_Slow,         DEBUG_FILL_MENU_ITEM_PC_BOXES_SLOW},
     [DEBUG_FILL_MENU_ITEM_PC_ITEMS]         = {sDebugText_Fill_Pc_Items ,       DEBUG_FILL_MENU_ITEM_PC_ITEMS},
+    [DEBUG_FILL_MENU_ITEM_POCKET_MEDICINE]  = {sDebugText_Fill_PocketMedicine,  DEBUG_FILL_MENU_ITEM_POCKET_MEDICINE},
     [DEBUG_FILL_MENU_ITEM_POCKET_ITEMS]     = {sDebugText_Fill_PocketItems,     DEBUG_FILL_MENU_ITEM_POCKET_ITEMS},
     [DEBUG_FILL_MENU_ITEM_POCKET_BALLS]     = {sDebugText_Fill_PocketPokeBalls, DEBUG_FILL_MENU_ITEM_POCKET_BALLS},
     [DEBUG_FILL_MENU_ITEM_POCKET_TMHM]      = {sDebugText_Fill_PocketTMHM,      DEBUG_FILL_MENU_ITEM_POCKET_TMHM},
@@ -788,6 +792,7 @@ static void (*const sDebugMenu_Actions_Fill[])(u8) =
     [DEBUG_FILL_MENU_ITEM_PC_BOXES_FAST]    = DebugAction_Fill_PCBoxes_Fast,
     [DEBUG_FILL_MENU_ITEM_PC_BOXES_SLOW]    = DebugAction_Fill_PCBoxes_Slow,
     [DEBUG_FILL_MENU_ITEM_PC_ITEMS]         = DebugAction_Fill_PCItemStorage,
+    [DEBUG_FILL_MENU_ITEM_POCKET_MEDICINE]  = DebugAction_Fill_PocketMedicine,
     [DEBUG_FILL_MENU_ITEM_POCKET_ITEMS]     = DebugAction_Fill_PocketItems,
     [DEBUG_FILL_MENU_ITEM_POCKET_BALLS]     = DebugAction_Fill_PocketPokeBalls,
     [DEBUG_FILL_MENU_ITEM_POCKET_TMHM]      = DebugAction_Fill_PocketTMHM,
@@ -3556,6 +3561,16 @@ static void DebugAction_Fill_PCItemStorage(u8 taskId)
     {
         if (!CheckPCHasItem(itemId, MAX_PC_ITEM_CAPACITY))
             AddPCItem(itemId, MAX_PC_ITEM_CAPACITY);
+    }
+}
+static void DebugAction_Fill_PocketMedicine(u8 taskId)
+{
+    u16 itemId;
+
+    for (itemId = 1; itemId < ITEMS_COUNT; itemId++)
+    {
+        if (ItemId_GetPocket(itemId) == POCKET_MEDICINE && CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
+            AddBagItem(itemId, MAX_BAG_ITEM_CAPACITY);
     }
 }
 static void DebugAction_Fill_PocketItems(u8 taskId)

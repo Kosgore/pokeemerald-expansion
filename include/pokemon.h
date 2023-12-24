@@ -361,8 +361,10 @@ struct BattleMove
     u32 sheerForceBoost:1;
     u32 bitingMove:1;
     u32 pulseMove:1;
+    u32 beamMove:1;
     u32 soundMove:1;
     u32 ballisticMove:1;
+    u32 boneMove:1;
     u32 protectionMove:1;
     u32 powderMove:1;
     u32 danceMove:1;

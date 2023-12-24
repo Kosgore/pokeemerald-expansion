@@ -1672,6 +1672,12 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
     case ABILITY_COMPOUND_EYES:
         calc = (calc * 130) / 100; // 1.3 compound eyes boost
         break;
+    case ABILITY_KEEN_EYE:
+        calc = (calc * 120) / 100; 
+        break;
+    case ABILITY_ILLUMINATE:
+        calc = (calc * 110) / 100;
+        break;
     case ABILITY_VICTORY_STAR:
         calc = (calc * 110) / 100; // 1.1 victory star boost
         break;
@@ -1694,13 +1700,22 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
         break;
     case ABILITY_TANGLED_FEET:
         if (gBattleMons[battlerDef].status2 & STATUS2_CONFUSION)
-            calc = (calc * 50) / 100; // 1.5 tangled feet loss
+            calc = (calc * 80) / 100; // 1.2 tangled feet loss
+        break;
+    case ABILITY_STENCH:
+        if (defAbility == ABILITY_STENCH && IsMoveMakingContact(move, gBattlerAttacker))
+            calc = (calc * 90) / 100;
+        break;
+    case ABILITY_TELEPATHY:
+        if (defAbility == ABILITY_TELEPATHY && (gBattleMoves[move].target == MOVE_TARGET_BOTH || gBattleMoves[move].target == MOVE_TARGET_FOES_AND_ALLY))
+            calc = (calc * 90) / 100;
         break;
     }
 
     // Attacker's ally's ability
     switch (atkAllyAbility)
     {
+    case ABILITY_ILLUMINATE:
     case ABILITY_VICTORY_STAR:
         if (IsBattlerAlive(atkAlly))
             calc = (calc * 110) / 100; // 1.1 ally's victory star boost
@@ -14350,6 +14365,7 @@ static void Cmd_switchoutabilities(void)
                                          &gBattleMons[battler].status1);
             MarkBattlerForControllerExec(battler);
             break;
+        case ABILITY_HONEY_GATHER:
         case ABILITY_REGENERATOR:
             gBattleMoveDamage = gBattleMons[battler].maxHP / 3;
             gBattleMoveDamage += gBattleMons[battler].hp;

@@ -343,6 +343,16 @@ Route111_EventScript_BattleWinstrates::
 	release
 	end
 
+Route111_Elementalist::
+	lock
+	faceplayer
+	message Route111_Elementalist_Text_0
+	waitmessage
+	pokemart Route111_ElementalMart
+	msgbox Route111_Elementalist_Text_1
+	release
+	end
+
 Route111_EventScript_OpenWinstrateDoor::
 	opendoor 13, 113
 	waitdooranim
@@ -727,3 +737,23 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+.align 2
+Route111_ElementalMart::
+    .2byte ITEM_TM61
+    .2byte ITEM_TM62
+    .2byte ITEM_TM63
+    .2byte ITEM_TM64
+	.2byte ITEM_TM65
+    .2byte ITEM_TM66
+    .2byte ITEM_TM67
+	.2byte ITEM_TM68
+    .2byte ITEM_TM69
+	.2byte ITEM_NONE
+    release
+    end
+
+Route111_Elementalist_Text_0:
+	.string "I am the ELEMENTALIST!$"
+
+Route111_Elementalist_Text_1:
+	.string "Hmmm, yes...$"

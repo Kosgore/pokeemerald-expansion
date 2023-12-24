@@ -209,7 +209,13 @@ LavaridgeTown_EventScript_EnteredHotSprings::
 	end
 
 LavaridgeTown_EventScript_ExpertM::
-	msgbox LavaridgeTown_Text_HotSpringsNeverRunDry, MSGBOX_NPC
+	lock
+	faceplayer
+	message LavaridgeTown_PlateGuy_Text_0
+	waitmessage
+	pokemart LavaridgeTown_PlateMart
+	msgbox LavaridgeTown_PlateGuy_Text_1
+	release
 	end
 
 LavaridgeTown_EventScript_OldMan::
@@ -275,6 +281,29 @@ LavaridgeTown_EventScript_GymSign::
 LavaridgeTown_EventScript_HerbShopSign::
 	msgbox LavaridgeTown_Text_HerbShopSign, MSGBOX_SIGN
 	end
+
+.align 2
+LavaridgeTown_PlateMart::
+    .2byte ITEM_FLAME_PLATE
+    .2byte ITEM_SPLASH_PLATE
+    .2byte ITEM_ZAP_PLATE
+    .2byte ITEM_MEADOW_PLATE
+    .2byte ITEM_ICICLE_PLATE
+    .2byte ITEM_FIST_PLATE
+    .2byte ITEM_TOXIC_PLATE
+    .2byte ITEM_EARTH_PLATE
+    .2byte ITEM_SKY_PLATE
+    .2byte ITEM_MIND_PLATE
+    .2byte ITEM_INSECT_PLATE
+    .2byte ITEM_STONE_PLATE
+    .2byte ITEM_SPOOKY_PLATE
+    .2byte ITEM_DRACO_PLATE
+    .2byte ITEM_DREAD_PLATE
+    .2byte ITEM_IRON_PLATE
+    .2byte ITEM_PIXIE_PLATE
+    .2byte ITEM_NONE
+    release
+    end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "MAY: {PLAYER}{KUN}! Long time no see!\p"
@@ -354,14 +383,11 @@ LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "the POKéMON DAY CARE.\p"
 	.string "Or at least that's how the rumor goes.$"
 
-LavaridgeTown_Text_HotSpringsNeverRunDry:
-	.string "We draw as much hot water as we need,\n"
-	.string "and yet the hot springs never run dry.\p"
-	.string "Isn't it magical?\p"
-	.string "These hot springs appear near active\n"
-	.string "volcanoes. Veins of water under the\l"
-	.string "ground are heated by magma to well up\l"
-	.string "as hot springs.$"
+LavaridgeTown_PlateGuy_Text_0:
+	.string "The springs here hold immense power.$"
+
+LavaridgeTown_PlateGuy_Text_1:
+	.string "Isn't it magical?$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
 	.string "Being buried in this hot sand is…\n"

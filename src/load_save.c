@@ -25,6 +25,7 @@ struct LoadedSaveData
  /*0x00F0*/ struct ItemSlot pokeBalls[BAG_POKEBALLS_COUNT];
  /*0x0130*/ struct ItemSlot TMsHMs[BAG_TMHM_COUNT];
  /*0x0230*/ struct ItemSlot berries[BAG_BERRIES_COUNT];
+            struct ItemSlot medicine[BAG_MEDICINE_COUNT];
  /*0x02E8*/ struct Mail mail[MAIL_COUNT];
 };
 
@@ -208,6 +209,9 @@ void CopyPartyAndObjectsFromSave(void)
 void LoadPlayerBag(void)
 {
     int i;
+
+    for (i = 0; i < BAG_MEDICINE_COUNT; i++)
+        gLoadedSaveData.medicine[i] = gSaveBlock1Ptr->bagPocket_Medicine[i];
 
     // load player items.
     for (i = 0; i < BAG_ITEMS_COUNT; i++)

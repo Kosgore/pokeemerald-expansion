@@ -1019,3 +1019,28 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_EventScript_VersionSign::
+	lockall
+	msgbox LittlerootTown_EventScript_VersionSign_Text_0
+	releaseall
+	return
+
+
+LittlerootTown_EventScript_CandyMan::
+	lockall
+	faceplayer
+	message LittlerootTown_EventScript_CandyMan_Text_0
+	waitmessage
+	giveitem ITEM_RARE_CANDY, 99
+	msgbox LittlerootTown_EventScript_CandyMan_Text_1
+	releaseall
+	end
+
+LittlerootTown_EventScript_VersionSign_Text_0:
+	.string "v0.078$"
+
+LittlerootTown_EventScript_CandyMan_Text_0:
+	.string "Take some candies.$"
+
+LittlerootTown_EventScript_CandyMan_Text_1:
+	.string "Come back if you need more.$"

@@ -8580,9 +8580,19 @@ BattleScript_TryAdrenalineOrb:
 	setgraphicalstatchangevalues
 	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
 	copybyte sBATTLER, gBattlerTarget
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_TryAdrenalineOrbAtk
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_TryAdrenalineOrbAtk:
+	jumpifstat BS_TARGET, CMP_EQUAL, STAT_ATK, 12, BattleScript_TryAdrenalineOrbRet
+	setstatchanger STAT_ATK, 2, FALSE
+	statbuffchange STAT_CHANGE_NOT_PROTECT_AFFECTED | MOVE_EFFECT_CERTAIN | STAT_CHANGE_ALLOW_PTR, BattleScript_TryAdrenalineOrbRet
+	playanimation BS_TARGET, B_ANIM_HELD_ITEM_EFFECT
+	setgraphicalstatchangevalues
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	copybyte sBATTLER, gBattlerTarget
 	setlastuseditem BS_TARGET
 	printstring STRINGID_USINGITEMSTATOFPKMNROSE
-	waitmessage B_WAIT_TIME_LONG
+	waitmessage B_WAIT_TIME_LONG	
 	removeitem BS_TARGET
 BattleScript_TryAdrenalineOrbRet:
 	return
@@ -8781,6 +8791,15 @@ BattleScript_ActivateTerrainEffects_Increment:
 	restoretarget
 	return
 
+BattleScript_ActivateGravityWell:
+	savetarget
+	setbyte gBattlerTarget, 0
+	copybyte sBATTLER, gBattlerTarget
+	printstring STRINGID_GRAVITYINTENSIFIED
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_GravityLoop
+	end
+
 BattleScript_ActivateSwitchInAbilities:
 	copybyte sBATTLER, gBattlerAttacker
 	setbyte gBattlerAttacker, 0
@@ -8845,7 +8864,8 @@ BattleScript_GravityWellActivates::
 	printstring STRINGID_GRAVITYINTENSIFIED
 	waitmessage B_WAIT_TIME_LONG
 	playanimation BS_SCRIPTING, B_ANIM_RESTORE_BG
-	call BattleScript_EffectGravity
+	setgravity BS_TARGET
+	goto BattleScript_GravityLoop
 	end3
 
 BattleScript_BadDreamsActivates::
