@@ -282,7 +282,7 @@ static const u8 sOrichalcumPulseDescription[] = _("Summons sunlight in battle.")
 static const u8 sHadronEngineDescription[] = _("Field becomes Electric.");
 static const u8 sOpportunistDescription[] = _("Copies foe's stat change.");
 static const u8 sCudChewDescription[] = _("Eats a used berry again.");
-static const u8 sSharpnessDescription[] = _("Strengthens cutting moves.");
+static const u8 sSharpnessDescription[] = _("Strengthens slicing moves.");
 static const u8 sSupremeOverlordDescription[] = _("Inherits fallen's strength.");
 static const u8 sCostarDescription[] = _("Copies ally's stat changes.");
 static const u8 sToxicDebrisDescription[] = _("Throws poison spikes if hit.");
@@ -303,6 +303,15 @@ static const u8 sReverberationDescription[] = _("Contact lowers SpDef.");
 static const u8 sGravWellDescription[] = _("Gravity increases.");
 static const u8 sScavengerDescription[] = _("Boosts bone moves.");
 static const u8 sParticleCannonDescription[] = _("Boosts beam moves.");
+static const u8 sHospitalityDescription[] = _("Restores ally's HP.");
+static const u8 sMindsEyeDescription[] = _("Keen Eye and Scrappy.");
+static const u8 sEmbodyAspectTealDescription[] = _("Raises Speed.");
+static const u8 sEmbodyAspectHearthflameDescription[] = _("Raises Attack.");
+static const u8 sEmbodyAspectWellspringDescription[] = _("Raises Sp. Def.");
+static const u8 sEmbodyAspectCornerstoneDescription[] = _("Raises Defense.");
+static const u8 sToxicChainDescription[] = _("Moves can poison.");
+static const u8 sSupersweetSyrupDescription[] = _("Lowers the foe's Speed.");
+
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -620,7 +629,15 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_REVERBERATION] = _("Reverberation"),
     [ABILITY_GRAVITY_WELL] = _("Gravity Well"),
     [ABILITY_SCAVENGER] = _("Scavenger"),
-    [ABILITY_PARTICLE_CANNON] = _("Particle Cannon"),
+    [ABILITY_PARTICLE_CANNON] = _("Particle Cannon")
+    [ABILITY_HOSPITALITY] = _("Hospitality"),
+    [ABILITY_MINDS_EYE] = _("Mind's Eye"),
+    [ABILITY_EMBODY_ASPECT_TEAL] = _("Embody Aspect"),
+    [ABILITY_EMBODY_ASPECT_HEARTHFLAME] = _("Embody Aspect"),
+    [ABILITY_EMBODY_ASPECT_WELLSPRING] = _("Embody Aspect"),
+    [ABILITY_EMBODY_ASPECT_CORNERSTONE] = _("Embody Aspect"),
+    [ABILITY_TOXIC_CHAIN] = _("Toxic Chain"),
+    [ABILITY_SUPERSWEET_SYRUP] = _("Supersweet Syrup"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -939,6 +956,14 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_GRAVITY_WELL] = _("Gravity Well"),
     [ABILITY_SCAVENGER] = _("Scavenger"),
     [ABILITY_PARTICLE_CANNON] = _("PrtcleCannon"),
+    [ABILITY_HOSPITALITY] = _("Hospitality"),
+    [ABILITY_MINDS_EYE] = _("Mind's Eye"),
+    [ABILITY_EMBODY_ASPECT_TEAL] = _("EmbodyAspect"),
+    [ABILITY_EMBODY_ASPECT_HEARTHFLAME] = _("EmbodyAspect"),
+    [ABILITY_EMBODY_ASPECT_WELLSPRING] = _("EmbodyAspect"),
+    [ABILITY_EMBODY_ASPECT_CORNERSTONE] = _("EmbodyAspect"),
+    [ABILITY_TOXIC_CHAIN] = _("Toxic Chain"),
+    [ABILITY_SUPERSWEET_SYRUP] = _("SuprswtSyrup"),
 };
 #endif
 
@@ -1258,4 +1283,12 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_GRAVITY_WELL] = sGravWellDescription,
     [ABILITY_SCAVENGER] = sScavengerDescription,
     [ABILITY_PARTICLE_CANNON] = sParticleCannonDescription,
+    [ABILITY_HOSPITALITY] = sHospitalityDescription,
+    [ABILITY_MINDS_EYE] = sMindsEyeDescription,
+    [ABILITY_EMBODY_ASPECT_TEAL] = sEmbodyAspectTealDescription,
+    [ABILITY_EMBODY_ASPECT_HEARTHFLAME] = sEmbodyAspectHearthflameDescription,
+    [ABILITY_EMBODY_ASPECT_WELLSPRING] = sEmbodyAspectWellspringDescription,
+    [ABILITY_EMBODY_ASPECT_CORNERSTONE] = sEmbodyAspectCornerstoneDescription,
+    [ABILITY_TOXIC_CHAIN] = sToxicChainDescription,
+    [ABILITY_SUPERSWEET_SYRUP] = sSupersweetSyrupDescription,
 };
