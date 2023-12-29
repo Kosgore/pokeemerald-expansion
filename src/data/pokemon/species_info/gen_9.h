@@ -616,18 +616,18 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         ICON(Tarountula, 1),
         //.footprint = gMonFootprint_Tarountula,
         LEARNSETS(Tarountula),
-        .evolutions = EVOLUTION({EVO_LEVEL, 15, SPECIES_SPIDOPS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_SPIDOPS}),
     },
 
     [SPECIES_SPIDOPS] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 79,
-        .baseDefense   = 92,
+        .baseHP        = 65,
+        .baseAttack    = 100,
+        .baseDefense   = 95,
         .baseSpeed     = 35,
-        .baseSpAttack  = 52,
-        .baseSpDefense = 86,
-        .types = { TYPE_BUG, TYPE_BUG },
+        .baseSpAttack  = 50,
+        .baseSpDefense = 85,
+        .types = { TYPE_BUG, TYPE_DARK },
         .catchRate = 120,
         .expYield = 141,
         .evYield_Defense = 2,
@@ -636,7 +636,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_ERRATIC,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_STAKEOUT },
+        .abilities = { ABILITY_ARENA_TRAP, ABILITY_NONE, ABILITY_STAKEOUT },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Spidops"),
         .cryId = CRY_SPIDOPS,
@@ -2288,10 +2288,10 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
     [SPECIES_CAPSAKID] =
     {
         .baseHP        = 50,
-        .baseAttack    = 62,
+        .baseAttack    = 60,
         .baseDefense   = 40,
         .baseSpeed     = 50,
-        .baseSpAttack  = 62,
+        .baseSpAttack  = 60,
         .baseSpDefense = 40,
         .types = { TYPE_GRASS, TYPE_GRASS },
         .catchRate = 190,
@@ -2302,7 +2302,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS },
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA, ABILITY_KLUTZ },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_DRY_SKIN, ABILITY_KLUTZ },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Capsakid"),
         .cryId = CRY_CAPSAKID,
@@ -2336,12 +2336,12 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
     [SPECIES_SCOVILLAIN] =
     {
         .baseHP        = 65,
-        .baseAttack    = 108,
+        .baseAttack    = 115,
         .baseDefense   = 65,
         .baseSpeed     = 75,
-        .baseSpAttack  = 108,
+        .baseSpAttack  = 115,
         .baseSpDefense = 65,
-        .types = { TYPE_GRASS, TYPE_FIRE },
+        .types = { TYPE_FIRE, TYPE_GRASS },
         .catchRate = 75,
         .expYield = 170,
         .evYield_Attack = 2,
@@ -2350,7 +2350,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS },
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA, ABILITY_MOODY },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_DRY_SKIN, ABILITY_MOODY },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Scovillain"),
         .cryId = CRY_SCOVILLAIN,
@@ -5142,7 +5142,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             "ceremony master who died before\n"
             "perfecting his craft lingered in some\n"
             "matcha and became a Pokémon."),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_UNREMARKABLE_TEACUP, SPECIES_SINISTCHA_UNREMARKABLE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_CHIPPED_POT, SPECIES_SINISTCHA_UNREMARKABLE}),
     },
     [SPECIES_POLTCHAGEIST_ARTISAN] =
     {
@@ -5152,7 +5152,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             "expensive tea caddy. It takes an\n"
             "expert to distinguish the expensive\n"
             "tea caddies from the cheap ones."),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_MASTERPIECE_TEACUP, SPECIES_SINISTCHA_MASTERPIECE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_CHIPPED_POT, SPECIES_SINISTCHA_MASTERPIECE}),
     },
 
 #define SINISTCHA_MISC_INFO                                                     \

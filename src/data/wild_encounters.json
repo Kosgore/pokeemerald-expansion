@@ -1117,7 +1117,7 @@
               {
                 "min_level": 34,
                 "max_level": 36,
-                "species": "SPECIES_FERROSEED"
+                "species": "SPECIES_RHYDON"
               },
               {
                 "min_level": 34,
@@ -1127,7 +1127,7 @@
               {
                 "min_level": 34,
                 "max_level": 36,
-                "species": "SPECIES_RHYDON"
+                "species": "SPECIES_CAPSAKID"
               },
               {
                 "min_level": 34,
@@ -1841,7 +1841,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PINECO"
+                "species": "SPECIES_TAROUNTULA"
               },
               {
                 "min_level": 5,
@@ -1861,7 +1861,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_PINECO"
+                "species": "SPECIES_TAROUNTULA"
               },
               {
                 "min_level": 6,
@@ -7638,7 +7638,7 @@
               {
                 "min_level": 29,
                 "max_level": 30,
-                "species": "SPECIES_MINIOR"
+                "species": "SPECIES_MINIOR_METEOR_INDIGO"
               },
               {
                 "min_level": 30,
@@ -7648,7 +7648,7 @@
               {
                 "min_level": 30,
                 "max_level": 31,
-                "species": "SPECIES_MINIOR"
+                "species": "SPECIES_MINIOR_METEOR_VIOLET"
               }
             ]
           },
@@ -7688,12 +7688,12 @@
               {
                 "min_level": 29,
                 "max_level": 31,
-                "species": "SPECIES_WISHIWASHI"
+                "species": "SPECIES_WISHIWASHI_SOLO"
               },
               {
                 "min_level": 29,
                 "max_level": 31,
-                "species": "SPECIES_MINIOR"
+                "species": "SPECIES_MINIOR_METEOR_BLUE"
               },
               {
                 "min_level": 10,
@@ -8684,7 +8684,7 @@
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_SINISTEA"
+                "species": "SPECIES_SINISTEA_PHONY"
               },
               {
                 "min_level": 21,
@@ -11878,7 +11878,7 @@
               {
                 "min_level": 34,
                 "max_level": 36,
-                "species": "SPECIES_FERROSEED"
+                "species": "SPECIES_POLTCHAGEIST_COUNTERFEIT"
               },
               {
                 "min_level": 34,
@@ -11888,7 +11888,7 @@
               {
                 "min_level": 35,
                 "max_level": 37,
-                "species": "SPECIES_FERROSEED"
+                "species": "SPECIES_POLTCHAGEIST_ARTISAN"
               },
               {
                 "min_level": 34,
