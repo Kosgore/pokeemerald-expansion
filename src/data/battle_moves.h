@@ -13,6 +13,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .split = SPLIT_PHYSICAL,
         .metronomeBanned = TRUE,
         .mirrorMoveBanned = TRUE,
+        .sketchBanned = TRUE,
     },
 
     [MOVE_POUND] =
@@ -2972,6 +2973,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = TRUE,
     },
 
     [MOVE_SKETCH] =
@@ -2996,6 +2998,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = TRUE,
     },
 
     [MOVE_TRIPLE_KICK] =
@@ -3198,6 +3201,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .split = SPLIT_SPECIAL,
         .zMoveEffect = Z_EFFECT_NONE,
         .highCritRatio = TRUE,
+        .windMove = TRUE,
     },
 
     [MOVE_COTTON_SPORE] =
@@ -5313,7 +5317,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
     [MOVE_LUSTER_PURGE] =
     {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
-        .power = 70,
+        .power = (B_UPDATED_MOVE_DATA >= GEN_9) ? 95 : 70,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
         .pp = 5,
@@ -5328,7 +5332,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
     [MOVE_MIST_BALL] =
     {
         .effect = EFFECT_SPECIAL_ATTACK_DOWN_HIT,
-        .power = 80,
+        .power = 85,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
         .pp = 5,
@@ -8220,6 +8224,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .split = SPLIT_STATUS,
         .zMoveEffect = Z_EFFECT_RESET_STATS,
         .magicCoatAffected = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_SEED_FLARE] =
@@ -10882,6 +10887,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .ignoresProtect = TRUE,
         .ignoresSubstitute = TRUE,
         .metronomeBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_SHORE_UP] =
@@ -11764,7 +11770,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .accuracy = 100,
         .pp = 5,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_FOES_AND_ALLY,
+        .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .split = SPLIT_SPECIAL,
         .zMoveEffect = Z_EFFECT_NONE,
@@ -13801,6 +13807,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
         .metronomeBanned = TRUE,
+        .healBlockBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_SALT_CURE] =
@@ -14223,7 +14231,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .zMoveEffect = Z_EFFECT_NONE,
         .makesContact = TRUE,
         .slicingMove = TRUE,
-        .healBlockBanned = B_EXTRAPOLATED_MOVE_FLAGS,
+        .healBlockBanned = TRUE,
     },
 
     [MOVE_DOUBLE_SHOCK] =
@@ -14312,6 +14320,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_WICKED_TORQUE] =
@@ -14336,6 +14345,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_NOXIOUS_TORQUE] =
@@ -14360,6 +14370,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_COMBAT_TORQUE] =
@@ -14384,6 +14395,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_MAGICAL_TORQUE] =
@@ -14408,6 +14420,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .instructBanned = TRUE,
         .encoreBanned = TRUE,
         .assistBanned = TRUE,
+        .sketchBanned = (B_SKETCH_BANS >= GEN_9),
     },
 
     [MOVE_PSYBLADE] =
@@ -14470,7 +14483,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .zMoveEffect = Z_EFFECT_NONE,
         .thawsUser = TRUE,
         .metronomeBanned = TRUE,
-        .healBlockBanned = B_EXTRAPOLATED_MOVE_FLAGS,
+        .healBlockBanned = TRUE,
     },
 
     [MOVE_SYRUP_BOMB] =
@@ -14506,96 +14519,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_DYNAMAX] =
         .metronomeBanned = TRUE,
     },
 
-    [MOVE_FLASH_FREEZE] =
-    {
-        .effect = EFFECT_FLASH_FREEZE,
-        .power = 0,
-        .type = TYPE_ICE,
-        .accuracy = 85,
-        .pp = 15,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .split = SPLIT_STATUS,
-        .zMoveEffect = Z_EFFECT_SPATK_UP_1,
-    },
-
-    [MOVE_KHAMASIN] =
-    {
-        .effect = EFFECT_BURN_HIT,
-        .power = 110,
-        .type = TYPE_GROUND,
-        .accuracy = 70,
-        .pp = 5,
-        .secondaryEffectChance = 10,
-        .target = MOVE_TARGET_BOTH,
-        .priority = 0,
-        .split = SPLIT_SPECIAL,
-        .zMoveEffect = Z_EFFECT_NONE,
-        .ignoreTypeIfFlyingAndUngrounded = TRUE,
-    },
-
-    [MOVE_DEATH_ROLL] =
-    {
-        .effect = EFFECT_RECOIL_33,
-        .power = 120,
-        .type = TYPE_DARK,
-        .accuracy = 100,
-        .pp = 15,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .split = SPLIT_PHYSICAL,
-        .zMoveEffect = Z_EFFECT_NONE,
-        .bitingMove = TRUE,
-    },
-
-    [MOVE_GLITTER_FANG] =
-    {
-        .effect = EFFECT_FLINCH_STATUS,
-        .power = 65,
-        .type = TYPE_FAIRY,
-        .accuracy = 95,
-        .pp = 15,
-        .secondaryEffectChance = 10,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .split = SPLIT_PHYSICAL,
-        .argument = STATUS2_CONFUSION,
-        .zMoveEffect = Z_EFFECT_NONE,
-        .bitingMove = TRUE,
-        .sheerForceBoost = TRUE,
-    },
-
-    [MOVE_SHRIEK] =
-    {
-        .effect = EFFECT_HIT,
-        .power = 90,
-        .type = TYPE_GHOST,
-        .accuracy = 100,
-        .pp = 10,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_BOTH,
-        .priority = 0,
-        .split = SPLIT_SPECIAL,
-        .zMoveEffect = Z_EFFECT_NONE,
-        .soundMove = TRUE,
-    },
-
-    [MOVE_MOONSAULT_SLAM] =
-    {
-        .effect = EFFECT_RECOIL_33,
-        .power = 120,
-        .type = TYPE_FIGHTING,
-        .accuracy = 100,
-        .pp = 15,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .split = SPLIT_PHYSICAL,
-        .zMoveEffect = Z_EFFECT_NONE,
-    },
-    
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {
