@@ -60,9 +60,6 @@ MauvilleCity_BattleMart::
     .2byte ITEM_CLEAR_AMULET
     .2byte ITEM_COVERT_CLOAK
     .2byte ITEM_QUICK_CLAW
-    .2byte ITEM_KINGS_ROCK
-    .2byte ITEM_METAL_COAT
-    .2byte ITEM_RAZOR_CLAW
     .2byte ITEM_HEART_SCALE
     .2byte ITEM_ABILITY_CAPSULE
     .2byte ITEM_ABILITY_PATCH 
@@ -169,3 +166,4 @@ MauvilleCity_BattleMart_TMDealer_Text_0:
 
 MauvilleCity_BattleMart_TMDealer_Text_1:
 	.string "Seeya!$"
+

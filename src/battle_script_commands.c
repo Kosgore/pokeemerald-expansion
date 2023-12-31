@@ -3467,6 +3467,13 @@ void SetMoveEffect(bool32 primary, u32 certain)
                     gBattlescriptCurrInstr = BattleScript_SAtkDown2;
                 }
                 break;
+            case MOVE_EFFECT_ATK_TWO_DOWN:
+                if (!NoAliveMonsForEitherParty())
+                {
+                    BattleScriptPush(gBattlescriptCurrInstr + 1);
+                    gBattlescriptCurrInstr = BattleScript_AtkDown2;
+                }
+                break;
             case MOVE_EFFECT_CLEAR_SMOG:
                 for (i = 0; i < NUM_BATTLE_STATS; i++)
                 {
@@ -9254,6 +9261,17 @@ static void Cmd_various(void)
         {
             SET_STATCHANGER(STAT_ATK, (B_FELL_STINGER_STAT_RAISE >= GEN_7 ? 3 : 2), FALSE);
             PREPARE_STAT_BUFFER(gBattleTextBuff1, STAT_ATK);
+            BattleScriptPush(cmd->nextInstr);
+            gBattlescriptCurrInstr = BattleScript_FellStingerRaisesStat;
+            return;
+        }
+        if (gBattleMoves[gCurrentMove].effect == EFFECT_SOULBIND
+            && HasAttackerFaintedTarget()
+            && !NoAliveMonsForEitherParty()
+            && CompareStat(gBattlerAttacker, STAT_SPATK, MAX_STAT_STAGE, CMP_LESS_THAN))
+        {
+            SET_STATCHANGER(STAT_SPATK, (B_SOULBIND_STAT_RAISE >= GEN_7 ? 3 : 2), FALSE);
+            PREPARE_STAT_BUFFER(gBattleTextBuff1, STAT_SPATK);
             BattleScriptPush(cmd->nextInstr);
             gBattlescriptCurrInstr = BattleScript_FellStingerRaisesStat;
             return;

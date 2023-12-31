@@ -139,3 +139,4 @@ MauvilleCity_House1_Text_ComeBackWithHeartScale:
 MauvilleCity_House1_Text_CantTeachEgg:
 	.string "Hunh? There isn't a single move that\n"
 	.string "an EGG could even remember.$"
+

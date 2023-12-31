@@ -124,6 +124,11 @@ bool8 RunScriptCommand(struct ScriptContext *ctx)
     return TRUE;
 }
 
+void GetObjectEventTrainerRangeFromTemplate(void)
+{
+    gSpecialVar_Result = gMapHeader.events->objectEvents[gSpecialVar_LastTalked - 1].trainerRange_berryTreeId;
+}
+
 static bool8 ScriptPush(struct ScriptContext *ctx, const u8 *ptr)
 {
     if (ctx->stackDepth + 1 >= (int)ARRAY_COUNT(ctx->stack))

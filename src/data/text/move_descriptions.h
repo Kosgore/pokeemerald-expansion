@@ -3284,6 +3284,38 @@ static const u8 sIvyCudgelDescription[] = _(
     "Type changes with held mask.\n"
     "High critical-hit ratio.");
 
+static const u8 sMoonsaultSlamDescription[] = _(
+    "A reckless slam that puts\n"
+    "the users life at risk.");
+
+static const u8 sShriekDescription[] = _(
+    "A ghostly wail that uses\n"
+    "sound waves to injure.");
+
+static const u8 sGlitterFangDescription[] = _(
+    "A sharp-fanged attack.\n"
+    "May confuse the foe.");
+
+static const u8 sFlashFreezeDescription[] = _(
+    "A sinister gust of cold air\n"
+    "freezes the target.");
+
+static const u8 sDeathRollDescription[] = _(
+    "A deadly grappling attack\n"
+    "that damages the user.");
+
+static const u8 sKhamasinDescription[] = _(
+    "Hits both foes with stinging,\n"
+    "hot sand that may burn.");
+
+static const u8 sChompDescription[] = _(
+    "Chomps at foes with teeth.\n"
+    "May cause flinching.");
+
+static const u8 sSoulbindDescription[] = _(
+    "If it knocks out a foe\n"
+    "the SpAtk stat is raised.");
+
 static const u8 sElectroShotDescription[] = _(
     "Absorbs electricity in one turn,\n"
     "then attacks next turn.");
@@ -3331,6 +3363,10 @@ static const u8 sUpperHandDescription[] = _(
 static const u8 sMalignantChainDescription[] = _(
     "A corrosive chain attack\n"
     "that may badly poison.");
+
+static const u8 sVirulentGasDescription[] = _(
+    "Fills the area with toxic\n"
+    "vapors that may poison.");
 
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
@@ -4175,6 +4211,13 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_MATCHA_GOTCHA - 1] = sMatchaGotchaDescription,
     [MOVE_SYRUP_BOMB - 1] = sSyrupBombDescription,
     [MOVE_IVY_CUDGEL - 1] = sIvyCudgelDescription,
+    [MOVE_MOONSAULT_SLAM - 1] = sMoonsaultSlamDescription,
+    [MOVE_SHRIEK - 1] = sShriekDescription,
+    [MOVE_GLITTER_FANG - 1] = sGlitterFangDescription,
+    [MOVE_FLASH_FREEZE - 1] = sFlashFreezeDescription,
+    [MOVE_DEATH_ROLL - 1] = sDeathRollDescription,
+    [MOVE_KHAMASIN - 1] = sKhamasinDescription,
+    [MOVE_CHOMP - 1] = sChompDescription,
     [MOVE_ELECTRO_SHOT - 1] = sElectroShotDescription,
     [MOVE_TERA_STARSTORM - 1] = sTeraStarstormDescription,
     [MOVE_FICKLE_BEAM - 1] = sFickleBeamDescription,
@@ -4190,4 +4233,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_PSYCHIC_NOISE - 1] = sPsychicNoiseDescription,
     [MOVE_UPPER_HAND - 1] = sUpperHandDescription,
     [MOVE_MALIGNANT_CHAIN - 1] = sMalignantChainDescription,
+    [MOVE_SOULBIND - 1] = sSoulbindDescription,
+    [MOVE_VIRULENT_GAS - 1] = sVirulentGasDescription,
 };

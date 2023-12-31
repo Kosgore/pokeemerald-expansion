@@ -4742,9 +4742,12 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
             }
             break;
         case ABILITY_VIGILANT:
-            if (!gSpecialStatuses[battler].switchInAbilityDone && CompareStat(battler, STAT_SPEED, MAX_STAT_STAGE, CMP_LESS_THAN))
+            if (!gSpecialStatuses[battler].switchInAbilityDone && CompareStat(battler, STAT_SPEED, MAX_STAT_STAGE, CMP_LESS_THAN)
+                 && !(gBattleStruct->intrepidSwordBoost[GetBattlerSide(battler)] & gBitTable[gBattlerPartyIndexes[battler]]))
             {
                 gBattlerAttacker = battler;
+                if (B_VIGILANT == GEN_9)
+                    gBattleStruct->intrepidSwordBoost[GetBattlerSide(battler)] |= gBitTable[gBattlerPartyIndexes[battler]];
                 gSpecialStatuses[battler].switchInAbilityDone = TRUE;
                 SET_STATCHANGER(STAT_SPEED, 1, FALSE);
                 BattleScriptPushCursorAndCallback(BattleScript_BattlerAbilityStatRaiseOnSwitchIn);
@@ -8401,7 +8404,7 @@ bool32 IsBattlerProtected(u32 battler, u32 move)
     // Protective Pads doesn't stop Unseen Fist from bypassing Protect effects, so IsMoveMakingContact() isn't used here.
     // This means extra logic is needed to handle Shell Side Arm.
     else if (GetBattlerAbility(gBattlerAttacker) == ABILITY_UNSEEN_FIST
-        && (gBattleMoves[move].makesContact || (gBattleMoves[move].effect == EFFECT_SHELL_SIDE_ARM && gBattleStruct->swapDamageCategory))
+        && (gBattleMoves[move].punchingMove || (gBattleMoves[move].effect == EFFECT_SHELL_SIDE_ARM && gBattleStruct->swapDamageCategory))
         && !gProtectStructs[battler].maxGuarded) // Max Guard cannot be bypassed by Unseen Fist
         return FALSE;
     else if (gBattleMoves[move].ignoresProtect)
@@ -9035,11 +9038,11 @@ static inline u32 CalcMoveBasePowerAfterModifiers(u32 move, u32 battlerAtk, u32 
         break;
     case ABILITY_IRON_FIST:
         if (gBattleMoves[move].punchingMove)
-           modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
         break;
     case ABILITY_IRON_HEEL:
         if (gBattleMoves[move].kickingMove)
-           modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
         break;
     case ABILITY_BALLISTIC:
         if (gBattleMoves[move].ballisticMove)
@@ -9411,19 +9414,19 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_SWARM:
-        if (moveType == TYPE_BUG && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+        if (moveType == TYPE_BUG && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 2))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_TORRENT:
-        if (moveType == TYPE_WATER && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+        if (moveType == TYPE_WATER && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 2))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_BLAZE:
-        if (moveType == TYPE_FIRE && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+        if (moveType == TYPE_FIRE && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 2))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_OVERGROW:
-        if (moveType == TYPE_GRASS && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+        if (moveType == TYPE_GRASS && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 2))
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_PLUS:
@@ -9489,6 +9492,7 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
                 RecordAbilityBattle(battlerDef, ABILITY_IMMUNITY);
         }
         break;
+        /*
     case ABILITY_MAGMA_ARMOR:
         if (moveType == TYPE_ICE)
         {
@@ -9497,6 +9501,7 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
                 RecordAbilityBattle(battlerDef, ABILITY_MAGMA_ARMOR);
         }
         break;
+        */
     case ABILITY_JUSTIFIED:
         if (moveType == TYPE_DARK)
         {
@@ -9657,9 +9662,9 @@ static inline u32 CalcDefenseStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 
         }
         break;
     case ABILITY_GRASS_PELT:
-        if (gFieldStatuses & STATUS_FIELD_GRASSY_TERRAIN && usesDefStat)
+        if (gFieldStatuses & STATUS_FIELD_GRASSY_TERRAIN)
         {
-            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(2.0));
             if (updateFlags)
                 RecordAbilityBattle(battlerDef, ABILITY_GRASS_PELT);
         }

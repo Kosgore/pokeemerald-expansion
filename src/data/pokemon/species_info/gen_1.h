@@ -2253,7 +2253,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         PALETTES(Sandshrew),
         ICON(Sandshrew, 2),
         LEARNSETS(Sandshrew),
-        .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_SANDSLASH}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SANDSLASH}),
     },
 
     [SPECIES_SANDSLASH] =
@@ -2266,7 +2266,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpAttack  = 45,
         .baseSpDefense = 55,
         .types = { TYPE_GROUND, TYPE_GROUND },
-        .abilities = { ABILITY_SAND_VEIL, ABILITY_NONE, ABILITY_SAND_RUSH },
+        .abilities = { ABILITY_SHARPNESS, ABILITY_NONE, ABILITY_SAND_RUSH },
         .bodyColor = BODY_COLOR_YELLOW,
         .height = 10,
         .weight = 295,
@@ -5749,7 +5749,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 90,                            
         .baseSpAttack  = 65,                            
         .baseSpDefense = 65,
-        .abilities = { ABILITY_RUN_AWAY, ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY },   
+        .abilities = { ABILITY_RUN_AWAY, ABILITY_FLASH_FIRE, ABILITY_BLAZE },   
         .categoryName = _("Fire Horse"),
         .height = 10,
         .weight = 300,
@@ -5786,7 +5786,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 120,                               
         .baseSpAttack  = 85,                                
         .baseSpDefense = 80,
-        .abilities = { ABILITY_SPEED_BOOST, ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY },  
+        .abilities = { ABILITY_SPEED_BOOST, ABILITY_FLASH_FIRE, ABILITY_BLAZE },  
         .categoryName = _("Fire Horse"),
         .weight = 950,
         .description = COMPOUND_STRING(
@@ -8057,12 +8057,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_HITMONLEE] =
     {
-        .baseHP        = 50,
+        .baseHP        = 110,
         .baseAttack    = 120,
         .baseDefense   = 50,
         .baseSpeed     = 90,
         .baseSpAttack  = 35,
-        .baseSpDefense = 110,
+        .baseSpDefense = 5,
         .types = { TYPE_FIGHTING, TYPE_FIGHTING },
         .catchRate = 45,
         .expYield = 159,
@@ -8800,7 +8800,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Tangela, 0),
         .footprint = gMonFootprint_Tangela,
         LEARNSETS(Tangela),
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_TANGROWTH}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_TANGROWTH}),
     },
 
 #if P_GEN_4_CROSS_EVOS
@@ -9317,7 +9317,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 145,
         .expYield = 62,
         .evYield_SpDefense = 1,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = MON_MALE,
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
@@ -9358,7 +9358,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #define MR_MIME_MISC_INFO                                           \
         .catchRate = 45,                                            \
         .expYield = 161,                                            \
-        .genderRatio = PERCENT_FEMALE(50),                          \
+        .genderRatio = MON_MALE,                                    \
         .eggCycles = 25,                                            \
         .friendship = STANDARD_FRIENDSHIP,                          \
         .growthRate = GROWTH_MEDIUM_FAST,                           \
@@ -9462,7 +9462,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = 182,
         .evYield_SpAttack = 3,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = MON_MALE,
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
@@ -10199,12 +10199,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
 #if P_FAMILY_TAUROS
 #define TAUROS_MISC_INFO                                    \
-        .baseHP        = 75,                                \
-        .baseAttack    = 100,                               \
-        .baseDefense   = 95,                                \
-        .baseSpeed     = 110,                               \
-        .baseSpAttack  = 40,                                \
-        .baseSpDefense = 70,                                \
         .catchRate = 45,                                    \
         .expYield = 172,                                    \
         .genderRatio = MON_MALE,                            \
@@ -10227,10 +10221,16 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_TAUROS] =
     {
         TAUROS_MISC_INFO,
+        .baseHP        = 75,                                
+        .baseAttack    = 110,                               
+        .baseDefense   = 95,                                
+        .baseSpeed     = 110,                               
+        .baseSpAttack  = 40,                                
+        .baseSpDefense = 70, 
         .types = { TYPE_NORMAL, TYPE_NORMAL },
         .evYield_Attack = 1,
         .evYield_Speed = 1,
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_ANGER_POINT, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_STAMINA, ABILITY_CUD_CHEW, ABILITY_SHEER_FORCE },
         .bodyColor = BODY_COLOR_BROWN,
         .weight = 884,
         .description = COMPOUND_STRING(
@@ -10255,9 +10255,15 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_TAUROS_PALDEAN_COMBAT_BREED] =
     {
         TAUROS_MISC_INFO,
+        .baseHP        = 80,                                
+        .baseAttack    = 120,                               
+        .baseDefense   = 100,                                
+        .baseSpeed     = 90,                               
+        .baseSpAttack  = 40,                                
+        .baseSpDefense = 70, 
         .types = { TYPE_FIGHTING, TYPE_FIGHTING },
         .evYield_Attack = 2,
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_ANGER_POINT, ABILITY_CUD_CHEW },
+        .abilities = { ABILITY_ANGER_POINT, ABILITY_CUD_CHEW, ABILITY_RECKLESS },
         .bodyColor = BODY_COLOR_BROWN,
         .weight = 1150,
         .description = COMPOUND_STRING(
@@ -10281,9 +10287,15 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_TAUROS_PALDEAN_BLAZE_BREED] =
     {
         TAUROS_MISC_INFO,
+        .baseHP        = 80,                                
+        .baseAttack    = 120,                               
+        .baseDefense   = 100,                                
+        .baseSpeed     = 90,                               
+        .baseSpAttack  = 40,                                
+        .baseSpDefense = 70, 
         .types = { TYPE_FIGHTING, TYPE_FIRE },
         .evYield_Attack = 2,
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_ANGER_POINT, ABILITY_CUD_CHEW },
+        .abilities = { ABILITY_BLAZE, ABILITY_CUD_CHEW, ABILITY_RECKLESS },
         .bodyColor = BODY_COLOR_BROWN,
         .weight = 850,
         .description = COMPOUND_STRING(
@@ -10307,9 +10319,15 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_TAUROS_PALDEAN_AQUA_BREED] =
     {
         TAUROS_MISC_INFO,
+        .baseHP        = 80,                                
+        .baseAttack    = 120,                               
+        .baseDefense   = 100,                                
+        .baseSpeed     = 90,                               
+        .baseSpAttack  = 40,                                
+        .baseSpDefense = 70,  
         .types = { TYPE_FIGHTING, TYPE_WATER },
         .evYield_Attack = 2,
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_ANGER_POINT, ABILITY_CUD_CHEW },
+        .abilities = { ABILITY_TORRENT, ABILITY_CUD_CHEW, ABILITY_RECKLESS },
         .bodyColor = BODY_COLOR_BROWN,
         .weight = 1100,
         .description = COMPOUND_STRING(

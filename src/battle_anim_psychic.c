@@ -24,6 +24,7 @@ static void AnimSkillSwapOrb(struct Sprite *);
 static void AnimTask_MeditateStretchAttacker_Step(u8);
 static void AnimTask_Teleport_Step(u8);
 static void AnimTask_ImprisonOrbs_Step(u8);
+static void AnimTask_ChainLinks_Step(u8);
 static void AnimTask_SkillSwap_Step(u8);
 static void AnimTask_ExtrasensoryDistortion_Step(u8);
 static void AnimTask_TransparentCloneGrowAndShrink_Step(u8);
@@ -884,6 +885,97 @@ void AnimTask_ImprisonOrbs(u8 taskId)
 }
 
 static void AnimTask_ImprisonOrbs_Step(u8 taskId)
+{
+    u16 i;
+    u8 spriteId;
+    struct Task *task = &gTasks[taskId];
+
+    switch (task->data[0])
+    {
+    case 0:
+        if (++task->data[1] > 8)
+        {
+            task->data[1] = 0;
+            spriteId = CreateSprite(&gImprisonOrbSpriteTemplate, task->data[13], task->data[14], 0);
+            task->data[task->data[2] + 8] = spriteId;
+            if (spriteId != MAX_SPRITES)
+            {
+                switch (task->data[2])
+                {
+                case 0:
+                    gSprites[spriteId].x2 = task->data[12];
+                    gSprites[spriteId].y2 = -task->data[12];
+                    break;
+                case 1:
+                    gSprites[spriteId].x2 = -task->data[12];
+                    gSprites[spriteId].y2 = task->data[12];
+                    break;
+                case 2:
+                    gSprites[spriteId].x2 = task->data[12];
+                    gSprites[spriteId].y2 = task->data[12];
+                    break;
+                case 3:
+                    gSprites[spriteId].x2 = -task->data[12];
+                    gSprites[spriteId].y2 = -task->data[12];
+                    break;
+                }
+            }
+
+            if (++task->data[2] == 5)
+                task->data[0]++;
+        }
+        break;
+    case 1:
+        if (task->data[1] & 1)
+            task->data[3]--;
+        else
+            task->data[4]++;
+
+        SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(task->data[3], task->data[4]));
+        if (++task->data[1] == 32)
+        {
+            for (i = 8; i < 13; i++)
+            {
+                if (task->data[i] != MAX_SPRITES)
+                    DestroySprite(&gSprites[task->data[i]]);
+            }
+
+            task->data[0]++;
+        }
+        break;
+    case 2:
+        task->data[0]++;
+        break;
+    case 3:
+        SetGpuReg(REG_OFFSET_BLDALPHA, 0);
+        SetGpuReg(REG_OFFSET_BLDCNT, 0);
+        DestroyAnimVisualTask(taskId);
+        break;
+    }
+}
+
+void AnimTask_ChainLinks(u8 taskId)
+{
+    u16 var0, var1;
+
+    struct Task *task = &gTasks[taskId];
+
+    task->data[3] = 16;
+    task->data[4] = 0;
+    task->data[13] = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_X_2);
+    task->data[14] = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_Y_PIC_OFFSET);
+
+    var0 = GetBattlerSpriteCoordAttr(gBattleAnimTarget, BATTLER_COORD_ATTR_WIDTH) / 3;
+    var1 = GetBattlerSpriteCoordAttr(gBattleAnimTarget, BATTLER_COORD_ATTR_HEIGHT) / 3;
+    task->data[12] = var0 > var1 ? var0 : var1;
+
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT2_ALL | BLDCNT_EFFECT_BLEND);
+    SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(16, 0));
+
+    task->func = AnimTask_ChainLinks_Step;
+}
+
+static void AnimTask_ChainLinks_Step(u8 taskId)
 {
     u16 i;
     u8 spriteId;

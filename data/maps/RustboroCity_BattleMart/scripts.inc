@@ -36,3 +36,4 @@ RustboroCity_BattleMart_Employee_Text_0:
 
 RustboroCity_BattleMart_Employee_Text_1:
 	.string "Come back when you're a little mmmm richer.$"
+

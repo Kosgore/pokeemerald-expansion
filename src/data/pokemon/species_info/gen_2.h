@@ -2069,7 +2069,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         ICON(Yanma, 1),
         .footprint = gMonFootprint_Yanma,
         LEARNSETS(Yanma),
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_YANMEGA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_YANMEGA}),
     },
 
 #if P_GEN_4_CROSS_EVOS

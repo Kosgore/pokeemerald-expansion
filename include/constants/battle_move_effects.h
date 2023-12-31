@@ -421,7 +421,8 @@
 #define EFFECT_RAGING_BULL                  415
 #define EFFECT_RAGE_FIST                    416
 #define EFFECT_FLASH_FREEZE                 411
+#define EFFECT_SOULBIND                     412
 
-#define NUM_BATTLE_MOVE_EFFECTS             412
+#define NUM_BATTLE_MOVE_EFFECTS             413
 
 #endif  // GUARD_CONSTANTS_BATTLE_MOVE_EFFECTS_H

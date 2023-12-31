@@ -21,7 +21,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_DRAGON },
-        .abilities = { ABILITY_STEADFAST, ABILITY_NONE, ABILITY_DRY_SKIN },
+        .abilities = { ABILITY_STEADFAST, ABILITY_NONE, ABILITY_LIMBER },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Treecko"),
         .cryId = CRY_TREECKO,
@@ -69,7 +69,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_DRAGON },
-        .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_DRY_SKIN },
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_LIMBER },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Grovyle"),
         .cryId = CRY_GROVYLE,
@@ -128,7 +128,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpDefense = 85,
         .types = { TYPE_GRASS, TYPE_GRASS },
         .expYield = 239,
-        .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_ROUGH_SKIN },
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
         .cryId = CRY_SCEPTILE,
         .height = 17,
         .weight = 522,
@@ -164,7 +164,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpDefense = 85,
         .types = { TYPE_GRASS, TYPE_DRAGON },
         .expYield = 284,
-        .abilities = { ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD },
+        .abilities = { ABILITY_BERSERK, ABILITY_BERSERK, ABILITY_BERSERK },
         .cryId = CRY_SCEPTILE_MEGA,
         .height = 19,
         .weight = 552,
@@ -1452,7 +1452,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING },
-        .abilities = { ABILITY_GUTS, ABILITY_DEFIANT, ABILITY_SCRAPPY },
+        .abilities = { ABILITY_GUTS, ABILITY_SCRAPPY, ABILITY_DEFIANT },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Taillow"),
         .cryId = CRY_TAILLOW,
@@ -1480,7 +1480,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Taillow, 2),
         .footprint = gMonFootprint_Taillow,
         LEARNSETS(Taillow),
-        .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_SWELLOW}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 27, SPECIES_SWELLOW}),
     },
 
     [SPECIES_SWELLOW] =
@@ -1489,7 +1489,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseAttack    = 85,
         .baseDefense   = 60,
         .baseSpeed     = 125,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_7 ? 75 : 50,
+        .baseSpAttack  = 75,
         .baseSpDefense = 50,
         .types = { TYPE_NORMAL, TYPE_FLYING },
         .catchRate = 45,
@@ -1500,7 +1500,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING },
-        .abilities = { ABILITY_GUTS, ABILITY_DEFIANT, ABILITY_SCRAPPY },
+        .abilities = { ABILITY_GUTS, ABILITY_SCRAPPY, ABILITY_DEFIANT },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Swellow"),
         .cryId = CRY_SWELLOW,
@@ -1649,11 +1649,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 40,
         .baseSpAttack  = 45,
         .baseSpDefense = 35,
-        .types = { TYPE_PSYCHIC, RALTS_FAMILY_TYPE2 },
+        .types = { TYPE_PSYCHIC, TYPE_FAIRY },
         .catchRate = 235,
         .expYield = 40,
         .evYield_SpAttack = 1,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
@@ -1697,11 +1697,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 50,
         .baseSpAttack  = 65,
         .baseSpDefense = 55,
-        .types = { TYPE_PSYCHIC, RALTS_FAMILY_TYPE2 },
+        .types = { TYPE_PSYCHIC, TYPE_FAIRY },
         .catchRate = 120,
         .expYield = 97,
         .evYield_SpAttack = 2,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
@@ -1735,7 +1735,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .footprint = gMonFootprint_Kirlia,
         LEARNSETS(Kirlia),
         .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 32, SPECIES_GARDEVOIR},
-                                {EVO_LEVEL_FEMALE, 32, SPECIES_GALLADE}),
+                                {EVO_LEVEL_MALE, 32, SPECIES_GALLADE}),
     },
 
 #define GARDEVOIR_MISC_INFO                                 \
@@ -1746,7 +1746,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = 35,                                   \
         .growthRate = GROWTH_SLOW,                          \
         .eggGroups = RALTS_FAMILY_EGG_GROUPS,               \
-        .types = { TYPE_PSYCHIC, RALTS_FAMILY_TYPE2 },      \
+        .types = { TYPE_PSYCHIC, TYPE_FAIRY },              \
         .bodyColor = BODY_COLOR_WHITE,                      \
         .speciesName = _("Gardevoir"),                      \
         .natDexNum = NATIONAL_DEX_GARDEVOIR,                \

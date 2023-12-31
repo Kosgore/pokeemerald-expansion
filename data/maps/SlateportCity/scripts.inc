@@ -212,7 +212,6 @@ SlateportCity_EvoShop:
 	.2byte ITEM_X_DEFENSE
 	.2byte ITEM_X_SPEED
 	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_FLUFFY_TAIL
 	.2byte ITEM_NONE
 	release
 	end

@@ -1525,7 +1525,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_FLASH_FIRE, ABILITY_NONE, ABILITY_FLAME_BODY },
+        .abilities = { ABILITY_FLAME_BODY, ABILITY_NONE, ABILITY_FLASH_FIRE },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Charcadet"),
         .cryId = CRY_CHARCADET,
@@ -1574,7 +1574,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = 20,
         .growthRate = GROWTH_SLOW,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_FLASH_FIRE, ABILITY_NONE, ABILITY_WEAK_ARMOR },
+        .abilities = { ABILITY_BALLISTIC, ABILITY_NONE, ABILITY_BATTLE_ARMOR },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Armarouge"),
         .cryId = CRY_ARMAROUGE,
@@ -1609,9 +1609,9 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .baseHP        = 75,
         .baseAttack    = 125,
         .baseDefense   = 80,
-        .baseSpeed     = 85,
+        .baseSpeed     = 100,
         .baseSpAttack  = 60,
-        .baseSpDefense = 100,
+        .baseSpDefense = 85,
         .types = { TYPE_FIRE, TYPE_GHOST },
         .catchRate = 25,
         .expYield = 263,
@@ -1621,7 +1621,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = 20,
         .growthRate = GROWTH_SLOW,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_FLASH_FIRE, ABILITY_NONE, ABILITY_WEAK_ARMOR },
+        .abilities = { ABILITY_SHARPNESS, ABILITY_NONE, ABILITY_WEAK_ARMOR },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Ceruledge"),
         .cryId = CRY_CERULEDGE,
@@ -5111,7 +5111,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = { EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS },                \
         .abilities = { ABILITY_HOSPITALITY, ABILITY_NONE, ABILITY_HEATPROOF },  \
         .bodyColor = BODY_COLOR_GREEN,                                          \
-        .speciesName = _("Ptchageist"),                                         \
+        .speciesName = _("Sinistcha"),                                         \
         .cryId = CRY_POLTCHAGEIST,                                              \
         .natDexNum = NATIONAL_DEX_POLTCHAGEIST,                                 \
         .categoryName = _("Matcha"),                                            \
@@ -5142,7 +5142,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             "ceremony master who died before\n"
             "perfecting his craft lingered in some\n"
             "matcha and became a Pokémon."),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_CHIPPED_POT, SPECIES_SINISTCHA_UNREMARKABLE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_SINISTCHA_UNREMARKABLE}),
     },
     [SPECIES_POLTCHAGEIST_ARTISAN] =
     {
@@ -5152,7 +5152,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             "expensive tea caddy. It takes an\n"
             "expert to distinguish the expensive\n"
             "tea caddies from the cheap ones."),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_CHIPPED_POT, SPECIES_SINISTCHA_MASTERPIECE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_SINISTCHA_MASTERPIECE}),
     },
 
 #define SINISTCHA_MISC_INFO                                                     \
@@ -5173,7 +5173,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = { EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS },                \
         .abilities = { ABILITY_HOSPITALITY, ABILITY_NONE, ABILITY_HEATPROOF },  \
         .bodyColor = BODY_COLOR_GREEN,                                          \
-        .speciesName = _("Sinistcha"),                                          \
+        .speciesName = _("Ptchageist"),                                          \
         .cryId = CRY_SINISTCHA,                                                 \
         .natDexNum = NATIONAL_DEX_SINISTCHA,                                    \
         .categoryName = _("Matcha"),                                            \
