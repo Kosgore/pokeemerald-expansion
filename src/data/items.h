@@ -7447,16 +7447,16 @@ const struct Item gItems[] =
         .secondaryId = MOVE_DIG,
     },
 
-    [ITEM_TM_PSYCHIC] =
+    [ITEM_TM29] =
     {
-        .name = _("Psychic"),
+        .name = _("Mist Ball"),
         .price = 15000,
         .description = sTM29Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_PSYCHIC,
+        .secondaryId = MOVE_MIST_BALL,
     },
 
     [ITEM_TM_SHADOW_BALL] =

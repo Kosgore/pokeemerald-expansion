@@ -3578,6 +3578,16 @@ static const struct TrainerMon sParty_Brawly1[] = {
 
 static const struct TrainerMon sParty_Wattson1[] = {
     {
+    .iv = TRAINER_PARTY_IVS(31, 0, 31, 31, 31, 31),
+    .ev = TRAINER_PARTY_EVS(8, 0, 4, 248, 248, 0),
+    .lvl = 37,
+    .species = SPECIES_RAICHU_ALOLAN,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .ability = ABILITY_ELECTRIC_SURGE,
+    .nature = TRAINER_PARTY_NATURE(NATURE_TIMID),
+    .moves = {MOVE_THUNDERBOLT, MOVE_MIST_BALL, MOVE_GRASS_KNOT, MOVE_VOLT_SWITCH}
+    },
+    {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .ev = TRAINER_PARTY_EVS(8, 248, 0, 252, 0, 0),
     .lvl = 37,
@@ -3586,16 +3596,6 @@ static const struct TrainerMon sParty_Wattson1[] = {
     .ability = ABILITY_GUARD_DOG,
     .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
     .moves = {MOVE_THUNDER_FANG, MOVE_HEADBUTT, MOVE_GLITTER_FANG, MOVE_CRUNCH}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 0, 31, 31, 31, 31),
-    .ev = TRAINER_PARTY_EVS(8, 0, 4, 248, 248, 0),
-    .lvl = 37,
-    .species = SPECIES_ROTOM,
-    .heldItem = ITEM_CHOICE_SPECS,
-    .ability = ABILITY_ADAPTABILITY,
-    .nature = TRAINER_PARTY_NATURE(NATURE_TIMID),
-    .moves = {MOVE_THUNDERBOLT, MOVE_HEX, MOVE_SWIFT, MOVE_VOLT_SWITCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -7466,7 +7466,7 @@ static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     .lvl = 34,
     .species = SPECIES_SWAMPERT,
     .heldItem = ITEM_MYSTIC_WATER,
-    .ability = ABILITY_WATER_VEIL,
+    .ability = ABILITY_SWIFT_SWIM,
     .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
     .moves = {MOVE_LIQUIDATION, MOVE_STOMPING_TANTRUM, MOVE_ROCK_SLIDE, MOVE_AQUA_JET}
     }
@@ -11094,7 +11094,7 @@ static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     .lvl = 23,
     .species = SPECIES_MARSHTOMP,
     .heldItem = ITEM_MYSTIC_WATER,
-    .ability = ABILITY_WATER_VEIL,
+    .ability = ABILITY_SWIFT_SWIM,
     .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT),
     .moves = {MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_ROCK_SMASH, MOVE_TACKLE}
     }

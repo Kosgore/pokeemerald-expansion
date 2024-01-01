@@ -5,7 +5,7 @@ static const u8 sSpeedBoostDescription[] = _("Gradually boosts Speed.");
 static const u8 sBattleArmorDescription[] = _("Blocks critical hits.");
 static const u8 sSturdyDescription[] = _("Negates 1-hit KO attacks.");
 static const u8 sDampDescription[] = _("Prevents self-destruction.");
-static const u8 sLimberDescription[] = _("Prevents paralysis.");
+static const u8 sLimberDescription[] = _("Prevents slows.");
 static const u8 sSandVeilDescription[] = _("Ups evasion in a sandstorm.");
 static const u8 sStaticDescription[] = _("Paralyzes on contact.");
 static const u8 sVoltAbsorbDescription[] = _("Turns electricity into HP.");
@@ -15,7 +15,7 @@ static const u8 sCloudNineDescription[] = _("Negates weather effects.");
 static const u8 sCompoundEyesDescription[] = _("Raises accuracy.");
 static const u8 sInsomniaDescription[] = _("Prevents sleep.");
 static const u8 sColorChangeDescription[] = _("Changes type to foe's move.");
-static const u8 sImmunityDescription[] = _("Prevents poisoning.");
+static const u8 sImmunityDescription[] = _("Resist poison.");
 static const u8 sFlashFireDescription[] = _("Powers up if hit by fire.");
 static const u8 sShieldDustDescription[] = _("Prevents added effects.");
 static const u8 sOwnTempoDescription[] = _("Prevents confusion.");
@@ -141,7 +141,7 @@ static const u8 sMultiscaleDescription[] = _("Halves damage at full HP.");
 static const u8 sToxicBoostDescription[] = _("Ups Attack if poisoned.");
 static const u8 sFlareBoostDescription[] = _("Ups Sp. Atk if burned.");
 static const u8 sHarvestDescription[] = _("May recycle a used Berry.");
-static const u8 sTelepathyDescription[] = _("Can't be damaged by an ally.");
+static const u8 sTelepathyDescription[] = _("Hits Dark-type Pokémon.");
 static const u8 sMoodyDescription[] = _("Stats change gradually.");
 static const u8 sOvercoatDescription[] = _("Blocks weather and powder.");
 static const u8 sBigPecksDescription[] = _("Prevents Defense loss.");
@@ -311,6 +311,8 @@ static const u8 sEmbodyAspectWellspringDescription[] = _("Raises Sp. Def.");
 static const u8 sEmbodyAspectCornerstoneDescription[] = _("Raises Defense.");
 static const u8 sToxicChainDescription[] = _("Moves can poison.");
 static const u8 sSupersweetSyrupDescription[] = _("Lowers the foe's Speed.");
+static const u8 sIncendiaryDescription[] = _("Moves can burn.");
+static const u8 sMuddyDescription[] = _("Dampens electr and burns.");
 
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
@@ -638,6 +640,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_EMBODY_ASPECT_CORNERSTONE] = _("Embody Aspect"),
     [ABILITY_TOXIC_CHAIN] = _("Toxic Chain"),
     [ABILITY_SUPERSWEET_SYRUP] = _("Supersweet Syrup"),
+    [ABILITY_INCENDIARY] = _("Incendiary"),
+    [ABILITY_MUDDY] = _("Muddy"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -964,6 +968,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_EMBODY_ASPECT_CORNERSTONE] = _("EmbodyAspect"),
     [ABILITY_TOXIC_CHAIN] = _("Toxic Chain"),
     [ABILITY_SUPERSWEET_SYRUP] = _("SuprswtSyrup"),
+    [ABILITY_INCENDIARY] = _("Incendiary"),
+    [ABILITY_MUDDY] = _("Muddy"),
 };
 #endif
 
@@ -1291,4 +1297,6 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_EMBODY_ASPECT_CORNERSTONE] = sEmbodyAspectCornerstoneDescription,
     [ABILITY_TOXIC_CHAIN] = sToxicChainDescription,
     [ABILITY_SUPERSWEET_SYRUP] = sSupersweetSyrupDescription,
+    [ABILITY_INCENDIARY] = sIncendiaryDescription,
+    [ABILITY_MUDDY] = sMuddyDescription,
 };

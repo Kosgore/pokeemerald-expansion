@@ -858,7 +858,8 @@ const u8 gMoveNames[MOVES_COUNT_DYNAMAX][MOVE_NAME_LENGTH + 1] =
     [MOVE_UPPER_HAND] = _("Upper Hand"),
     [MOVE_MALIGNANT_CHAIN] = _("MalignntChain"),
     [MOVE_SOULBIND] = _("Soulbind"),
-    [MOVE_VIRULENT_GAS] = _("Virulent Gas"),
+    [MOVE_VIRULENT_VAPORS] = _("VirulentVapors"),
+    [MOVE_SYNAPTIC_STATIC] = _("SynaptcStatic"),
     // Max Moves
     [MOVE_MAX_GUARD] = _("Max Guard"),
     [MOVE_MAX_STRIKE] = _("Max Strike"),
@@ -1774,7 +1775,8 @@ const u8 gMoveNames[MOVES_COUNT_DYNAMAX][MOVE_NAME_LENGTH + 1] =
     [MOVE_UPPER_HAND] = _("Upper Hand"),
     [MOVE_MALIGNANT_CHAIN] = _("MalignntChan"),
     [MOVE_SOULBIND] = _("Soulbind"),
-    [MOVE_VIRULENT_GAS] = _("Virulent Gas"),
+    [MOVE_VIRULENT_VAPORS] = _("VirulntVaprs"),
+    [MOVE_SYNAPTIC_STATIC] = _("SynptcStatic"),
     // Max Moves
     [MOVE_MAX_GUARD] = _("M-Guard"),
     [MOVE_MAX_STRIKE] = _("M-Strike"),

@@ -392,6 +392,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectAuraWheel               @ EFFECT_AURA_WHEEL
 	.4byte BattleScript_EffectPhotonGeyser            @ EFFECT_PHOTON_GEYSER
 	.4byte BattleScript_EffectShellSideArm            @ EFFECT_SHELL_SIDE_ARM
+	.4byte BattleScript_EffectSpiritShackle			  @ EFFECT_SPIRIT_SHACKLE
 	.4byte BattleScript_EffectHit                     @ EFFECT_TERRAIN_PULSE
 	.4byte BattleScript_EffectJawLock                 @ EFFECT_JAW_LOCK
 	.4byte BattleScript_EffectNoRetreat               @ EFFECT_NO_RETREAT
@@ -1223,6 +1224,11 @@ BattleScript_FlingMissed:
 BattleScript_EffectShellSideArm:
 	shellsidearmcheck
 	setmoveeffect MOVE_EFFECT_POISON
+	goto BattleScript_EffectHit
+
+BattleScript_EffectSpiritShackle:
+	setphotongeysercategory
+	setmoveeffect MOVE_EFFECT_PREVENT_ESCAPE
 	goto BattleScript_EffectHit
 
 BattleScript_EffectPhotonGeyser:
@@ -8918,15 +8924,6 @@ BattleScript_ActivateTerrainEffects_Increment:
 	restoretarget
 	return
 
-BattleScript_ActivateGravityWell:
-	savetarget
-	setbyte gBattlerTarget, 0
-	copybyte sBATTLER, gBattlerTarget
-	printstring STRINGID_GRAVITYINTENSIFIED
-	waitmessage B_WAIT_TIME_LONG
-	goto BattleScript_GravityLoop
-	end
-
 BattleScript_ElectricSurgeActivates::
 	pause B_WAIT_TIME_SHORT
 	call BattleScript_AbilityPopUp
@@ -8969,8 +8966,16 @@ BattleScript_GravityWellActivates::
 	printstring STRINGID_GRAVITYINTENSIFIED
 	waitmessage B_WAIT_TIME_LONG
 	playanimation BS_SCRIPTING, B_ANIM_RESTORE_BG
-	setgravity BS_TARGET
-	goto BattleScript_GravityLoop
+	call BattleScript_ActivateTerrainEffects
+	end3
+
+BattleScript_MuddyActivates::
+	pause B_WAIT_TIME_SHORT
+	call BattleScript_AbilityPopUp
+	printstring STRINGID_ELECTRICITYWEAKENED
+	waitmessage B_WAIT_TIME_LONG
+	playanimation BS_SCRIPTING, B_ANIM_RESTORE_BG
+	call BattleScript_ActivateTerrainEffects
 	end3
 
 BattleScript_BadDreamsActivates::

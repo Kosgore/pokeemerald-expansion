@@ -3895,11 +3895,6 @@ static s32 AI_CheckViability(u32 battlerAtk, u32 battlerDef, u32 move, s32 score
             {
                 ProtectChecks(battlerAtk, battlerDef, move, predictedMove, &score);
             }
-            else if (isDoubleBattle && AI_GetBattlerMoveTargetType(BATTLE_PARTNER(battlerAtk), aiData->partnerMove) & MOVE_TARGET_FOES_AND_ALLY)
-            {
-                if (aiData->abilities[battlerAtk] != ABILITY_TELEPATHY)
-                  ProtectChecks(battlerAtk, battlerDef, move, predictedMove, &score);
-            }
             break;
         case MOVE_CRAFTY_SHIELD:
             if (predictedMove != MOVE_NONE && IS_MOVE_STATUS(predictedMove) && !(AI_GetBattlerMoveTargetType(battlerDef, predictedMove) & MOVE_TARGET_USER))

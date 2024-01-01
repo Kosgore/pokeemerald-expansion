@@ -1690,26 +1690,26 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
     {
     case ABILITY_SAND_VEIL:
         if (WEATHER_HAS_EFFECT && gBattleWeather & B_WEATHER_SANDSTORM)
-            calc = (calc * 80) / 100; // 1.2 sand veil loss
+            calc = (calc * 70) / 100; // 1.3 sand veil loss
         break;
     case ABILITY_SNOW_CLOAK:
         if (WEATHER_HAS_EFFECT && (gBattleWeather & (B_WEATHER_HAIL | B_WEATHER_SNOW)))
-            calc = (calc * 80) / 100; // 1.2 snow cloak loss
+            calc = (calc * 70) / 100; // 1.3 snow cloak loss
         break;
     case ABILITY_TANGLED_FEET:
         if (gBattleMons[battlerDef].status2 & STATUS2_CONFUSION)
-            calc = (calc * 80) / 100; // 1.2 tangled feet loss
+            calc = (calc * 70) / 100; // 1.3 tangled feet loss
         break;
     case ABILITY_STENCH:
         if (defAbility == ABILITY_STENCH && IsMoveMakingContact(move, gBattlerAttacker))
             calc = (calc * 90) / 100;
         break;
-    case ABILITY_TELEPATHY:
-        if (defAbility == ABILITY_TELEPATHY && (gBattleMoves[move].target == MOVE_TARGET_BOTH || gBattleMoves[move].target == MOVE_TARGET_FOES_AND_ALLY))
+    case ABILITY_FOREWARN:
+        if (defAbility == ABILITY_FOREWARN && (gBattleMoves[move].target == MOVE_TARGET_BOTH || gBattleMoves[move].target == MOVE_TARGET_FOES_AND_ALLY))
             calc = (calc * 90) / 100;
         break;
     }
-
+    
     // Attacker's ally's ability
     switch (atkAllyAbility)
     {
@@ -2915,7 +2915,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
             if (gCurrentMove == MOVE_BURNING_JEALOUSY && !gProtectStructs[gEffectBattler].statRaised)
                 break;
 
-            if ((battlerAbility == ABILITY_WATER_VEIL || battlerAbility == ABILITY_WATER_BUBBLE)
+            if ((battlerAbility == ABILITY_WATER_VEIL || battlerAbility == ABILITY_WATER_BUBBLE || battlerAbility == ABILITY_MUDDY)
               && (primary == TRUE || certain == MOVE_EFFECT_CERTAIN))
             {
                 gLastUsedAbility = battlerAbility;
@@ -2945,7 +2945,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 RESET_RETURN
             }
 
-            if (!CanBeBurned(gEffectBattler))
+            if (!CanBeBurned(gBattlerAttacker, gBattlerTarget))
                 break;
 
             statusChanged = TRUE;
@@ -5328,7 +5328,7 @@ static void Cmd_moveend(void)
                 }
                 // Not strictly a protect effect, but works the same way
                 else if (gProtectStructs[gBattlerTarget].beakBlastCharge
-                         && CanBeBurned(gBattlerAttacker)
+                         && CanBeBurned(gBattlerAttacker, gBattlerTarget)
                          && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT))
                 {
                     gProtectStructs[gBattlerAttacker].touchedProtectLike = FALSE;
@@ -9650,7 +9650,7 @@ static void Cmd_various(void)
                 gBattleCommunication[MULTISTRING_CHOOSER] = 0;
             else if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_TOXIC_POISON) && CanBePoisoned(gBattlerAttacker, gBattlerTarget))
                 gBattleCommunication[MULTISTRING_CHOOSER] = 1;
-            else if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_BURN) && CanBeBurned(gBattlerTarget))
+            else if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_BURN) && CanBeBurned(gBattlerAttacker, gBattlerTarget))
                 gBattleCommunication[MULTISTRING_CHOOSER] = 2;
             else if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_PARALYSIS) && CanBeParalyzed(gBattlerTarget))
                 gBattleCommunication[MULTISTRING_CHOOSER] = 3;
@@ -10937,7 +10937,8 @@ static void Cmd_setseeded(void)
         gMoveResultFlags |= MOVE_RESULT_MISSED;
         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_LEECH_SEED_MISS;
     }
-    else if (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_GRASS))
+    else if (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_GRASS)
+            && GetBattlerAbility(gBattlerAttacker) != ABILITY_MYCELIUM_MIGHT)
     {
         gMoveResultFlags |= MOVE_RESULT_MISSED;
         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_LEECH_SEED_FAIL;
@@ -12163,16 +12164,16 @@ static void Cmd_weatherdamage(void)
         }
         if (gBattleWeather & B_WEATHER_SNOW)
         {
-            if (ability == ABILITY_ICE_BODY
+            if (!IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_ICE)
+                && ability != ABILITY_SNOW_CLOAK
+                && ability != ABILITY_OVERCOAT
+                && ability != ABILITY_ICE_BODY
                 && !(gStatuses3[gBattlerAttacker] & (STATUS3_UNDERGROUND | STATUS3_UNDERWATER))
-                && !BATTLER_MAX_HP(gBattlerAttacker)
-                && !(gStatuses3[gBattlerAttacker] & STATUS3_HEAL_BLOCK))
+                && GetBattlerHoldEffect(gBattlerAttacker, TRUE) != HOLD_EFFECT_SAFETY_GOGGLES)
             {
-                gBattlerAbility = gBattlerAttacker;
-                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 16;
+                gBattleMoveDamage = GetNonDynamaxMaxHP(gBattlerAttacker) / 16;
                 if (gBattleMoveDamage == 0)
                     gBattleMoveDamage = 1;
-                gBattleMoveDamage *= -1;
             }
         }
     }

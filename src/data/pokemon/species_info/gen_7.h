@@ -1141,10 +1141,10 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
     [SPECIES_RIBOMBEE] =
     {
         .baseHP        = 60,
-        .baseAttack    = 55,
+        .baseAttack    = 50,
         .baseDefense   = 60,
-        .baseSpeed     = 124,
-        .baseSpAttack  = 95,
+        .baseSpeed     = 125,
+        .baseSpAttack  = 100,
         .baseSpDefense = 70,
         .types = { TYPE_BUG, TYPE_FAIRY },
         .catchRate = 75,
@@ -2892,7 +2892,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .baseSpeed     = 65,
         .baseSpAttack  = 75,
         .baseSpDefense = 95,
-        .types = { TYPE_NORMAL, TYPE_NORMAL },
+        .types = { TYPE_NORMAL, TYPE_GRASS },
         .catchRate = 45,
         .expYield = 168,
         .evYield_Attack = 2,
@@ -3035,9 +3035,9 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 #if P_FAMILY_MIMIKYU
 #define MIMIKYU_MISC_INFO                                           \
         .baseHP        = 55,                                        \
-        .baseAttack    = 90,                                        \
+        .baseAttack    = 100,                                        \
         .baseDefense   = 80,                                        \
-        .baseSpeed     = 96,                                        \
+        .baseSpeed     = 95,                                        \
         .baseSpAttack  = 50,                                        \
         .baseSpDefense = 105,                                       \
         .types = { TYPE_GHOST, TYPE_FAIRY },                        \

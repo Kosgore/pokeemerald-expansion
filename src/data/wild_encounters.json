@@ -209,7 +209,7 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_VULPIX_ALOLAN"
+                "species": "SPECIES_VULPIX"
               }
             ]
           },
@@ -1063,7 +1063,7 @@
               {
                 "min_level": 30,
                 "max_level": 32,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_HEATMOR"
               },
               {
                 "min_level": 30,
@@ -1083,7 +1083,7 @@
               {
                 "min_level": 31,
                 "max_level": 33,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_DURANT"
               },
               {
                 "min_level": 30,
@@ -1093,7 +1093,7 @@
               {
                 "min_level": 31,
                 "max_level": 33,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_DURANT"
               },
               {
                 "min_level": 31,
@@ -2561,7 +2561,7 @@
               {
                 "min_level": 31,
                 "max_level": 33,
-                "species": "SPECIES_GROWLITHE"
+                "species": "SPECIES_HOUNDOUR"
               },
               {
                 "min_level": 32,
@@ -2591,7 +2591,7 @@
               {
                 "min_level": 31,
                 "max_level": 34,
-                "species": "SPECIES_GROWLITHE_HISUIAN"
+                "species": "SPECIES_GROWLITHE"
               }
             ]
           }
@@ -8704,7 +8704,7 @@
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_JOLTIK"
+                "species": "SPECIES_PIKACHU"
               },
               {
                 "min_level": 22,
@@ -8719,7 +8719,7 @@
               {
                 "min_level": 22,
                 "max_level": 24,
-                "species": "SPECIES_JOLTIK"
+                "species": "SPECIES_PIKACHU"
               },
               {
                 "min_level": 21,
@@ -8727,9 +8727,9 @@
                 "species": "SPECIES_ROTOM"
               },
               {
-                "min_level": 21,
-                "max_level": 23,
-                "species": "SPECIES_SINISTEA_ANTIQUE"
+                "min_level": 22,
+                "max_level": 24,
+                "species": "SPECIES_MIMIKYU_DISGUISED"
               },
               {
                 "min_level": 22,
@@ -11713,7 +11713,7 @@
                 "species": "SPECIES_BURMY_TRASH_CLOAK"
               },
               {
-                "min_level": 7,
+                "min_level": 6,
                 "max_level": 7,
                 "species": "SPECIES_PIDOVE"
               },
@@ -11725,7 +11725,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_PIDOVE"
+                "species": "SPECIES_LITWICK"
               },
               {
                 "min_level": 6,
@@ -11738,7 +11738,7 @@
                 "species": "SPECIES_BURMY_TRASH_CLOAK"
               },
               {
-                "min_level": 7,
+                "min_level": 6,
                 "max_level": 7,
                 "species": "SPECIES_GOTHITA"
               },

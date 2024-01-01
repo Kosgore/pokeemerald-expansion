@@ -131,7 +131,7 @@ MauvilleCity_TMMart::
     .2byte ITEM_TM_SLUDGE_BOMB
     .2byte ITEM_TM84
     .2byte ITEM_TM_AERIAL_ACE
-    .2byte ITEM_TM_PSYCHIC
+    .2byte ITEM_TM29
     .2byte ITEM_TM96
     .2byte ITEM_TM76
     .2byte ITEM_TM_SHADOW_BALL

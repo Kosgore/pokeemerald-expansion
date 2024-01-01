@@ -1694,7 +1694,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,                                              \
         .growthRate = GROWTH_MEDIUM_FAST,                                               \
         .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },    \
-        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },           \
+        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_ELECTROMORPHOSIS },           \
         .bodyColor = BODY_COLOR_YELLOW,                                                 \
         .speciesName = _("Pichu"),                                                      \
         .cryId = CRY_PICHU,                                                             \
@@ -1744,7 +1744,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
 #define PIKACHU_MISC_INFO                                                       \
         .baseHP        = 35,                                                    \
-        .baseAttack    = 55,                                                    \
+        .baseAttack    = 65,                                                    \
         .baseDefense   = P_UPDATED_STATS >= GEN_6 ? 40 : 30,                    \
         .baseSpeed     = 90,                                                    \
         .baseSpAttack  = 50,                                                    \
@@ -1757,7 +1757,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggCycles = 10,                                                        \
         .friendship = STANDARD_FRIENDSHIP,                                      \
         .growthRate = GROWTH_MEDIUM_FAST,                                       \
-        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },   \
+        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_ELECTROMORPHOSIS },   \
         .bodyColor = BODY_COLOR_YELLOW,                                         \
         .speciesName = _("Pikachu"),                                            \
         .cryId = CRY_PIKACHU,                                                   \
@@ -1799,7 +1799,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     #endif
         .formChangeTable = sPikachuFormChangeTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
-                                {EVO_NONE, 0, SPECIES_RAICHU_ALOLAN}),
+                                {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_RAICHU_ALOLAN}),
     },
 
 #if P_COSPLAY_PIKACHU_FORMS
@@ -2115,13 +2115,13 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         RAICHU_MISC_INFO,
         .baseHP        = 60,
-        .baseAttack    = 90,
+        .baseAttack    = 100,
         .baseDefense   = 55,
-        .baseSpeed     = RAICHU_SPEED,
-        .baseSpAttack  = 90,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 80,
         .baseSpDefense = 80,
         .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
-        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
+        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_ELECTROMORPHOSIS },
         .bodyColor = BODY_COLOR_YELLOW,
         .height = 8,
         .weight = 300,
@@ -2152,13 +2152,13 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         RAICHU_MISC_INFO,
         .baseHP        = 60,
-        .baseAttack    = 85,
+        .baseAttack    = 90,
         .baseDefense   = 50,
-        .baseSpeed     = RAICHU_SPEED,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 85,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 65,
         .types = { TYPE_ELECTRIC, TYPE_PSYCHIC },
-        .abilities = { ABILITY_SURGE_SURFER, ABILITY_NONE },
+        .abilities = { ABILITY_SURGE_SURFER, ABILITY_NONE, ABILITY_ELECTRIC_SURGE },
         .bodyColor = BODY_COLOR_BROWN,
         .isAlolanForm = TRUE,
         .height = 7,
@@ -7012,10 +7012,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_HAUNTER] =
     {
         .baseHP        = 45,
-        .baseAttack    = 50,
+        .baseAttack    = 70,
         .baseDefense   = 45,
         .baseSpeed     = 95,
-        .baseSpAttack  = 115,
+        .baseSpAttack  = 110,
         .baseSpDefense = 55,
         .types = { TYPE_GHOST, TYPE_POISON },
         .catchRate = 90,
@@ -7056,7 +7056,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         ICON(Haunter, 2),
         .footprint = gMonFootprint_Haunter,
         LEARNSETS(Haunter),
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GENGAR},
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_DUSK_STONE, SPECIES_GENGAR},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GENGAR}),
     },
 
@@ -8306,8 +8306,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseHP        = 40,
         .baseAttack    = 65,
         .baseDefense   = 95,
-        .baseSpeed     = 35,
-        .baseSpAttack  = 60,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 65,
         .baseSpDefense = 45,
         .types = { TYPE_POISON, TYPE_POISON },
         .catchRate = 190,
@@ -8373,11 +8373,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         WEEZING_MISC_INFO,
         .baseHP        = 65,                                        
-        .baseAttack    = 100,                                        
+        .baseAttack    = 90,                                        
         .baseDefense   = 120,                                       
         .baseSpeed     = 60,                                        
-        .baseSpAttack  = 75,                                        
-        .baseSpDefense = 70, 
+        .baseSpAttack  = 90,                                        
+        .baseSpDefense = 75, 
         .types = { TYPE_POISON, TYPE_POISON },
         .itemRare = ITEM_SMOKE_BALL,
         .abilities = { ABILITY_NEUTRALIZING_GAS, ABILITY_AFTERMATH, ABILITY_LEVITATE },
@@ -8410,11 +8410,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_WEEZING_GALARIAN] =
     {
         WEEZING_MISC_INFO,
-        .baseHP        = 65,                                        
+        .baseHP        = 60,                                        
         .baseAttack    = 80,                                        
         .baseDefense   = 70,                                       
         .baseSpeed     = 60,                                        
-        .baseSpAttack  = 95,                                        
+        .baseSpAttack  = 110,                                        
         .baseSpDefense = 120, 
         .types = { TYPE_POISON, TYPE_FAIRY },
         .itemRare = ITEM_MISTY_SEED,

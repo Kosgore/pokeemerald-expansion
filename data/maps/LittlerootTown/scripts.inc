@@ -1037,7 +1037,7 @@ LittlerootTown_EventScript_CandyMan::
 	end
 
 LittlerootTown_EventScript_VersionSign_Text_0:
-	.string "v0.078$"
+	.string "Fairy Folly v0.090$"
 
 LittlerootTown_EventScript_CandyMan_Text_0:
 	.string "Take some candies.$"

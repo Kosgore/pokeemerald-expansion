@@ -449,7 +449,7 @@ static const u16 sButterfreeTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
+    MOVE_MIST_BALL,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -999,29 +999,57 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_THUNDER_PUNCH,
+    MOVE_GRASS_KNOT,
     MOVE_UNAVAILABLE,
 };
 
 #if P_ALOLAN_FORMS
 static const u16 sRaichuAlolanTeachableLearnset[] = {
+    MOVE_ATTRACT,
     MOVE_BRICK_BREAK,
-    MOVE_CALM_MIND,
     MOVE_DIG,
+    MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLASH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_FRUSTRATION,
+    MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
+    MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
+    MOVE_RETURN,
     MOVE_ROCK_SMASH,
+    MOVE_SECRET_POWER,
+    MOVE_SHOCK_WAVE,
     MOVE_STRENGTH,
-    MOVE_THUNDERBOLT,
+    MOVE_THIEF,
     MOVE_THUNDER,
+    MOVE_THUNDERBOLT,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_DEFENSE_CURL,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_ENDURE,
+    MOVE_MEGA_KICK,
+    MOVE_MEGA_PUNCH,
+    MOVE_MIMIC,
+    MOVE_MUD_SLAP,
+    MOVE_ROLLOUT,
+    MOVE_SEISMIC_TOSS,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SUBSTITUTE,
+    MOVE_SWAGGER,
+    MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_THUNDER_PUNCH,
+    MOVE_GRASS_KNOT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_ALOLAN_FORMS
@@ -1467,7 +1495,6 @@ static const u16 sCleffaTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -1498,6 +1525,7 @@ static const u16 sCleffaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -1520,7 +1548,6 @@ static const u16 sClefairyTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -1557,6 +1584,7 @@ static const u16 sClefairyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -1579,7 +1607,6 @@ static const u16 sClefableTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -1742,7 +1769,6 @@ static const u16 sIgglybuffTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -1791,7 +1817,6 @@ static const u16 sJigglypuffTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -1845,7 +1870,6 @@ static const u16 sWigglytuffTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -2210,7 +2234,6 @@ static const u16 sVenonatTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -2227,6 +2250,8 @@ static const u16 sVenonatTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_POLLEN_PUFF,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -2241,7 +2266,6 @@ static const u16 sVenomothTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -2258,7 +2282,9 @@ static const u16 sVenomothTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_POLLEN_PUFF,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VENONAT
@@ -2554,7 +2580,6 @@ static const u16 sPsyduckTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -2582,6 +2607,7 @@ static const u16 sPsyduckTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_CHILLING_WATER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -2605,7 +2631,6 @@ static const u16 sGolduckTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -2634,6 +2659,7 @@ static const u16 sGolduckTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_CHILLING_WATER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PSYDUCK
@@ -2976,7 +3002,6 @@ static const u16 sPoliwagTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -3013,7 +3038,6 @@ static const u16 sPoliwhirlTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -3061,7 +3085,6 @@ static const u16 sPoliwrathTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -3112,7 +3135,6 @@ static const u16 sPolitoedTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -3142,6 +3164,7 @@ static const u16 sPolitoedTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_ICE_PUNCH,
     MOVE_CHILLING_WATER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -3160,7 +3183,6 @@ static const u16 sAbraTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -3193,6 +3215,7 @@ static const u16 sAbraTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -3209,7 +3232,6 @@ static const u16 sKadabraTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -3242,6 +3264,7 @@ static const u16 sKadabraTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -3259,7 +3282,6 @@ static const u16 sAlakazamTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -3292,6 +3314,7 @@ static const u16 sAlakazamTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ABRA
@@ -3886,7 +3909,6 @@ static const u16 sPonytaGalarianTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_BODY_SLAM,
     MOVE_DOUBLE_EDGE,
@@ -3908,7 +3930,6 @@ static const u16 sRapidashGalarianTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_BODY_SLAM,
     MOVE_ENDURE,
@@ -3945,7 +3966,6 @@ static const u16 sSlowpokeTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -3972,6 +3992,7 @@ static const u16 sSlowpokeTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_CHILLING_WATER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -3998,7 +4019,6 @@ static const u16 sSlowbroTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -4032,6 +4052,7 @@ static const u16 sSlowbroTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_CHILLING_WATER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -4058,7 +4079,6 @@ static const u16 sSlowkingTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -4092,6 +4112,7 @@ static const u16 sSlowkingTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_CHILLING_WATER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -4112,7 +4133,6 @@ static const u16 sSlowpokeGalarianTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -4130,6 +4150,7 @@ static const u16 sSlowpokeGalarianTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_CHILLING_WATER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -4150,7 +4171,6 @@ static const u16 sSlowbroGalarianTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -4171,6 +4191,7 @@ static const u16 sSlowbroGalarianTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_CHILLING_WATER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -4192,7 +4213,6 @@ static const u16 sSlowkingGalarianTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -4215,6 +4235,7 @@ static const u16 sSlowkingGalarianTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_CHILLING_WATER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -4738,7 +4759,6 @@ static const u16 sGastlyTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -4764,6 +4784,7 @@ static const u16 sGastlyTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -4775,7 +4796,6 @@ static const u16 sHaunterTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -4802,6 +4822,7 @@ static const u16 sHaunterTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_FIRE_PUNCH,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -4816,7 +4837,6 @@ static const u16 sGengarTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -4853,6 +4873,7 @@ static const u16 sGengarTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_FIRE_PUNCH,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GASTLY
@@ -4959,7 +4980,6 @@ static const u16 sDrowzeeTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -4990,6 +5010,7 @@ static const u16 sDrowzeeTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -5006,7 +5027,6 @@ static const u16 sHypnoTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -5037,6 +5057,7 @@ static const u16 sHypnoTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DROWZEE
@@ -5276,7 +5297,6 @@ static const u16 sExeggcuteTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -5300,6 +5320,7 @@ static const u16 sExeggcuteTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_GRASS_KNOT,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -5315,7 +5336,6 @@ static const u16 sExeggutorTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -5340,6 +5360,7 @@ static const u16 sExeggutorTeachableLearnset[] = {
     MOVE_STOMPING_TANTRUM,
     MOVE_GRASS_KNOT,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -5354,7 +5375,6 @@ static const u16 sExeggutorAlolanTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SLUDGE_BOMB,
@@ -5363,6 +5383,7 @@ static const u16 sExeggutorAlolanTeachableLearnset[] = {
     MOVE_GRASS_KNOT,
     MOVE_BREAKING_SWIPE,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_ALOLAN_FORMS
@@ -6042,7 +6063,6 @@ static const u16 sHappinyTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -6087,7 +6107,6 @@ static const u16 sChanseyTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6151,7 +6170,6 @@ static const u16 sBlisseyTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -6515,7 +6533,6 @@ static const u16 sStaryuTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6539,6 +6556,7 @@ static const u16 sStaryuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -6556,7 +6574,6 @@ static const u16 sStarmieTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6582,6 +6599,7 @@ static const u16 sStarmieTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_STARYU
@@ -6600,7 +6618,6 @@ static const u16 sMimeJrTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6627,6 +6644,7 @@ static const u16 sMimeJrTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -6645,7 +6663,6 @@ static const u16 sMrMimeTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6681,6 +6698,7 @@ static const u16 sMrMimeTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -6696,7 +6714,6 @@ static const u16 sMrMimeGalarianTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6720,6 +6737,7 @@ static const u16 sMrMimeGalarianTeachableLearnset[] = {
     MOVE_FLASH_FREEZE,
     MOVE_ICE_PUNCH,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -6734,7 +6752,6 @@ static const u16 sMrRimeTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6758,6 +6775,7 @@ static const u16 sMrRimeTeachableLearnset[] = {
     MOVE_FLASH_FREEZE,
     MOVE_ICE_PUNCH,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -6897,7 +6915,6 @@ static const u16 sSmoochumTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6925,6 +6942,7 @@ static const u16 sSmoochumTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_FLASH_FREEZE,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -6945,7 +6963,6 @@ static const u16 sJynxTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -6976,6 +6993,7 @@ static const u16 sJynxTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_FLASH_FREEZE,
     MOVE_ICE_PUNCH,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_JYNX
@@ -6993,7 +7011,6 @@ static const u16 sElekidTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -7037,7 +7054,6 @@ static const u16 sElectabuzzTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -7087,7 +7103,6 @@ static const u16 sElectivireTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -7132,7 +7147,6 @@ static const u16 sMagbyTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -7173,7 +7187,6 @@ static const u16 sMagmarTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -7198,6 +7211,7 @@ static const u16 sMagmarTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_FIRE_PUNCH,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -7217,7 +7231,6 @@ static const u16 sMagmortarTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -7238,6 +7251,7 @@ static const u16 sMagmortarTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_FIRE_PUNCH,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -7549,7 +7563,6 @@ static const u16 sLaprasTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -7614,7 +7627,6 @@ static const u16 sEeveeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_TRAILBLAZE,
     MOVE_UNAVAILABLE,
 };
 
@@ -7655,7 +7667,6 @@ static const u16 sVaporeonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_TRAILBLAZE,
     MOVE_CHILLING_WATER,
     MOVE_UNAVAILABLE,
 };
@@ -7696,7 +7707,6 @@ static const u16 sJolteonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_THUNDER_FANG,
-    MOVE_TRAILBLAZE,
     MOVE_UNAVAILABLE,
 };
 
@@ -7735,7 +7745,6 @@ static const u16 sFlareonTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_FIRE_FANG,
     MOVE_FLAME_CHARGE,
-    MOVE_TRAILBLAZE,
     MOVE_UNAVAILABLE,
 };
 
@@ -7754,7 +7763,6 @@ static const u16 sEspeonTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -7775,8 +7783,8 @@ static const u16 sEspeonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
-    MOVE_TRAILBLAZE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -7792,7 +7800,6 @@ static const u16 sUmbreonTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -7813,8 +7820,6 @@ static const u16 sUmbreonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_TRAILBLAZE,
-    MOVE_SNARL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -7887,7 +7892,6 @@ static const u16 sGlaceonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_ICE_FANG,
-    MOVE_TRAILBLAZE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -7921,7 +7925,6 @@ static const u16 sSylveonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
-    MOVE_TRAILBLAZE,
     MOVE_DAZZLING_GLEAM,
     MOVE_UNAVAILABLE,
 };
@@ -7941,7 +7944,6 @@ static const u16 sPorygonTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -7967,6 +7969,7 @@ static const u16 sPorygonTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -7983,7 +7986,6 @@ static const u16 sPorygon2TeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -8008,6 +8010,7 @@ static const u16 sPorygon2TeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -8024,7 +8027,6 @@ static const u16 sPorygonZTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -8046,6 +8048,7 @@ static const u16 sPorygonZTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -8283,7 +8286,6 @@ static const u16 sMunchlaxTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -8332,7 +8334,6 @@ static const u16 sSnorlaxTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -8421,7 +8422,6 @@ static const u16 sArticunoGalarianTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SKILL_SWAP,
@@ -8434,6 +8434,7 @@ static const u16 sArticunoGalarianTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_FLASH_FREEZE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -8734,7 +8735,6 @@ static const u16 sMewtwoTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -8774,6 +8774,7 @@ static const u16 sMewtwoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MEWTWO
@@ -9347,7 +9348,6 @@ static const u16 sHoothootTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9368,6 +9368,7 @@ static const u16 sHoothootTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -9382,7 +9383,6 @@ static const u16 sNoctowlTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9403,6 +9403,7 @@ static const u16 sNoctowlTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HOOTHOOT
@@ -9497,7 +9498,6 @@ static const u16 sSpinarakTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -9527,7 +9527,6 @@ static const u16 sAriadosTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -9635,7 +9634,6 @@ static const u16 sTogepiTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9667,6 +9665,7 @@ static const u16 sTogepiTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -9686,7 +9685,6 @@ static const u16 sTogeticTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9719,6 +9717,7 @@ static const u16 sTogeticTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -9739,7 +9738,6 @@ static const u16 sTogekissTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9762,6 +9760,7 @@ static const u16 sTogekissTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -9780,7 +9779,6 @@ static const u16 sNatuTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9803,6 +9801,7 @@ static const u16 sNatuTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -9820,7 +9819,6 @@ static const u16 sXatuTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -9843,6 +9841,7 @@ static const u16 sXatuTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NATU
@@ -10465,7 +10464,6 @@ static const u16 sYanmaTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -10482,6 +10480,7 @@ static const u16 sYanmaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -10497,7 +10496,6 @@ static const u16 sYanmegaTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -10514,6 +10512,7 @@ static const u16 sYanmegaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -10731,7 +10730,6 @@ static const u16 sMurkrowTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -10769,7 +10767,6 @@ static const u16 sHonchkrowTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -10806,7 +10803,6 @@ static const u16 sMisdreavusTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -10835,6 +10831,7 @@ static const u16 sMisdreavusTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -10850,7 +10847,6 @@ static const u16 sMismagiusTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -10876,6 +10872,7 @@ static const u16 sMismagiusTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -10917,7 +10914,6 @@ static const u16 sGirafarigTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -10945,6 +10941,7 @@ static const u16 sGirafarigTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -10976,7 +10973,6 @@ static const u16 sFarigirafTeachableLearnset[] = {
     MOVE_NIGHT_SHADE,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_FANGS,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
@@ -12097,7 +12093,6 @@ static const u16 sCorsolaTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -12144,7 +12139,6 @@ static const u16 sCorsolaGalarianTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -12182,7 +12176,6 @@ static const u16 sCursolaTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -12203,6 +12196,7 @@ static const u16 sCursolaTeachableLearnset[] = {
     MOVE_STEALTH_ROCK,
     MOVE_STOMPING_TANTRUM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GALARIAN_FORMS
@@ -12223,7 +12217,6 @@ static const u16 sRemoraidTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -12261,7 +12254,6 @@ static const u16 sOctilleryTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -12284,6 +12276,7 @@ static const u16 sOctilleryTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_REMORAID
@@ -12625,7 +12618,6 @@ static const u16 sStantlerTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -12650,6 +12642,7 @@ static const u16 sStantlerTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -13013,7 +13006,6 @@ static const u16 sLugiaTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -13068,7 +13060,6 @@ static const u16 sHoOhTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -13113,7 +13104,6 @@ static const u16 sCelebiTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -13871,7 +13861,6 @@ static const u16 sBeautiflyTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -13906,7 +13895,6 @@ static const u16 sDustoxTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -14343,7 +14331,6 @@ static const u16 sRaltsTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -14375,6 +14362,7 @@ static const u16 sRaltsTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_GRASS_KNOT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -14388,7 +14376,6 @@ static const u16 sKirliaTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -14420,6 +14407,7 @@ static const u16 sKirliaTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_GRASS_KNOT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -14434,7 +14422,6 @@ static const u16 sGardevoirTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -14487,7 +14474,6 @@ static const u16 sGalladeTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -14521,6 +14507,7 @@ static const u16 sGalladeTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_GRASS_KNOT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -14927,6 +14914,7 @@ static const u16 sShedinjaTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NINCADA
@@ -15358,7 +15346,6 @@ static const u16 sSableyeTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -15394,6 +15381,7 @@ static const u16 sSableyeTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SABLEYE
@@ -15612,7 +15600,6 @@ static const u16 sMedititeTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -15641,6 +15628,7 @@ static const u16 sMedititeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -15658,7 +15646,6 @@ static const u16 sMedichamTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -15687,6 +15674,7 @@ static const u16 sMedichamTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MEDITITE
@@ -15897,6 +15885,7 @@ static const u16 sVolbeatTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_THUNDER_PUNCH,
     MOVE_DAZZLING_GLEAM,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -15942,6 +15931,7 @@ static const u16 sIllumiseTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_VOLBEAT_ILLUMISE
@@ -16433,7 +16423,6 @@ static const u16 sSpoinkTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -16459,6 +16448,7 @@ static const u16 sSpoinkTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -16476,7 +16466,6 @@ static const u16 sGrumpigTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -16508,6 +16497,7 @@ static const u16 sGrumpigTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPOINK
@@ -16525,7 +16515,6 @@ static const u16 sSpindaTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -16562,6 +16551,7 @@ static const u16 sSpindaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPINDA
@@ -16963,7 +16953,6 @@ static const u16 sLunatoneTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -16991,6 +16980,7 @@ static const u16 sLunatoneTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_FLASH_FREEZE,
     MOVE_STEALTH_ROCK,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LUNATONE
@@ -17010,7 +17000,6 @@ static const u16 sSolrockTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -17038,6 +17027,7 @@ static const u16 sSolrockTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_STEALTH_ROCK,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SOLROCK
@@ -17222,7 +17212,6 @@ static const u16 sBaltoyTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -17248,6 +17237,7 @@ static const u16 sBaltoyTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -17264,7 +17254,6 @@ static const u16 sClaydolTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -17292,6 +17281,7 @@ static const u16 sClaydolTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BALTOY
@@ -17634,7 +17624,6 @@ static const u16 sShuppetTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -17673,7 +17662,6 @@ static const u16 sBanetteTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -17717,7 +17705,6 @@ static const u16 sDuskullTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -17741,6 +17728,7 @@ static const u16 sDuskullTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -17759,7 +17747,6 @@ static const u16 sDusclopsTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -17794,6 +17781,7 @@ static const u16 sDusclopsTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -17813,7 +17801,6 @@ static const u16 sDusknoirTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -17839,6 +17826,7 @@ static const u16 sDusknoirTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -17899,7 +17887,6 @@ static const u16 sChinglingTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -17925,6 +17912,7 @@ static const u16 sChinglingTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -17939,7 +17927,6 @@ static const u16 sChimechoTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -17967,6 +17954,7 @@ static const u16 sChimechoTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CHIMECHO
@@ -18115,7 +18103,6 @@ static const u16 sFroslassTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -18141,6 +18128,7 @@ static const u16 sFroslassTeachableLearnset[] = {
     MOVE_FLASH_FREEZE,
     MOVE_ICE_PUNCH,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -18352,7 +18340,6 @@ static const u16 sGorebyssTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -18373,6 +18360,7 @@ static const u16 sGorebyssTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CLAMPERL
@@ -18595,7 +18583,6 @@ static const u16 sMetangTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -18625,6 +18612,7 @@ static const u16 sMetangTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -18641,7 +18629,6 @@ static const u16 sMetagrossTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -18673,6 +18660,7 @@ static const u16 sMetagrossTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_HEAVY_SLAM,
     MOVE_STOMPING_TANTRUM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BELDUM
@@ -18850,7 +18838,6 @@ static const u16 sLatiasTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -18882,6 +18869,7 @@ static const u16 sLatiasTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LATIAS
@@ -18905,7 +18893,6 @@ static const u16 sLatiosTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -18937,6 +18924,7 @@ static const u16 sLatiosTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LATIOS
@@ -19122,7 +19110,6 @@ static const u16 sJirachiTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -19153,6 +19140,7 @@ static const u16 sJirachiTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_JIRACHI
@@ -19173,7 +19161,6 @@ static const u16 sDeoxysNormalTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -19212,6 +19199,7 @@ static const u16 sDeoxysNormalTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -19230,7 +19218,6 @@ static const u16 sDeoxysAttackTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -19267,7 +19254,6 @@ static const u16 sDeoxysDefenseTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -19304,7 +19290,6 @@ static const u16 sDeoxysSpeedTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -20178,6 +20163,7 @@ static const u16 sBurmyTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
     MOVE_SNORE,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -20192,7 +20178,6 @@ static const u16 sWormadamPlantCloakTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -20208,6 +20193,7 @@ static const u16 sWormadamPlantCloakTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -20222,7 +20208,6 @@ static const u16 sWormadamSandyCloakTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -20243,6 +20228,7 @@ static const u16 sWormadamSandyCloakTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_STEALTH_ROCK,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -20255,7 +20241,6 @@ static const u16 sWormadamTrashCloakTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -20271,6 +20256,7 @@ static const u16 sWormadamTrashCloakTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -20285,7 +20271,6 @@ static const u16 sMothimTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -20303,6 +20288,7 @@ static const u16 sMothimTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BURMY
@@ -20312,6 +20298,7 @@ static const u16 sCombeeTeachableLearnset[] = {
     MOVE_MUD_SLAP,
     MOVE_SNORE,
     MOVE_SWIFT,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -20607,7 +20594,6 @@ static const u16 sDrifloonTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -20633,6 +20619,7 @@ static const u16 sDrifloonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -20648,7 +20635,6 @@ static const u16 sDrifblimTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -20673,6 +20659,7 @@ static const u16 sDrifblimTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DRIFLOON
@@ -20920,7 +20907,6 @@ static const u16 sBronzorTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -20941,6 +20927,7 @@ static const u16 sBronzorTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -20955,7 +20942,6 @@ static const u16 sBronzongTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -20981,6 +20967,7 @@ static const u16 sBronzongTeachableLearnset[] = {
     MOVE_HEAVY_SLAM,
     MOVE_STOMPING_TANTRUM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BRONZOR
@@ -21027,7 +21014,6 @@ static const u16 sSpiritombTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -21048,6 +21034,7 @@ static const u16 sSpiritombTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPIRITOMB
@@ -21229,7 +21216,6 @@ static const u16 sLucarioTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -21251,6 +21237,7 @@ static const u16 sLucarioTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RIOLU
@@ -21720,7 +21707,6 @@ static const u16 sUxieTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -21744,6 +21730,7 @@ static const u16 sUxieTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_UXIE
@@ -21762,7 +21749,6 @@ static const u16 sMespritTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -21786,6 +21772,7 @@ static const u16 sMespritTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MESPRIT
@@ -21804,7 +21791,6 @@ static const u16 sAzelfTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -21831,6 +21817,7 @@ static const u16 sAzelfTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_AZELF
@@ -22028,7 +22015,6 @@ static const u16 sGiratinaTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -22071,7 +22057,6 @@ static const u16 sCresseliaTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -22092,6 +22077,7 @@ static const u16 sCresseliaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CRESSELIA
@@ -22124,6 +22110,8 @@ static const u16 sPhioneTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -22141,7 +22129,6 @@ static const u16 sManaphyTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -22161,6 +22148,8 @@ static const u16 sManaphyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MANAPHY
@@ -22181,7 +22170,6 @@ static const u16 sDarkraiTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -22211,6 +22199,7 @@ static const u16 sDarkraiTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DARKRAI
@@ -22226,7 +22215,6 @@ static const u16 sShayminLandTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -22255,7 +22243,6 @@ static const u16 sShayminSkyTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -22292,7 +22279,6 @@ static const u16 sArceusTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -22344,7 +22330,6 @@ static const u16 sVictiniTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -23170,7 +23155,6 @@ static const u16 sMunnaTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -23207,7 +23191,6 @@ static const u16 sMusharnaTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -23229,6 +23212,7 @@ static const u16 sMusharnaTeachableLearnset[] = {
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MUNNA
@@ -23465,7 +23449,6 @@ static const u16 sWoobatTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -23485,6 +23468,7 @@ static const u16 sWoobatTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -23502,7 +23486,6 @@ static const u16 sSwoobatTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -23522,6 +23505,7 @@ static const u16 sSwoobatTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_WOOBAT
@@ -23612,7 +23596,6 @@ static const u16 sAudinoTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -24099,7 +24082,6 @@ static const u16 sWhimsicottTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -24114,6 +24096,7 @@ static const u16 sWhimsicottTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_GRASS_KNOT,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_COTTONEE
@@ -24468,7 +24451,6 @@ static const u16 sDarmanitanTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROAR,
@@ -24538,7 +24520,6 @@ static const u16 sDarmanitanGalarianTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_ROCK_TOMB,
     MOVE_SUNNY_DAY,
@@ -24740,7 +24721,6 @@ static const u16 sSigilyphTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -24759,6 +24739,7 @@ static const u16 sSigilyphTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SIGILYPH
@@ -24773,7 +24754,6 @@ static const u16 sYamaskTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -24804,7 +24784,6 @@ static const u16 sCofagrigusTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -24831,7 +24810,6 @@ static const u16 sYamaskGalarianTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_FACADE,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_ROCK_TOMB,
@@ -24855,7 +24833,6 @@ static const u16 sRunerigusTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_ROCK_TOMB,
@@ -25047,7 +25024,6 @@ static const u16 sGarbodorTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -25098,6 +25074,7 @@ static const u16 sZoruaTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_SNARL,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25134,6 +25111,7 @@ static const u16 sZoroarkTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_SNARL,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25171,6 +25149,7 @@ static const u16 sZoruaHisuianTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_SNARL,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25207,6 +25186,7 @@ static const u16 sZoroarkHisuianTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_SNARL,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_HISUIAN_FORMS
@@ -25284,7 +25264,6 @@ static const u16 sGothitaTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -25307,6 +25286,7 @@ static const u16 sGothitaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25320,7 +25300,6 @@ static const u16 sGothoritaTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -25343,6 +25322,7 @@ static const u16 sGothoritaTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25358,7 +25338,6 @@ static const u16 sGothitelleTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -25381,6 +25360,7 @@ static const u16 sGothitelleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GOTHITA
@@ -25396,7 +25376,6 @@ static const u16 sSolosisTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -25418,6 +25397,7 @@ static const u16 sSolosisTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25431,7 +25411,6 @@ static const u16 sDuosionTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -25453,6 +25432,7 @@ static const u16 sDuosionTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25468,7 +25448,6 @@ static const u16 sReuniclusTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -25492,6 +25471,7 @@ static const u16 sReuniclusTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SOLOSIS
@@ -25847,7 +25827,6 @@ static const u16 sFrillishTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -25867,6 +25846,7 @@ static const u16 sFrillishTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -25884,7 +25864,6 @@ static const u16 sJellicentTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -25904,6 +25883,7 @@ static const u16 sJellicentTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FRILLISH
@@ -25922,7 +25902,6 @@ static const u16 sAlomomolaTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -26208,7 +26187,6 @@ static const u16 sElgyemTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -26231,6 +26209,7 @@ static const u16 sElgyemTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -26245,7 +26224,6 @@ static const u16 sBeheeyemTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -26268,6 +26246,7 @@ static const u16 sBeheeyemTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ELGYEM
@@ -26285,7 +26264,6 @@ static const u16 sLitwickTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -26319,7 +26297,6 @@ static const u16 sLampentTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -26337,6 +26314,7 @@ static const u16 sLampentTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -26353,7 +26331,6 @@ static const u16 sChandelureTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -26371,6 +26348,7 @@ static const u16 sChandelureTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LITWICK
@@ -26632,6 +26610,7 @@ static const u16 sAccelgorTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHELMET
@@ -26821,7 +26800,6 @@ static const u16 sGolettTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -26861,7 +26839,6 @@ static const u16 sGolurkTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -27197,6 +27174,7 @@ static const u16 sHeatmorTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_WILL_O_WISP,
     MOVE_FIRE_PUNCH,
+    MOVE_STOMPING_TANTRUM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HEATMOR
@@ -27346,7 +27324,6 @@ static const u16 sLarvestaTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -27378,7 +27355,6 @@ static const u16 sVolcaronaTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -27509,7 +27485,6 @@ static const u16 sTornadusTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -27525,6 +27500,7 @@ static const u16 sTornadusTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TORNADUS
@@ -27542,7 +27518,6 @@ static const u16 sThundurusTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -27562,6 +27537,7 @@ static const u16 sThundurusTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_THUNDER_PUNCH,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_THUNDURUS
@@ -27581,7 +27557,6 @@ static const u16 sReshiramTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -27616,7 +27591,6 @@ static const u16 sZekromTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -27657,7 +27631,6 @@ static const u16 sLandorusTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -27693,7 +27666,6 @@ static const u16 sKyuremTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -27766,7 +27738,6 @@ static const u16 sMeloettaTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -27786,6 +27757,7 @@ static const u16 sMeloettaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MELOETTA
@@ -27806,7 +27778,6 @@ static const u16 sGenesectTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -27820,6 +27791,7 @@ static const u16 sGenesectTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_GENESECT
@@ -27962,7 +27934,6 @@ static const u16 sFennekinTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -27993,7 +27964,6 @@ static const u16 sBraixenTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28013,6 +27983,7 @@ static const u16 sBraixenTeachableLearnset[] = {
     MOVE_WILL_O_WISP,
     MOVE_DAZZLING_GLEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28031,7 +28002,6 @@ static const u16 sDelphoxTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28052,6 +28022,7 @@ static const u16 sDelphoxTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FENNEKIN
@@ -28363,7 +28334,6 @@ static const u16 sVivillonTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28378,6 +28348,7 @@ static const u16 sVivillonTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_POLLEN_PUFF,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SCATTERBUG
@@ -28464,7 +28435,6 @@ static const u16 sFlabebeTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28480,6 +28450,7 @@ static const u16 sFlabebeTeachableLearnset[] = {
     MOVE_GRASS_KNOT,
     MOVE_POLLEN_PUFF,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28493,7 +28464,6 @@ static const u16 sFloetteTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28509,6 +28479,7 @@ static const u16 sFloetteTeachableLearnset[] = {
     MOVE_GRASS_KNOT,
     MOVE_POLLEN_PUFF,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28522,7 +28493,6 @@ static const u16 sFloetteEternalFlowerTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28533,6 +28503,7 @@ static const u16 sFloetteEternalFlowerTeachableLearnset[] = {
     MOVE_GRASS_KNOT,
     MOVE_POLLEN_PUFF,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28548,7 +28519,6 @@ static const u16 sFlorgesTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -28563,6 +28533,7 @@ static const u16 sFlorgesTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_GRASS_KNOT,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FLABEBE
@@ -28758,7 +28729,6 @@ static const u16 sEspurrTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -28778,6 +28748,7 @@ static const u16 sEspurrTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28795,7 +28766,6 @@ static const u16 sMeowsticMaleTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -28815,6 +28785,7 @@ static const u16 sMeowsticMaleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28832,7 +28803,6 @@ static const u16 sMeowsticFemaleTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -28852,6 +28822,7 @@ static const u16 sMeowsticFemaleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ESPURR
@@ -28953,7 +28924,6 @@ static const u16 sSpritzeeTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -28970,6 +28940,7 @@ static const u16 sSpritzeeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -28984,7 +28955,6 @@ static const u16 sAromatisseTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -29002,6 +28972,7 @@ static const u16 sAromatisseTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SPRITZEE
@@ -29018,7 +28989,6 @@ static const u16 sSwirlixTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -29034,6 +29004,7 @@ static const u16 sSwirlixTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -29049,7 +29020,6 @@ static const u16 sSlurpuffTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -29065,6 +29035,7 @@ static const u16 sSlurpuffTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SWIRLIX
@@ -29083,7 +29054,6 @@ static const u16 sInkayTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -29101,6 +29071,7 @@ static const u16 sInkayTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -29118,7 +29089,6 @@ static const u16 sMalamarTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -29136,6 +29106,7 @@ static const u16 sMalamarTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_INKAY
@@ -29549,7 +29520,6 @@ static const u16 sAurorusTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -29573,6 +29543,7 @@ static const u16 sAurorusTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_FLASH_FREEZE,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_AMAURA
@@ -29659,7 +29630,6 @@ static const u16 sCarbinkTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -29678,6 +29648,7 @@ static const u16 sCarbinkTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_STEALTH_ROCK,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CARBINK
@@ -29866,7 +29837,6 @@ static const u16 sKlefkiTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -29883,6 +29853,7 @@ static const u16 sKlefkiTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THUNDER_WAVE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KLEFKI
@@ -29898,7 +29869,6 @@ static const u16 sPhantumpTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -29934,7 +29904,6 @@ static const u16 sTrevenantTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -29972,7 +29941,6 @@ static const u16 sPumpkabooTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -29993,6 +29961,7 @@ static const u16 sPumpkabooTeachableLearnset[] = {
     MOVE_GRASS_KNOT,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -30010,7 +29979,6 @@ static const u16 sGourgeistTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_SMASH,
@@ -30032,6 +30000,7 @@ static const u16 sGourgeistTeachableLearnset[] = {
     MOVE_GRASS_KNOT,
     MOVE_SOLAR_BEAM,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PUMPKABOO
@@ -30161,7 +30130,6 @@ static const u16 sNoibatTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -30177,6 +30145,7 @@ static const u16 sNoibatTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -30195,7 +30164,6 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_IRON_TAIL,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SECRET_POWER,
@@ -30211,6 +30179,7 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_NOIBAT
@@ -30228,7 +30197,6 @@ static const u16 sXerneasTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -30244,6 +30212,7 @@ static const u16 sXerneasTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_XERNEAS
@@ -30260,7 +30229,6 @@ static const u16 sYveltalTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REST,
     MOVE_RETURN,
@@ -30323,7 +30291,6 @@ static const u16 sDiancieTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -30342,6 +30309,7 @@ static const u16 sDiancieTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_STEALTH_ROCK,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DIANCIE
@@ -30359,7 +30327,6 @@ static const u16 sHoopaConfinedTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -30395,7 +30362,6 @@ static const u16 sHoopaUnboundTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -30703,7 +30669,6 @@ static const u16 sPrimarinaTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -30719,6 +30684,7 @@ static const u16 sPrimarinaTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_CHILLING_WATER,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_POPPLIO
@@ -31033,7 +30999,6 @@ static const u16 sCutieflyTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -31050,6 +31015,7 @@ static const u16 sCutieflyTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_GRASS_KNOT,
     MOVE_POLLEN_PUFF,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -31063,7 +31029,6 @@ static const u16 sRibombeeTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -31080,6 +31045,7 @@ static const u16 sRibombeeTeachableLearnset[] = {
     MOVE_DAZZLING_GLEAM,
     MOVE_GRASS_KNOT,
     MOVE_POLLEN_PUFF,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CUTIEFLY
@@ -31705,7 +31671,6 @@ static const u16 sOranguruTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -31723,6 +31688,7 @@ static const u16 sOranguruTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ORANGURU
@@ -31835,7 +31801,6 @@ static const u16 sSandygastTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_TOMB,
@@ -31860,7 +31825,6 @@ static const u16 sPalossandTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_HIDDEN_POWER,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_ROCK_TOMB,
@@ -31973,7 +31937,6 @@ static const u16 sMiniorTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -31994,6 +31957,7 @@ static const u16 sMiniorTeachableLearnset[] = {
     MOVE_STEALTH_ROCK,
     MOVE_DAZZLING_GLEAM,
     MOVE_SOLAR_BEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_MINIOR
@@ -32100,7 +32064,6 @@ static const u16 sMimikyuTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -32137,7 +32100,6 @@ static const u16 sBruxishTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
@@ -32372,7 +32334,6 @@ static const u16 sTapuLeleTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_RETURN,
     MOVE_SAFEGUARD,
@@ -32388,6 +32349,7 @@ static const u16 sTapuLeleTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TAPU_LELE
@@ -32477,7 +32439,6 @@ static const u16 sSolgaleoTeachableLearnset[] = {
     MOVE_IRON_TAIL,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -32513,7 +32474,6 @@ static const u16 sLunalaTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -32543,7 +32503,6 @@ static const u16 sNihilegoTeachableLearnset[] = {
     MOVE_HIDDEN_POWER,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -32736,7 +32695,6 @@ static const u16 sNecrozmaTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_RETURN,
@@ -32887,7 +32845,6 @@ static const u16 sBlacephalonTeachableLearnset[] = {
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_RETURN,
     MOVE_SUNNY_DAY,
@@ -33332,7 +33289,6 @@ static const u16 sDottlerTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -33341,7 +33297,9 @@ static const u16 sDottlerTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_POLLEN_PUFF,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -33353,7 +33311,6 @@ static const u16 sOrbeetleTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -33362,7 +33319,9 @@ static const u16 sOrbeetleTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
+    MOVE_POLLEN_PUFF,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BLIPBUG
@@ -33392,7 +33351,6 @@ static const u16 sThievulTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_HYPER_BEAM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_TAUNT,
     MOVE_THIEF,
@@ -33967,7 +33925,6 @@ static const u16 sSinisteaTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_GIGA_DRAIN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_ENDURE,
     MOVE_METRONOME,
@@ -33986,7 +33943,6 @@ static const u16 sPolteageistTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_ENDURE,
@@ -34009,7 +33965,6 @@ static const u16 sHatennaTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_SAFEGUARD,
     MOVE_SKILL_SWAP,
@@ -34018,6 +33973,7 @@ static const u16 sHatennaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -34028,7 +33984,6 @@ static const u16 sHattremTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_SAFEGUARD,
     MOVE_SKILL_SWAP,
@@ -34037,6 +33992,7 @@ static const u16 sHattremTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -34048,7 +34004,6 @@ static const u16 sHattereneTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_SAFEGUARD,
     MOVE_SKILL_SWAP,
@@ -34058,6 +34013,7 @@ static const u16 sHattereneTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWORDS_DANCE,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_HATENNA
@@ -34154,7 +34110,6 @@ static const u16 sAlcremieTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_SAFEGUARD,
     MOVE_ENDURE,
@@ -34301,7 +34256,6 @@ static const u16 sIndeedeeMaleTeachableLearnset[] = {
     MOVE_CALM_MIND,
     MOVE_FACADE,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_ENDURE,
     MOVE_METRONOME,
@@ -34311,6 +34265,7 @@ static const u16 sIndeedeeMaleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -34320,7 +34275,6 @@ static const u16 sIndeedeeFemaleTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -34332,6 +34286,7 @@ static const u16 sIndeedeeFemaleTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWIFT,
     MOVE_DAZZLING_GLEAM,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_INDEEDEE
@@ -34898,7 +34853,6 @@ static const u16 sCalyrexTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -34925,7 +34879,6 @@ static const u16 sCalyrexIceRiderTeachableLearnset[] = {
     MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -34954,7 +34907,6 @@ static const u16 sCalyrexShadowRiderTeachableLearnset[] = {
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SAFEGUARD,
@@ -36100,7 +36052,6 @@ static const u16 sArmarougeTeachableLearnset[] = {
     MOVE_OVERHEAT,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
     MOVE_REFLECT,
@@ -36116,6 +36067,7 @@ static const u16 sArmarougeTeachableLearnset[] = {
     MOVE_TRICK_ROOM,
     MOVE_WILL_O_WISP,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -36708,6 +36660,7 @@ static const u16 sRellorTeachableLearnset[] = {
     MOVE_TERA_BLAST,
     MOVE_THIEF,
     MOVE_X_SCISSOR,
+    MOVE_POLLEN_PUFF,
     MOVE_UNAVAILABLE,
 };
 
@@ -36735,7 +36688,6 @@ static const u16 sRabscaTeachableLearnset[] = {
     MOVE_POWER_GEM,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
     MOVE_RAIN_DANCE,
@@ -36758,7 +36710,9 @@ static const u16 sRabscaTeachableLearnset[] = {
     MOVE_X_SCISSOR,
     MOVE_ZEN_HEADBUTT,
     MOVE_DAZZLING_GLEAM,
+    MOVE_POLLEN_PUFF,
     MOVE_SHADOW_BALL,
+    MOVE_MIST_BALL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RELLOR
@@ -36779,7 +36733,6 @@ static const u16 sFlittleTeachableLearnset[] = {
     MOVE_POUNCE,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
     MOVE_RAIN_DANCE,
@@ -36828,7 +36781,6 @@ static const u16 sEspathraTeachableLearnset[] = {
     MOVE_POUNCE,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
     MOVE_RAIN_DANCE,
@@ -37548,7 +37500,6 @@ static const u16 sVeluzaTeachableLearnset[] = {
     MOVE_ICY_WIND,
     MOVE_LIQUIDATION,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_FANGS,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_RAIN_DANCE,
@@ -37707,7 +37658,6 @@ static const u16 sScreamTailTeachableLearnset[] = {
     MOVE_PLAY_ROUGH,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_FANGS,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
@@ -38094,7 +38044,6 @@ static const u16 sIronMothTeachableLearnset[] = {
     MOVE_OVERHEAT,
     MOVE_POUNCE,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_SLEEP_TALK,
     MOVE_STRUGGLE_BUG,
@@ -38312,7 +38261,6 @@ static const u16 sGholdengoTeachableLearnset[] = {
     MOVE_NIGHT_SHADE,
     MOVE_POWER_GEM,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_PSYSHOCK,
     MOVE_REFLECT,
     MOVE_REST,
@@ -38460,7 +38408,6 @@ static const u16 sChiYuTeachableLearnset[] = {
     MOVE_NASTY_PLOT,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_SCARY_FACE,
@@ -38561,7 +38508,6 @@ static const u16 sIronValiantTeachableLearnset[] = {
     MOVE_POISON_JAB,
     MOVE_PROTECT,
     MOVE_PSYBEAM,
-    MOVE_PSYCHIC,
     MOVE_PSYCHIC_TERRAIN,
     MOVE_PSYSHOCK,
     MOVE_REFLECT,
@@ -38772,7 +38718,6 @@ static const u16 sPoltchageistTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_GIGA_DRAIN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_ENDURE,
     MOVE_METRONOME,
@@ -38789,7 +38734,6 @@ static const u16 sSinistchaTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_GIGA_DRAIN,
     MOVE_PROTECT,
-    MOVE_PSYCHIC,
     MOVE_REST,
     MOVE_ENDURE,
     MOVE_METRONOME,

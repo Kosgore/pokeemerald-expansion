@@ -1217,7 +1217,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 29,
         .baseSpAttack  = 107,
         .baseSpDefense = 95,
-        .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+        .types = { TYPE_PSYCHIC, TYPE_FAIRY },
         .catchRate = 75,
         .expYield = 170,
         .evYield_HP = 2,
@@ -6232,7 +6232,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS },
         #if P_UPDATED_ABILITIES >= GEN_6
-            .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_INFILTRATOR },
+            .abilities = { ABILITY_FLASH_FIRE, ABILITY_ILLUMINATE, ABILITY_FLAME_BODY },
         #else
             .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_SHADOW_TAG },
         #endif
@@ -6285,7 +6285,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS },
         #if P_UPDATED_ABILITIES >= GEN_6
-            .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_INFILTRATOR },
+            .abilities = { ABILITY_FLASH_FIRE, ABILITY_ILLUMINATE, ABILITY_SHADOW_TAG },
         #else
             .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_SHADOW_TAG },
         #endif
@@ -6338,7 +6338,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS },
         #if P_UPDATED_ABILITIES >= GEN_6
-            .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_INFILTRATOR },
+            .abilities = { ABILITY_FLASH_FIRE, ABILITY_ILLUMINATE, ABILITY_SHADOW_TAG },
         #else
             .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_SHADOW_TAG },
         #endif
@@ -7543,22 +7543,23 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #if P_FAMILY_HEATMOR
     [SPECIES_HEATMOR] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 97,
+        .baseHP        = 88,
+        .baseAttack    = 100,
         .baseDefense   = 66,
         .baseSpeed     = 65,
-        .baseSpAttack  = 105,
+        .baseSpAttack  = 100,
         .baseSpDefense = 66,
         .types = { TYPE_FIRE, TYPE_FIRE },
         .catchRate = 90,
         .expYield = 169,
-        .evYield_SpAttack = 2,
+        .evYield_SpAttack = 1,
+        .evYield_Attack = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_GLUTTONY, ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE },
+        .abilities = { ABILITY_INCENDIARY, ABILITY_TOUGH_CLAWS, ABILITY_MOLD_BREAKER },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Heatmor"),
         .cryId = CRY_HEATMOR,
@@ -7593,21 +7594,21 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_DURANT] =
     {
         .baseHP        = 58,
-        .baseAttack    = 109,
+        .baseAttack    = 119,
         .baseDefense   = 112,
-        .baseSpeed     = 109,
+        .baseSpeed     = 100,
         .baseSpAttack  = 48,
         .baseSpDefense = 48,
         .types = { TYPE_BUG, TYPE_STEEL },
         .catchRate = 90,
         .expYield = 169,
         .evYield_Defense = 2,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_SWARM, ABILITY_HUSTLE, ABILITY_TRUANT },
+        .abilities = { ABILITY_HEATPROOF, ABILITY_SWARM, ABILITY_ADAPTABILITY },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Durant"),
         .cryId = CRY_DURANT,

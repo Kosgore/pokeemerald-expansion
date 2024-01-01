@@ -2449,8 +2449,8 @@ static const u8 sBanefulBunkerDescription[] = _(
     "foes on contact.");
 
 static const u8 sSpiritShackleDescription[] = _(
-    "After being hit, foes can\n"
-    "no longer escape.");
+    "Tethers their soul, so\n"
+    "foes can't escape.");
 
 static const u8 sDarkestLariatDescription[] = _(
     "Swings the arms to strike\n"
@@ -2994,8 +2994,8 @@ static const u8 sStoneAxeDescription[] = _(
     "Splinters that hurt the foe.");
 
 static const u8 sSpringtideStormDescription[] = _(
-    "Wraps a foe in fierce winds.\n"
-    "Varies with the user's form.");
+    "Wraps a foe in fierce winds\n"
+    "full of mixed emotions.");
 
 static const u8 sMysticalPowerDescription[] = _(
     "A mysterious power strikes,\n"
@@ -3364,9 +3364,13 @@ static const u8 sMalignantChainDescription[] = _(
     "A corrosive chain attack\n"
     "that may badly poison.");
 
-static const u8 sVirulentGasDescription[] = _(
+static const u8 sVirulentVaporsDescription[] = _(
     "Fills the area with toxic\n"
-    "vapors that may poison.");
+    "miasma that may poison.");
+
+static const u8 sSynapticStaticDescription[] = _(
+    "A mind-numbing attack that\n"
+    "may paralyze the foe.");
 
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
@@ -4234,5 +4238,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_UPPER_HAND - 1] = sUpperHandDescription,
     [MOVE_MALIGNANT_CHAIN - 1] = sMalignantChainDescription,
     [MOVE_SOULBIND - 1] = sSoulbindDescription,
-    [MOVE_VIRULENT_GAS - 1] = sVirulentGasDescription,
+    [MOVE_VIRULENT_VAPORS - 1] = sVirulentVaporsDescription,
+    [MOVE_SYNAPTIC_STATIC - 1] = sSynapticStaticDescription,
 };

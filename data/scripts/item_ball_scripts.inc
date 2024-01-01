@@ -611,7 +611,7 @@ VictoryRoad_1F_EventScript_ItemPPUp::
 	end
 
 VictoryRoad_B1F_EventScript_ItemTMPsychic::
-	finditem ITEM_TM_PSYCHIC
+	finditem ITEM_TM29
 	end
 
 VictoryRoad_B1F_EventScript_ItemFullRestore::

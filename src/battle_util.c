@@ -3719,10 +3719,13 @@ u8 AtkCanceller_UnableToUseMove(u32 moveType)
             gBattleStruct->atkCancellerTracker++;
             break;
         case CANCELLER_POWDER_MOVE:
-            if ((gBattleMoves[gCurrentMove].powderMove) && (gBattlerAttacker != gBattlerTarget))
+            if ((gBattleMoves[gCurrentMove].powderMove) 
+                    && (gBattlerAttacker != gBattlerTarget)
+                    && GetBattlerAbility(gBattlerAttacker) != ABILITY_MYCELIUM_MIGHT)
             {
                 if (B_POWDER_GRASS >= GEN_6
-                    && (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_GRASS) || GetBattlerAbility(gBattlerTarget) == ABILITY_OVERCOAT))
+                    && (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_GRASS) || GetBattlerAbility(gBattlerTarget) == ABILITY_OVERCOAT)
+                    && GetBattlerAbility(gBattlerAttacker) != ABILITY_MYCELIUM_MIGHT)
                 {
                     gBattlerAbility = gBattlerTarget;
                     effect = 1;
@@ -4098,7 +4101,7 @@ static bool32 TryChangeBattleTerrain(u32 battler, u32 statusFlag, u8 *timer)
 {
     if ((!(gFieldStatuses & statusFlag) && (!gBattleStruct->isSkyBattle)))
     {
-        gFieldStatuses &= ~(STATUS_FIELD_MISTY_TERRAIN | STATUS_FIELD_GRASSY_TERRAIN | STATUS_FIELD_ELECTRIC_TERRAIN | STATUS_FIELD_PSYCHIC_TERRAIN);
+        gFieldStatuses &= ~(STATUS_FIELD_MISTY_TERRAIN | STATUS_FIELD_GRASSY_TERRAIN | STATUS_FIELD_ELECTRIC_TERRAIN | STATUS_FIELD_PSYCHIC_TERRAIN | STATUS_FIELD_GRAVITY | STATUS_FIELD_MUDSPORT | STATUS_FIELD_WATERSPORT);
         gFieldStatuses |= statusFlag;
         gDisableStructs[battler].terrainAbilityDone = FALSE;
 
@@ -4533,6 +4536,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
             if (!gSpecialStatuses[battler].switchInAbilityDone)
             {
                 gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SWITCHIN_PRESSURE;
+                PREPARE_STAT_BUFFER(gBattleTextBuff1, STAT_SPATK);
                 gSpecialStatuses[battler].switchInAbilityDone = TRUE;
                 BattleScriptPushCursorAndCallback(BattleScript_SwitchInAbilityMsg);
                 effect++;
@@ -4673,6 +4677,13 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
             if (TryChangeBattleTerrain(battler, STATUS_FIELD_GRAVITY, &gFieldTimers.gravityTimer))
             {
                 BattleScriptPushCursorAndCallback(BattleScript_GravityWellActivates);
+                effect++;
+            }
+            break;
+        case ABILITY_MUDDY:
+            if (TryChangeBattleTerrain(battler, STATUS_FIELD_MUDSPORT, &gFieldTimers.mudSportTimer))
+            {
+                BattleScriptPushCursorAndCallback(BattleScript_MuddyActivates);
                 effect++;
             }
             break;
@@ -5601,10 +5612,26 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
              && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
              && (IsMoveMakingContact(move, gBattlerAttacker))
              && TARGET_TURN_DAMAGED
-             && CanBeBurned(gBattlerAttacker)
+             && CanBeBurned(gBattlerAttacker, gBattlerTarget)
              && RandomWeighted(RNG_FLAME_BODY, 2, 1))
             {
                 gBattleScripting.moveEffect = MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_BURN;
+                BattleScriptPushCursor();
+                gBattlescriptCurrInstr = BattleScript_AbilityStatusEffect;
+                gHitMarker |= HITMARKER_STATUS_ABILITY_EFFECT;
+                effect++;
+            }
+            break;
+        case ABILITY_ICE_BODY:
+            if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
+             && gBattleMons[gBattlerAttacker].hp != 0
+             && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
+             && (IsMoveMakingContact(move, gBattlerAttacker))
+             && TARGET_TURN_DAMAGED
+             && CanBeBurned(gBattlerAttacker, gBattlerTarget)
+             && RandomWeighted(RNG_ICE_BODY, 2, 1))
+            {
+                gBattleScripting.moveEffect = MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_FROSTBITE;
                 BattleScriptPushCursor();
                 gBattlescriptCurrInstr = BattleScript_AbilityStatusEffect;
                 gHitMarker |= HITMARKER_STATUS_ABILITY_EFFECT;
@@ -5831,6 +5858,22 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 effect++;
             }
             break;
+        case ABILITY_INCENDIARY:
+            if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
+             && gBattleMons[gBattlerTarget].hp != 0
+             && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
+             && CanBeBurned(gBattlerAttacker, gBattlerTarget)
+             && TARGET_TURN_DAMAGED
+             && (Random() % 5) == 0)
+            {
+                gBattleScripting.moveEffect = MOVE_EFFECT_BURN;
+                PREPARE_ABILITY_BUFFER(gBattleTextBuff1, gLastUsedAbility);
+                BattleScriptPushCursor();
+                gBattlescriptCurrInstr = BattleScript_AbilityStatusEffect;
+                gHitMarker |= HITMARKER_STATUS_ABILITY_EFFECT;
+                effect++;
+            }
+            break;
         case ABILITY_STENCH:
             if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
              && gBattleMons[gBattlerTarget].hp != 0
@@ -5964,6 +6007,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 break;
             case ABILITY_WATER_VEIL:
             case ABILITY_WATER_BUBBLE:
+            case ABILITY_MUDDY:
                 if (gBattleMons[battler].status1 & STATUS1_BURN)
                 {
                     StringCopy(gBattleTextBuff1, gStatusConditionString_BurnJpn);
@@ -6469,19 +6513,20 @@ bool32 CanBePoisoned(u32 battlerAttacker, u32 battlerTarget)
     return TRUE;
 }
 
-bool32 CanBeBurned(u32 battler)
+bool32 CanBeBurned(u32 battlerAttacker, u32 battlerTarget)
 {
-    u16 ability = GetBattlerAbility(battler);
-    if (IS_BATTLER_OF_TYPE(battler, TYPE_FIRE)
-      || gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_SAFEGUARD
-      || gBattleMons[battler].status1 & STATUS1_ANY
+    u16 ability = GetBattlerAbility(battlerTarget);
+    if (IS_BATTLER_OF_TYPE(battlerTarget, TYPE_FIRE)
+      || gSideStatuses[GetBattlerSide(battlerTarget)] & SIDE_STATUS_SAFEGUARD
+      || gBattleMons[battlerTarget].status1 & STATUS1_ANY
       || ability == ABILITY_WATER_VEIL
       || ability == ABILITY_WATER_BUBBLE
+      || ability == ABILITY_MUDDY
       || ability == ABILITY_COMATOSE
       || ability == ABILITY_THERMAL_EXCHANGE
       || ability == ABILITY_PURIFYING_SALT
-      || IsAbilityStatusProtected(battler)
-      || IsBattlerTerrainAffected(battler, STATUS_FIELD_MISTY_TERRAIN))
+      || IsAbilityStatusProtected(battlerTarget)
+      || IsBattlerTerrainAffected(battlerTarget, STATUS_FIELD_MISTY_TERRAIN))
         return FALSE;
     return TRUE;
 }
@@ -8029,7 +8074,7 @@ u8 ItemBattleEffects(u8 caseID, u32 battler, bool32 moveTurn)
             }
             break;
         case HOLD_EFFECT_FLAME_ORB:
-            if (CanBeBurned(battler))
+            if (CanBeBurned(battler, battler))
             {
                 effect = ITEM_STATUS_CHANGE;
                 gBattleMons[battler].status1 = STATUS1_BURN;
@@ -9484,6 +9529,7 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
                 RecordAbilityBattle(battlerDef, ABILITY_WATER_COMPACTION);
         }
         break;
+    case ABILITY_PASTEL_VEIL:
     case ABILITY_IMMUNITY:
         if (moveType == TYPE_POISON)
         {
@@ -9529,6 +9575,14 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
             if (gBattleMons[BATTLE_PARTNER(battlerAtk)].species == SPECIES_CHERRIM_SUNSHINE && IsBattlerWeatherAffected(BATTLE_PARTNER(battlerAtk), B_WEATHER_SUN) && IS_MOVE_SPECIAL(move))
                 modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
             break;
+        case ABILITY_PASTEL_VEIL:
+            if (moveType == TYPE_POISON)
+        {
+            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(0.5));
+            if (updateFlags)
+                RecordAbilityBattle(battlerDef, ABILITY_PASTEL_VEIL);
+        }
+        break;
         }
     }
 
@@ -9539,6 +9593,8 @@ static inline u32 CalcAttackStat(u32 move, u32 battlerAtk, u32 battlerDef, u32 m
     if (IsAbilityOnField(ABILITY_TABLETS_OF_RUIN) && atkAbility != ABILITY_TABLETS_OF_RUIN && IS_MOVE_PHYSICAL(move))
         modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(0.75));
 
+    if (IsAbilityOnField(ABILITY_PRESSURE) && (atkAbility != ABILITY_PRESSURE || atkAbility != ABILITY_INNER_FOCUS || atkAbility != ABILITY_OBLIVIOUS))
+        modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(0.8));
     // attacker's hold effect
     switch (holdEffectAtk)
     {
@@ -10143,6 +10199,12 @@ static inline void MulByTypeEffectiveness(uq4_12_t *modifier, u32 move, u32 move
             RecordAbilityBattle(battlerAtk, ABILITY_SCRAPPY);
     }
 
+    if ((moveType == TYPE_PSYCHIC) && defType == TYPE_DARK && GetBattlerAbility(battlerAtk) == ABILITY_TELEPATHY && mod == UQ_4_12(0.0))
+    {
+        mod = UQ_4_12(1.0);
+        if (recordAbilities)
+            RecordAbilityBattle(battlerAtk, ABILITY_TELEPATHY);
+    }
     if (moveType == TYPE_PSYCHIC && defType == TYPE_DARK && gStatuses3[battlerDef] & STATUS3_MIRACLE_EYED && mod == UQ_4_12(0.0))
         mod = UQ_4_12(1.0);
     if (gBattleMoves[move].effect == EFFECT_FREEZE_DRY && defType == TYPE_WATER)
@@ -10241,8 +10303,7 @@ static inline uq4_12_t CalcTypeEffectivenessMultiplierInternal(u32 move, u32 mov
         modifier = UQ_4_12(1.0);
     }
 
-    if (((defAbility == ABILITY_WONDER_GUARD && modifier <= UQ_4_12(1.0))
-        || (defAbility == ABILITY_TELEPATHY && battlerDef == BATTLE_PARTNER(battlerAtk)))
+    if (((defAbility == ABILITY_WONDER_GUARD && modifier <= UQ_4_12(1.0)))
         && gBattleMoves[move].power)
     {
         modifier = UQ_4_12(0.0);

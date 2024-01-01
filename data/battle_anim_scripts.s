@@ -883,7 +883,8 @@ gBattleAnims_Moves::
 	.4byte Move_KHAMASIN
 	.4byte Move_CHOMP
 	.4byte Move_SOULBIND
-	.4byte Move_VIRULENT_GAS
+	.4byte Move_VIRULENT_VAPORS
+	.4byte Move_SYNAPTIC_STATIC
 @@@@ Z MOVES
 	.4byte Move_BREAKNECK_BLITZ
 	.4byte Move_ALL_OUT_PUMMELING
@@ -21446,6 +21447,27 @@ Move_PSYCHIC:
 	call UnsetPsychicBg
 	end
 
+Move_SYNAPTIC_STATIC:
+	loadspritegfx ANIM_TAG_SPARK
+	loadspritegfx ANIM_TAG_SPARK_2
+	monbg ANIM_DEF_PARTNER
+	call SetPsychicBackground
+	setalpha 8, 8
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_ATTACKER, 1, 0, 10, 1
+	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_ATTACKER, 0, 2, 0, 8, RGB(31, 23, 0)
+	waitforvisualfinish
+	loopsewithpan SE_M_THUNDER_WAVE, SOUND_PAN_TARGET, 10, 3
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 5, 0, 15, 1
+	createvisualtask AnimTask_ScaleMonAndRestore, 5, -6, -6, 15, ANIM_TARGET, 1
+	waitforvisualfinish
+	clearmonbg ANIM_DEF_PARTNER
+	blendoff
+	delay 1
+	call ElectricityEffect
+	waitforvisualfinish
+	call UnsetPsychicBg
+	end
+
 Move_FUTURE_SIGHT:
 	goto FutureSight
 FutureSightContinue:
@@ -26334,7 +26356,7 @@ Move_DEATH_ROLL:
 	waitbgfadein
 	end
 
-Move_VIRULENT_GAS:
+Move_VIRULENT_VAPORS:
 	loadspritegfx ANIM_TAG_PURPLE_GAS_CLOUD
 	monbg ANIM_DEF_PARTNER
 	fadetobg BG_DARK
