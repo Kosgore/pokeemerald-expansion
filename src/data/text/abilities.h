@@ -313,6 +313,8 @@ static const u8 sToxicChainDescription[] = _("Moves can poison.");
 static const u8 sSupersweetSyrupDescription[] = _("Lowers the foe's Speed.");
 static const u8 sIncendiaryDescription[] = _("Moves can burn.");
 static const u8 sMuddyDescription[] = _("Dampens electr and burns.");
+static const u8 sDemoralizeDescription[] = _("Lowers the foe's SpAtk.");
+static const u8 sAstralShiftDescription[] = _("Adjusts defense favorably.");
 
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
@@ -642,6 +644,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SUPERSWEET_SYRUP] = _("Supersweet Syrup"),
     [ABILITY_INCENDIARY] = _("Incendiary"),
     [ABILITY_MUDDY] = _("Muddy"),
+    [ABILITY_DEMORALIZE] = _("Demoralize"),
+    [ABILITY_ASTRAL_SHIFT] = _("Astral Shift"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -970,6 +974,8 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SUPERSWEET_SYRUP] = _("SuprswtSyrup"),
     [ABILITY_INCENDIARY] = _("Incendiary"),
     [ABILITY_MUDDY] = _("Muddy"),
+    [ABILITY_DEMORALIZE] = _("Demoralize"),
+    [ABILITY_ASTRAL_SHIFT] = _("Astral Shift"),
 };
 #endif
 
@@ -1299,4 +1305,6 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_SUPERSWEET_SYRUP] = sSupersweetSyrupDescription,
     [ABILITY_INCENDIARY] = sIncendiaryDescription,
     [ABILITY_MUDDY] = sMuddyDescription,
+    [ABILITY_DEMORALIZE] = sDemoralizeDescription,
+    [ABILITY_ASTRAL_SHIFT] = sAstralShiftDescription,
 };

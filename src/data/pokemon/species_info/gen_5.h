@@ -1372,7 +1372,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_FLYING },
-        .abilities = { ABILITY_UNNERVE, ABILITY_INNER_FOCUS, ABILITY_RIVALRY },
+        .abilities = { ABILITY_UNNERVE, ABILITY_INNER_FOCUS, ABILITY_SUPER_LUCK },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Unfezant"),
         .cryId = CRY_UNFEZANT,
@@ -1416,7 +1416,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 76,
         .baseSpAttack  = 50,
         .baseSpDefense = 32,
-        .types = { TYPE_NORMAL, TYPE_ELECTRIC },
+        .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
         .catchRate = 190,
         .expYield = 59,
         .evYield_Speed = 1,
@@ -1425,7 +1425,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_LIGHTNING_ROD, ABILITY_MOTOR_DRIVE, ABILITY_SAP_SIPPER },
+        .abilities = { ABILITY_RECKLESS, ABILITY_MOTOR_DRIVE, ABILITY_SAP_SIPPER },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Blitzle"),
         .cryId = CRY_BLITZLE,
@@ -1464,7 +1464,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 116,
         .baseSpAttack  = 80,
         .baseSpDefense = 63,
-        .types = { TYPE_NORMAL, TYPE_ELECTRIC },
+        .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
         .catchRate = 75,
         .expYield = 174,
         .evYield_Speed = 2,
@@ -1473,7 +1473,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_LIGHTNING_ROD, ABILITY_MOTOR_DRIVE, ABILITY_SAP_SIPPER },
+        .abilities = { ABILITY_RECKLESS, ABILITY_MOTOR_DRIVE, ABILITY_SAP_SIPPER },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Zebstrika"),
         .cryId = CRY_ZEBSTRIKA,
@@ -3095,7 +3095,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_MOXIE, ABILITY_ANGER_POINT },
+        .abilities = { ABILITY_RIVALRY, ABILITY_SAND_RUSH, ABILITY_MOXIE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Sandile"),
         .cryId = CRY_SANDILE,
@@ -3144,7 +3144,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_MOXIE, ABILITY_ANGER_POINT },
+        .abilities = { ABILITY_INTIMIDATE, ABILITY_SAND_RUSH, ABILITY_MOXIE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Krokorok"),
         .cryId = CRY_KROKOROK,
@@ -3178,9 +3178,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_KROOKODILE] =
     {
         .baseHP        = 95,
-        .baseAttack    = 117,
-        .baseDefense   = P_UPDATED_STATS >= GEN_6 ? 80 : 70,
-        .baseSpeed     = 92,
+        .baseAttack    = 120,
+        .baseDefense   = 80,
+        .baseSpeed     = 90,
         .baseSpAttack  = 65,
         .baseSpDefense = 70,
         .types = { TYPE_GROUND, TYPE_DARK },
@@ -3193,7 +3193,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_MOXIE, ABILITY_ANGER_POINT },
+        .abilities = { ABILITY_INTIMIDATE, ABILITY_SAND_RUSH, ABILITY_MOXIE },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Krookodile"),
         .cryId = CRY_KROOKODILE,
@@ -3469,9 +3469,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseHP        = 75,
         .baseAttack    = 86,
         .baseDefense   = 67,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 106,
-        .baseSpDefense = 67,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 77,
         .types = { TYPE_GRASS, TYPE_GRASS },
         .catchRate = 255,
         .expYield = 161,
@@ -3482,7 +3482,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS },
-        .abilities = { ABILITY_WATER_ABSORB, ABILITY_CHLOROPHYLL, ABILITY_STORM_DRAIN },
+        .abilities = { ABILITY_DANCER, ABILITY_SHARP_THORNS, ABILITY_STORM_DRAIN },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Maractus"),
         .cryId = CRY_MARACTUS,
@@ -3721,7 +3721,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 97,
         .baseSpAttack  = 103,
         .baseSpDefense = 80,
-        .types = { TYPE_PSYCHIC, TYPE_FLYING },
+        .types = { TYPE_COSMIC, TYPE_FLYING },
         .catchRate = 45,
         .expYield = 172,
         .evYield_SpAttack = 2,
@@ -3955,7 +3955,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 22,
         .baseSpAttack  = 53,
         .baseSpDefense = 45,
-        .types = { TYPE_WATER, TYPE_ROCK },
+        .types = { TYPE_WATER, TYPE_PRIMAL },
         .catchRate = 45,
         .expYield = 71,
         .evYield_Defense = 1,
@@ -4003,7 +4003,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 32,
         .baseSpAttack  = 83,
         .baseSpDefense = 65,
-        .types = { TYPE_WATER, TYPE_ROCK },
+        .types = { TYPE_WATER, TYPE_PRIMAL },
         .catchRate = 45,
         .expYield = 173,
         .evYield_Defense = 2,
@@ -4052,7 +4052,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 70,
         .baseSpAttack  = 74,
         .baseSpDefense = 45,
-        .types = { TYPE_ROCK, TYPE_FLYING },
+        .types = { TYPE_PRIMAL, TYPE_FLYING },
         .catchRate = 45,
         .expYield = 71,
         .evYield_Attack = 1,
@@ -4100,7 +4100,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 110,
         .baseSpAttack  = 112,
         .baseSpDefense = 65,
-        .types = { TYPE_ROCK, TYPE_FLYING },
+        .types = { TYPE_PRIMAL, TYPE_FLYING },
         .catchRate = 45,
         .expYield = 177,
         .evYield_Attack = 2,
@@ -4285,7 +4285,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,                  \
         .growthRate = GROWTH_MEDIUM_SLOW,                   \
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD },  \
-        .abilities = { ABILITY_ILLUSION, ABILITY_NONE },    \
+        .abilities = { ABILITY_ILLUSION, ABILITY_NONE, ABILITY_DEMORALIZE },    \
         .bodyColor = BODY_COLOR_GRAY,                       \
         .speciesName = _("Zorua"),                          \
         .cryId = CRY_ZORUA,                                 \
@@ -4549,7 +4549,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 45,
         .baseSpAttack  = 55,
         .baseSpDefense = 65,
-        .types = { TYPE_PSYCHIC, TYPE_DARK },
+        .types = { TYPE_COSMIC, TYPE_PSYCHIC },
         .catchRate = 200,
         .expYield = 58,
         .evYield_SpDefense = 1,
@@ -4558,7 +4558,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_FRISK, ABILITY_COMPETITIVE, ABILITY_OPPORTUNIST },
+        .abilities = { ABILITY_FRISK, ABILITY_COMPETITIVE, ABILITY_SHADOW_TAG },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Gothita"),
         .cryId = CRY_GOTHITA,
@@ -4597,7 +4597,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 55,
         .baseSpAttack  = 75,
         .baseSpDefense = 85,
-        .types = { TYPE_PSYCHIC, TYPE_DARK },
+        .types = { TYPE_COSMIC, TYPE_PSYCHIC },
         .catchRate = 100,
         .expYield = 137,
         .evYield_SpDefense = 2,
@@ -4606,7 +4606,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_SHADOW_TAG, ABILITY_COMPETITIVE, ABILITY_OPPORTUNIST },
+        .abilities = { ABILITY_FRISK, ABILITY_COMPETITIVE, ABILITY_SHADOW_TAG },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Gothorita"),
         .cryId = CRY_GOTHORITA,
@@ -4645,7 +4645,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 65,
         .baseSpAttack  = 95,
         .baseSpDefense = 110,
-        .types = { TYPE_PSYCHIC, TYPE_DARK },
+        .types = { TYPE_COSMIC, TYPE_PSYCHIC },
         .catchRate = 50,
         .expYield = 221,
         .evYield_SpDefense = 3,
@@ -4654,7 +4654,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_SHADOW_TAG, ABILITY_COMPETITIVE, ABILITY_OPPORTUNIST },
+        .abilities = { ABILITY_ASTRAL_SHIFT, ABILITY_COMPETITIVE, ABILITY_SHADOW_TAG },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Gothitelle"),
         .cryId = CRY_GOTHITELLE,
@@ -5317,52 +5317,51 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #endif //P_FAMILY_EMOLGA
 
 #if P_FAMILY_KARRABLAST
-    [SPECIES_KARRABLAST] =
+    [SPECIES_SHELMET] =
     {
         .baseHP        = 50,
-        .baseAttack    = 75,
-        .baseDefense   = 45,
-        .baseSpeed     = 60,
+        .baseAttack    = 40,
+        .baseDefense   = 85,
+        .baseSpeed     = 25,
         .baseSpAttack  = 40,
-        .baseSpDefense = 45,
+        .baseSpDefense = 65,
         .types = { TYPE_BUG, TYPE_BUG },
         .catchRate = 200,
-        .expYield = 63,
-        .evYield_Attack = 1,
+        .expYield = 61,
+        .evYield_Defense = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_HUSTLE, ABILITY_NONE, ABILITY_RIVALRY },
-        .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Karrablast"),
-        .cryId = CRY_KARRABLAST,
-        .natDexNum = NATIONAL_DEX_KARRABLAST,
-        .categoryName = _("Clamping"),
-        .height = 5,
-        .weight = 59,
+        .abilities = { ABILITY_SHELL_ARMOR, ABILITY_NONE, ABILITY_RIVALRY },
+        .bodyColor = BODY_COLOR_RED,
+        .speciesName = _("Shelmet"),
+        .cryId = CRY_SHELMET,
+        .natDexNum = NATIONAL_DEX_SHELMET,
+        .categoryName = _("Snail"),
+        .height = 4,
+        .weight = 77,
         .description = COMPOUND_STRING(
-            "When they feel threatened, they spit an\n"
-            "acidic liquid to drive attackers away.\n"
-            "For some reason they evolve while they\n"
-            "are in the same place as Shelmet."),
-        .pokemonScale = 432,
+            "When attacked, it defends itself by\n"
+            "closing the lid of its shell. It is\n"
+            "often spotted battling Karrablast."),
+        .pokemonScale = 491,
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
-        FRONT_PIC(Karrablast, 40, 48),
-        .frontPicYOffset = 13,
-        .frontAnimFrames = sAnims_Karrablast,
-        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        BACK_PIC(Karrablast, 48, 48),
-        .backPicYOffset = 14,
-        .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
-        PALETTES(Karrablast),
-        ICON(Karrablast, 0),
-        .footprint = gMonFootprint_Karrablast,
-        LEARNSETS(Karrablast),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_X_DEFENSE, SPECIES_ESCAVALIER}),
+        FRONT_PIC(Shelmet, 40, 40),
+        .frontPicYOffset = 14,
+        .frontAnimFrames = sAnims_Shelmet,
+        .frontAnimId = ANIM_TWIST,
+        BACK_PIC(Shelmet, 64, 32),
+        .backPicYOffset = 19,
+        .backAnimId = BACK_ANIM_V_SHAKE,
+        PALETTES(Shelmet),
+        ICON(Shelmet, 1),
+        .footprint = gMonFootprint_Shelmet,
+        LEARNSETS(Shelmet),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_ESCAVALIER}),
     },
 
     [SPECIES_ESCAVALIER] =
@@ -5391,10 +5390,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 10,
         .weight = 330,
         .description = COMPOUND_STRING(
-            "Wearing the shell covering they stole\n"
-            "from Shelmet, they defend themselves and\n"
-            "attack with two lances. The steel armor\n"
-            "protects their whole body."),
+            "Wearing the shell covering they protects\n"
+            "them in battle. They are locked in a\n"
+            "bitter rivalry with Accelgor."),
         .pokemonScale = 305,
         .pokemonOffset = 7,
         .trainerScale = 257,
@@ -5412,6 +5410,101 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         LEARNSETS(Escavalier),
     },
 #endif //P_FAMILY_KARRABLAST
+
+#if P_FAMILY_SHELMET
+    [SPECIES_KARRABLAST] =
+    {
+        .baseHP        = 50,
+        .baseAttack    = 75,
+        .baseDefense   = 45,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 45,
+        .types = { TYPE_BUG, TYPE_BUG },
+        .catchRate = 200,
+        .expYield = 63,
+        .evYield_Attack = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
+        .abilities = { ABILITY_QUICK_FEET, ABILITY_NONE, ABILITY_RIVALRY },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Karrablast"),
+        .cryId = CRY_KARRABLAST,
+        .natDexNum = NATIONAL_DEX_KARRABLAST,
+        .categoryName = _("Clamping"),
+        .height = 5,
+        .weight = 59,
+        .description = COMPOUND_STRING(
+            "When they feel threatened, they spit an\n"
+            "acidic liquid to drive attackers away.\n"),
+        .pokemonScale = 432,
+        .pokemonOffset = 15,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        FRONT_PIC(Karrablast, 40, 48),
+        .frontPicYOffset = 13,
+        .frontAnimFrames = sAnims_Karrablast,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        BACK_PIC(Karrablast, 48, 48),
+        .backPicYOffset = 14,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
+        PALETTES(Karrablast),
+        ICON(Karrablast, 0),
+        .footprint = gMonFootprint_Karrablast,
+        LEARNSETS(Karrablast),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_ACCELGOR}),
+    },
+
+    [SPECIES_ACCELGOR] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 90,
+        .baseDefense   = 40,
+        .baseSpeed     = 145,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 50,
+        .types = { TYPE_BUG, TYPE_DARK },
+        .catchRate = 75,
+        .expYield = 173,
+        .evYield_Speed = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
+        .abilities = { ABILITY_VIGILANT, ABILITY_NONE, ABILITY_LIMBER },
+        .bodyColor = BODY_COLOR_RED,
+        .speciesName = _("Accelgor"),
+        .cryId = CRY_ACCELGOR,
+        .natDexNum = NATIONAL_DEX_ACCELGOR,
+        .categoryName = _("Kensei"),
+        .height = 8,
+        .weight = 253,
+        .description = COMPOUND_STRING(
+            "When its body dries out, it weakens. So, to\n"
+            "prevent dehydration, it wraps itself in\n"
+            "layers of thin membrane. It is very light\n"
+            "and fights with ninja-like movements."),
+        .pokemonScale = 366,
+        .pokemonOffset = 9,
+        .trainerScale = 257,
+        .trainerOffset = 0,
+        FRONT_PIC(Accelgor, 64, 56),
+        .frontPicYOffset = 7,
+        .frontAnimFrames = sAnims_Accelgor,
+        .frontAnimId = ANIM_H_JUMPS_V_STRETCH,
+        BACK_PIC(Accelgor, 64, 64),
+        .backPicYOffset = 2,
+        .backAnimId = BACK_ANIM_H_SPRING_REPEATED,
+        PALETTES(Accelgor),
+        ICON(Accelgor, 1),
+        .footprint = gMonFootprint_Accelgor,
+        LEARNSETS(Accelgor),
+    },
+#endif //P_FAMILY_SHELMET
 
 #if P_FAMILY_FOONGUS
     [SPECIES_FOONGUS] =
@@ -6125,7 +6218,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 30,
         .baseSpAttack  = 85,
         .baseSpDefense = 55,
-        .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+        .types = { TYPE_COSMIC, TYPE_COSMIC },
         .catchRate = 255,
         .expYield = 67,
         .evYield_SpAttack = 1,
@@ -6134,7 +6227,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_TELEPATHY, ABILITY_SYNCHRONIZE, ABILITY_ANALYTIC },
+        .abilities = { ABILITY_ANALYTIC, ABILITY_SYNCHRONIZE, ABILITY_DOWNLOAD },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Elgyem"),
         .cryId = CRY_ELGYEM,
@@ -6173,7 +6266,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 40,
         .baseSpAttack  = 125,
         .baseSpDefense = 95,
-        .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
+        .types = { TYPE_COSMIC, TYPE_COSMIC },
         .catchRate = 90,
         .expYield = 170,
         .evYield_SpAttack = 2,
@@ -6182,10 +6275,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_TELEPATHY, ABILITY_SYNCHRONIZE, ABILITY_ANALYTIC },
+        .abilities = { ABILITY_ANALYTIC, ABILITY_SYNCHRONIZE, ABILITY_DOWNLOAD },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Beheeyem"),
-        .cryId = CRY_BEHEEYEM,
+        .cryId = CRY_BEHEEYEM,   
         .natDexNum = NATIONAL_DEX_BEHEEYEM,
         .categoryName = _("Cerebral"),
         .height = 10,
@@ -6671,103 +6764,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     },
 #endif //P_FAMILY_CRYOGONAL
 
-#if P_FAMILY_SHELMET
-    [SPECIES_SHELMET] =
-    {
-        .baseHP        = 50,
-        .baseAttack    = 40,
-        .baseDefense   = 85,
-        .baseSpeed     = 25,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 65,
-        .types = { TYPE_BUG, TYPE_BUG },
-        .catchRate = 200,
-        .expYield = 61,
-        .evYield_Defense = 1,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_SHELL_ARMOR, ABILITY_NONE, ABILITY_RIVALRY },
-        .bodyColor = BODY_COLOR_RED,
-        .speciesName = _("Shelmet"),
-        .cryId = CRY_SHELMET,
-        .natDexNum = NATIONAL_DEX_SHELMET,
-        .categoryName = _("Snail"),
-        .height = 4,
-        .weight = 77,
-        .description = COMPOUND_STRING(
-            "When attacked, it defends itself by\n"
-            "closing the lid of its shell. It evolves\n"
-            "when bathed in an electric-like energy\n"
-            "along with Karrablast."),
-        .pokemonScale = 491,
-        .pokemonOffset = 15,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        FRONT_PIC(Shelmet, 40, 40),
-        .frontPicYOffset = 14,
-        .frontAnimFrames = sAnims_Shelmet,
-        .frontAnimId = ANIM_TWIST,
-        BACK_PIC(Shelmet, 64, 32),
-        .backPicYOffset = 19,
-        .backAnimId = BACK_ANIM_V_SHAKE,
-        PALETTES(Shelmet),
-        ICON(Shelmet, 1),
-        .footprint = gMonFootprint_Shelmet,
-        LEARNSETS(Shelmet),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_X_SPEED, SPECIES_ACCELGOR}),
-    },
-
-    [SPECIES_ACCELGOR] =
-    {
-        .baseHP        = 80,
-        .baseAttack    = 90,
-        .baseDefense   = 40,
-        .baseSpeed     = 145,
-        .baseSpAttack  = 90,
-        .baseSpDefense = 50,
-        .types = { TYPE_BUG, TYPE_DARK },
-        .catchRate = 75,
-        .expYield = 173,
-        .evYield_Speed = 2,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 15,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_UNBURDEN, ABILITY_NONE, ABILITY_LIMBER },
-        .bodyColor = BODY_COLOR_RED,
-        .speciesName = _("Accelgor"),
-        .cryId = CRY_ACCELGOR,
-        .natDexNum = NATIONAL_DEX_ACCELGOR,
-        .categoryName = _("Shell Out"),
-        .height = 8,
-        .weight = 253,
-        .description = COMPOUND_STRING(
-            "When its body dries out, it weakens. So, to\n"
-            "prevent dehydration, it wraps itself in\n"
-            "layers of thin membrane. It is very light\n"
-            "and fights with ninja-like movements."),
-        .pokemonScale = 366,
-        .pokemonOffset = 9,
-        .trainerScale = 257,
-        .trainerOffset = 0,
-        FRONT_PIC(Accelgor, 64, 56),
-        .frontPicYOffset = 7,
-        .frontAnimFrames = sAnims_Accelgor,
-        .frontAnimId = ANIM_H_JUMPS_V_STRETCH,
-        BACK_PIC(Accelgor, 64, 64),
-        .backPicYOffset = 2,
-        .backAnimId = BACK_ANIM_H_SPRING_REPEATED,
-        PALETTES(Accelgor),
-        ICON(Accelgor, 1),
-        .footprint = gMonFootprint_Accelgor,
-        LEARNSETS(Accelgor),
-    },
-#endif //P_FAMILY_SHELMET
-
 #if P_FAMILY_STUNFISK
 #define STUNFISK_MISC_INFO                                          \
         .catchRate = 75,                                            \
@@ -7012,7 +7008,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 35,
         .baseSpAttack  = 35,
         .baseSpDefense = 50,
-        .types = { TYPE_GROUND, TYPE_GHOST },
+        .types = { TYPE_ROCK, TYPE_GHOST },
         .catchRate = 190,
         .expYield = 61,
         .evYield_Attack = 1,
@@ -7062,7 +7058,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 55,
         .baseSpAttack  = 55,
         .baseSpDefense = 80,
-        .types = { TYPE_GROUND, TYPE_GHOST },
+        .types = { TYPE_ROCK, TYPE_GHOST },
         .catchRate = 90,
         .expYield = 169,
         .evYield_Attack = 2,
@@ -8404,7 +8400,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
 #if P_FAMILY_KYUREM
 #define KYUREM_MISC_INFO                                                                \
-        .types = { TYPE_DRAGON, TYPE_ICE },                                             \
+        .types = { TYPE_DRAGON, TYPE_COSMIC },                                             \
         .catchRate = 3,                                                                 \
         .genderRatio = MON_GENDERLESS,                                                  \
         .eggCycles = 120,                                                               \
@@ -8706,7 +8702,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseSpeed     = 99,                                                            \
         .baseSpAttack  = 120,                                                           \
         .baseSpDefense = 95,                                                            \
-        .types = { TYPE_BUG, TYPE_STEEL },                                              \
+        .types = { TYPE_BUG, TYPE_COSMIC },                                              \
         .catchRate = 3,                                                                 \
         .expYield = 270,                                                                \
         .evYield_Attack = 1,                                                            \

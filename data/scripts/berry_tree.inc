@@ -23,8 +23,6 @@ BerryTree_EventScript_CheckSoil::
 	faceplayer
 	specialvar VAR_RESULT, PlayerHasBerries
 	goto_if_eq VAR_RESULT, TRUE, BerryTree_EventScript_WantToPlant
-	message BerryTree_Text_ItsSoftLoamySoil
-	waitmessage
 	waitbuttonpress
 	release
 	end
@@ -117,9 +115,6 @@ BerryTree_EventScript_PickBerry::
 	waitmessage
 	waitfanfare
 	waitbuttonpress
-	message BerryTree_Text_PutAwayBerry
-	waitmessage
-	waitbuttonpress
 	release
 	end
 
@@ -161,14 +156,9 @@ BerryTree_EventScript_ItemUseWailmerPail::
 	lockall
 BerryTree_EventScript_WaterBerry::
 	special ObjectEventInteractionGetBerryName
-	message BerryTree_Text_WateredTheBerry
-	waitmessage
 	special ObjectEventInteractionWaterBerryTree
 	special DoWateringBerryTreeAnim
 	waitstate
-	message BerryTree_Text_PlantIsDelighted
-	waitmessage
-	waitbuttonpress
 	releaseall
 	end
 

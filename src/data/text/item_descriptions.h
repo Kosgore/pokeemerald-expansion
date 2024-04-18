@@ -1776,6 +1776,31 @@ static const u8 sDianciteDesc[] = _(
     "Diancie to Mega\n"
     "Evolve in battle.");
 
+static const u8 sCoalossaliteDesc[] = _(
+    "This stone enables\n"
+    "Coalossal to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sOrbeetiliteDesc[] = _(
+    "This stone enables\n"
+    "Orbeetle to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sGrimmsnarliteDesc[] = _(
+    "This stone enables\n"
+    "Grimmnsnarl to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sCopperajiteDesc[] = _(
+    "This stone enables\n"
+    "Copperajah to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sInteleoniteDesc[] = _(
+    "This stone enables\n"
+    "Inteleon to Mega\n"
+    "Evolve in battle.");
+
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "Increases the\n"

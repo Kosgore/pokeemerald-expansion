@@ -161,9 +161,11 @@
 #define HOLD_EFFECT_LOADED_DICE         180
 #define HOLD_EFFECT_BOOSTER_ENERGY      181 // Not implemented.
 #define HOLD_EFFECT_MASK                183
+#define HOLD_EFFECT_COSMIC_POWER        184
+#define HOLD_EFFECT_PRIMAL_POWER        185
 
 // Gen2 hold effect
-#define HOLD_EFFECT_BERSERK_GENE        184
+#define HOLD_EFFECT_BERSERK_GENE        186
 
 #define HOLD_EFFECT_CHOICE(holdEffect)((holdEffect == HOLD_EFFECT_CHOICE_BAND || holdEffect == HOLD_EFFECT_CHOICE_SCARF || holdEffect == HOLD_EFFECT_CHOICE_SPECS))
 

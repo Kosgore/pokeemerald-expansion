@@ -374,7 +374,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_SNIPER },
+        .abilities = { ABILITY_INFILTRATOR, ABILITY_NONE, ABILITY_ILLUSION },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Sobble"),
         .cryId = CRY_SOBBLE,
@@ -422,7 +422,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_FIELD },
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_SNIPER },
+        .abilities = { ABILITY_INFILTRATOR, ABILITY_NONE, ABILITY_ILLUSION },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Drizzile"),
         .cryId = CRY_DRIZZILE,
@@ -453,13 +453,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     },
 
 #define INTELEON_MISC_INFO                                              \
-        .baseHP        = 70,                                            \
-        .baseAttack    = 85,                                            \
-        .baseDefense   = 65,                                            \
-        .baseSpeed     = 120,                                           \
-        .baseSpAttack  = 125,                                           \
-        .baseSpDefense = 65,                                            \
-        .types = { TYPE_WATER, TYPE_WATER },                            \
+        .types = { TYPE_WATER, TYPE_DARK },                            \
         .catchRate = 45,                                                \
         .expYield = 265,                                                \
         .evYield_Speed = 3,                                             \
@@ -468,7 +462,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                              \
         .growthRate = GROWTH_MEDIUM_SLOW,                               \
         .eggGroups = { EGG_GROUP_WATER_1, EGG_GROUP_FIELD },            \
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_SNIPER }, \
         .bodyColor = BODY_COLOR_BLUE,                                   \
         .speciesName = _("Inteleon"),                                   \
         .cryId = CRY_INTELEON,                                          \
@@ -482,6 +475,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_INTELEON] =
     {
         INTELEON_MISC_INFO,
+        .baseHP        = 70,                                            
+        .baseAttack    = 85,                                            
+        .baseDefense   = 65,                                            
+        .baseSpeed     = 120,                                           
+        .baseSpAttack  = 125,                                           
+        .baseSpDefense = 65,
+        .abilities = { ABILITY_INFILTRATOR, ABILITY_NONE, ABILITY_ILLUSION },
         .height = 19,
         .weight = 452,
         .description = COMPOUND_STRING(
@@ -504,15 +504,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Inteleon, 0),
     },
 
-#if P_GIGANTAMAX_FORMS
+#if P_MEGA_EVOLUTIONS
     [SPECIES_INTELEON_GIGANTAMAX] =
     {
         INTELEON_MISC_INFO,
-        .height = 400,
-        .weight = 0,
+        .baseHP        = 95,                                            
+        .baseAttack    = 110,                                            
+        .baseDefense   = 90,                                            
+        .baseSpeed     = 70,                                           
+        .baseSpAttack  = 175,                                           
+        .baseSpDefense = 90,
+        .abilities = { ABILITY_SNIPER, ABILITY_SNIPER, ABILITY_SNIPER },
+        .height = 35,
+        .weight = 550,
         .description = COMPOUND_STRING(
-            "Gigantamax Inteleon's Water Gun\n"
-            "move fires at Mach 7. As the Pokémon\n"
+            "Mega Inteleon's Water rifle can\n"
+            "fire at Mach 7. As the Pokémon\n"
             "takes aim, it uses the crest on its\n"
             "head to gauge wind and temperature."),
         .pokemonScale = 256,
@@ -528,9 +535,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         //.backAnimId = BACK_ANIM_NONE,
         PALETTES(InteleonGigantamax),
         ICON(InteleonGigantamax, 0),
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SOBBLE
 
 #if P_FAMILY_SKWOVET
@@ -866,7 +873,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpeed     = 30,
         .baseSpAttack  = 50,
         .baseSpDefense = 90,
-        .types = { TYPE_BUG, TYPE_PSYCHIC },
+        .types = { TYPE_BUG, TYPE_COSMIC },
         .catchRate = 120,
         .expYield = 117,
         .evYield_SpDefense = 2,
@@ -908,13 +915,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     },
 
 #define ORBEETLE_MISC_INFO                                                  \
-        .baseHP        = 60,                                                \
-        .baseAttack    = 45,                                                \
-        .baseDefense   = 100,                                               \
-        .baseSpeed     = 90,                                                \
-        .baseSpAttack  = 90,                                                \
-        .baseSpDefense = 120,                                               \
-        .types = { TYPE_BUG, TYPE_PSYCHIC },                                \
+        .types = { TYPE_BUG, TYPE_COSMIC },                                \
         .catchRate = 45,                                                    \
         .expYield = 253,                                                    \
         .evYield_SpDefense = 3,                                             \
@@ -924,7 +925,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                  \
         .growthRate = GROWTH_MEDIUM_FAST,                                   \
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },                      \
-        .abilities = { ABILITY_GRAVITY_WELL, ABILITY_TELEPATHY, ABILITY_COMPETITIVE },   \
         .bodyColor = BODY_COLOR_RED,                                        \
         .speciesName = _("Orbeetle"),                                       \
         .cryId = CRY_ORBEETLE,                                              \
@@ -938,6 +938,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_ORBEETLE] =
     {
         ORBEETLE_MISC_INFO,
+        .baseHP        = 60,                                                
+        .baseAttack    = 45,                                                
+        .baseDefense   = 100,                                               
+        .baseSpeed     = 90,                                                
+        .baseSpAttack  = 90,                                                
+        .baseSpDefense = 120,
+        .abilities = { ABILITY_GRAVITY_WELL, ABILITY_TELEPATHY, ABILITY_COMPETITIVE }, 
         .height = 4,
         .weight = 408,
         .description = COMPOUND_STRING(
@@ -961,15 +968,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Orbeetle, 0),
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_ORBEETLE_GIGANTAMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_ORBEETLE_GIGANTAMAX] =                    
     {
         ORBEETLE_MISC_INFO,
-        .height = 140,
-        .weight = 0,
+        .baseHP        = 80,                                                
+        .baseAttack    = 45,                                                
+        .baseDefense   = 125,                                               
+        .baseSpeed     = 70,                                                
+        .baseSpAttack  = 135,                                                
+        .baseSpDefense = 150,
+        .abilities = { ABILITY_LEVITATE, ABILITY_LEVITATE, ABILITY_LEVITATE }, 
+        .height = 6,
+        .weight = 610,
         .description = COMPOUND_STRING(
             "Its brain has grown to a\n"
-            "gargantuan size, as has the rest of its body.\n"
+            "gargantuan size, as has the rest   of its body.\n"
             "This Pokémon's intellect and\n"
             "psychic abilities are overpowering."),
         .pokemonScale = 491,
@@ -985,10 +999,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         //.backAnimId = BACK_ANIM_NONE,
         PALETTES(OrbeetleGigantamax),
         ICON(OrbeetleGigantamax, 0),
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
     },
-#endif //P_GIGANTAMAX_FORMS
-#endif //P_FAMILY_BLIPBUG
+#endif //P_MEGA_EVOLUTIONS  
+#endif //P_FAMILY_BLIPBUG 
 
 #if P_FAMILY_NICKIT
     [SPECIES_NICKIT] =
@@ -1603,12 +1617,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     },
 
 #define COALOSSAL_MISC_INFO                                                             \
-        .baseHP        = 110,                                                           \
-        .baseAttack    = 80,                                                            \
-        .baseDefense   = 120,                                                           \
-        .baseSpeed     = 30,                                                            \
-        .baseSpAttack  = 80,                                                            \
-        .baseSpDefense = 90,                                                            \
         .types = { TYPE_ROCK, TYPE_FIRE },                                              \
         .catchRate = 45,                                                                \
         .expYield = 255,                                                                \
@@ -1618,7 +1626,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                              \
         .growthRate = GROWTH_MEDIUM_SLOW,                                               \
         .eggGroups = { EGG_GROUP_MINERAL, EGG_GROUP_MINERAL },                          \
-        .abilities = { ABILITY_STEAM_ENGINE, ABILITY_FLAME_BODY, ABILITY_FLASH_FIRE },  \
         .bodyColor = BODY_COLOR_BLACK,                                                  \
         .speciesName = _("Coalossal"),                                                  \
         .cryId = CRY_COALOSSAL,                                                         \
@@ -1632,6 +1639,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_COALOSSAL] =
     {
         COALOSSAL_MISC_INFO,
+        .baseHP        = 110,                                                           
+        .baseAttack    = 80,                                                            
+        .baseDefense   = 120,                                                           
+        .baseSpeed     = 30,                                                            
+        .baseSpAttack  = 80,                                                            
+        .baseSpDefense = 90,
+        .abilities = { ABILITY_STEAM_ENGINE, ABILITY_FLAME_BODY, ABILITY_FLASH_FIRE },
         .height = 28,
         .weight = 3105,
         .description = COMPOUND_STRING(
@@ -1654,15 +1668,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Coalossal, 0),
     },
 
-#if P_GIGANTAMAX_FORMS
+#if P_MEGA_EVOLUTIONS
     [SPECIES_COALOSSAL_GIGANTAMAX] =
     {
         COALOSSAL_MISC_INFO,
-        .height = 420,
-        .weight = 0,
+        .baseHP        = 115,                                                           
+        .baseAttack    = 80,                                                            
+        .baseDefense   = 135,                                                           
+        .baseSpeed     = 40,                                                            
+        .baseSpAttack  = 130,                                                            
+        .baseSpDefense = 110,
+        .abilities = { ABILITY_STEAM_ENGINE, ABILITY_STEAM_ENGINE, ABILITY_STEAM_ENGINE },  
+        .height = 32,
+        .weight = 3105,
         .description = COMPOUND_STRING(
             "Its body is a colossal stove. With\n"
-            "Gigantamax energy stoking the fire,\n"
+            "molten energy stoking the fire,\n"
             "this Pokémon's flame burns hotter\n"
             "than 3,600 degrees Fahrenheit."),
         .pokemonScale = 275,
@@ -1678,9 +1699,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         //.backAnimId = BACK_ANIM_NONE,
         PALETTES(CoalossalGigantamax),
         ICON(CoalossalGigantamax, 0),
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ROLYCOLY
 
 #if P_FAMILY_APPLIN
@@ -1736,10 +1757,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 
 #define FLAPPLE_MISC_INFO                                                   \
         .baseHP        = 70,                                                \
-        .baseAttack    = 110,                                               \
+        .baseAttack    = 125,                                               \
         .baseDefense   = 80,                                                \
-        .baseSpeed     = 70,                                                \
-        .baseSpAttack  = 95,                                                \
+        .baseSpeed     = 80,                                                \
+        .baseSpAttack  = 70,                                                \
         .baseSpDefense = 60,                                                \
         .types = { TYPE_GRASS, TYPE_DRAGON },                               \
         .catchRate = 45,                                                    \
@@ -1750,7 +1771,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                  \
         .growthRate = GROWTH_ERRATIC,                                       \
         .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_DRAGON },                 \
-        .abilities = { ABILITY_RIPEN, ABILITY_GLUTTONY, ABILITY_HUSTLE },   \
+        .abilities = { ABILITY_RIPEN, ABILITY_MOXIE, ABILITY_RIPEN },   \
         .bodyColor = BODY_COLOR_GREEN,                                      \
         .speciesName = _("Flapple"),                                        \
         .cryId = CRY_FLAPPLE,                                               \
@@ -3010,7 +3031,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_PRANKSTER, ABILITY_FRISK, ABILITY_PICKPOCKET },
+        .abilities = { ABILITY_PICKPOCKET, ABILITY_FRISK, ABILITY_PRANKSTER },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Impidimp"),
         .cryId = CRY_IMPIDIMP,
@@ -3058,7 +3079,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE },
-        .abilities = { ABILITY_PRANKSTER, ABILITY_FRISK, ABILITY_PICKPOCKET },
+        .abilities = { ABILITY_PICKPOCKET, ABILITY_FRISK, ABILITY_PRANKSTER },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Morgrem"),
         .cryId = CRY_MORGREM,
@@ -3090,12 +3111,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     },
 
 #define GRIMMSNARL_MISC_INFO                                                    \
-        .baseHP        = 95,                                                    \
-        .baseAttack    = 120,                                                   \
-        .baseDefense   = 65,                                                    \
-        .baseSpeed     = 60,                                                    \
-        .baseSpAttack  = 95,                                                    \
-        .baseSpDefense = 75,                                                    \
         .types = { TYPE_DARK, TYPE_FAIRY },                                     \
         .catchRate = 45,                                                        \
         .expYield = 255,                                                        \
@@ -3105,7 +3120,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                      \
         .growthRate = GROWTH_MEDIUM_FAST,                                       \
         .eggGroups = { EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE },                 \
-        .abilities = { ABILITY_PRANKSTER, ABILITY_FRISK, ABILITY_PICKPOCKET },  \
         .bodyColor = BODY_COLOR_PURPLE,                                         \
         .speciesName = _("Grimmsnarl"),                                         \
         .cryId = CRY_GRIMMSNARL,                                                \
@@ -3119,6 +3133,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_GRIMMSNARL] =
     {
         GRIMMSNARL_MISC_INFO,
+        .baseHP        = 95,                                                    
+        .baseAttack    = 120,                                                   
+        .baseDefense   = 65,                                                    
+        .baseSpeed     = 60,                                                    
+        .baseSpAttack  = 95,                                                    
+        .baseSpDefense = 75,
+        .abilities = { ABILITY_DEMORALIZE, ABILITY_FRISK, ABILITY_PRANKSTER },
         .height = 15,
         .weight = 610,
         .description = COMPOUND_STRING(
@@ -3140,10 +3161,17 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Grimmsnarl, 0),
     },
 
-#if P_GIGANTAMAX_FORMS
+#if P_MEGA_EVOLUTIONS
     [SPECIES_GRIMMSNARL_GIGANTAMAX] =
     {
         GRIMMSNARL_MISC_INFO,
+        .baseHP        = 105,                                                    
+        .baseAttack    = 145,                                                   
+        .baseDefense   = 85,                                                    
+        .baseSpeed     = 95,                                                    
+        .baseSpAttack  = 65,                                                    
+        .baseSpDefense = 115,
+        .abilities = { ABILITY_TANGLING_HAIR, ABILITY_TANGLING_HAIR, ABILITY_TANGLING_HAIR },
         .height = 320,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -3164,9 +3192,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         //.backAnimId = BACK_ANIM_NONE,
         PALETTES(GrimmsnarlGigantamax),
         ICON(GrimmsnarlGigantamax, 0),
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_IMPIDIMP
 
 #if P_FAMILY_MILCERY
@@ -3866,7 +3894,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .baseSpeed     = 40,
         .baseSpAttack  = 40,
         .baseSpDefense = 49,
-        .types = { TYPE_STEEL, TYPE_STEEL },
+        .types = { TYPE_STEEL, TYPE_NORMAL },
         .catchRate = 190,
         .expYield = 66,
         .evYield_Attack = 1,
@@ -3876,7 +3904,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_MINERAL },
-        .abilities = { ABILITY_SHEER_FORCE, ABILITY_NONE, ABILITY_HEAVY_METAL },
+        .abilities = { ABILITY_HUSTLE, ABILITY_HEAVY_METAL, ABILITY_FULL_METAL_BODY },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Cufant"),
         .cryId = CRY_CUFANT,
@@ -3904,17 +3932,11 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Cufant, 0),
         .footprint = gMonFootprint_Cufant,
         LEARNSETS(Cufant),
-        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_COPPERAJAH}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 44, SPECIES_COPPERAJAH}),
     },
 
 #define COPPERAJAH_MISC_INFO                                                        \
-        .baseHP        = 122,                                                       \
-        .baseAttack    = 130,                                                       \
-        .baseDefense   = 69,                                                        \
-        .baseSpeed     = 30,                                                        \
-        .baseSpAttack  = 80,                                                        \
-        .baseSpDefense = 69,                                                        \
-        .types = { TYPE_STEEL, TYPE_STEEL },                                        \
+        .types = { TYPE_STEEL, TYPE_NORMAL },                                        \
         .catchRate = 90,                                                            \
         .expYield = 175,                                                            \
         .evYield_Attack = 2,                                                        \
@@ -3924,7 +3946,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,                                          \
         .growthRate = GROWTH_MEDIUM_FAST,                                           \
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_MINERAL },                        \
-        .abilities = { ABILITY_SHEER_FORCE, ABILITY_NONE, ABILITY_HEAVY_METAL },    \
         .bodyColor = BODY_COLOR_GREEN,                                              \
         .speciesName = _("Copperajah"),                                             \
         .cryId = CRY_COPPERAJAH,                                                    \
@@ -3938,6 +3959,13 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     [SPECIES_COPPERAJAH] =
     {
         COPPERAJAH_MISC_INFO,
+        .baseHP        = 122,                                                       
+        .baseAttack    = 130,                                                       
+        .baseDefense   = 69,                                                        
+        .baseSpeed     = 30,                                                        
+        .baseSpAttack  = 80,                                                        
+        .baseSpDefense = 69,  
+        .abilities = { ABILITY_SHEER_FORCE, ABILITY_HEAVY_METAL, ABILITY_FULL_METAL_BODY },
         .height = 30,
         .weight = 6500,
         .description = COMPOUND_STRING(
@@ -3959,15 +3987,22 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         ICON(Copperajah, 0),
     },
 
-#if P_GIGANTAMAX_FORMS
+#if P_MEGA_EVOLUTIONS
     [SPECIES_COPPERAJAH_GIGANTAMAX] =
     {
         COPPERAJAH_MISC_INFO,
-        .height = 230,
-        .weight = 0,
+        .baseHP        = 127,                                                       
+        .baseAttack    = 145,                                                       
+        .baseDefense   = 129,                                                        
+        .baseSpeed     = 20,                                                        
+        .baseSpAttack  = 80,                                                        
+        .baseSpDefense = 99,  
+        .abilities = { ABILITY_SIEGE_MACHINE, ABILITY_SIEGE_MACHINE, ABILITY_SIEGE_MACHINE },
+        .height = 40,
+        .weight = 10000,
         .description = COMPOUND_STRING(
-            "After this Pokémon has\n"
-            "Gigantamaxed, its massive nose can utterly\n"
+            "After this Pokémon has Mega Evolved,\n"
+            "its massive trunk can utterly\n"
             "demolish large structures with a single\n"
             "smashing blow."),
         .pokemonScale = 275,
@@ -3983,9 +4018,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         //.backAnimId = BACK_ANIM_NONE,
         PALETTES(CopperajahGigantamax),
         ICON(CopperajahGigantamax, 0),
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_CUFANT
 
 #if P_FAMILY_DRACOZOLT

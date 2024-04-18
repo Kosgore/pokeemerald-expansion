@@ -11355,7 +11355,7 @@ static u32 ChangeStatBuffs(s8 statValue, u32 statId, u32 flags, const u8 *BS_ptr
             return STAT_CHANGE_DIDNT_WORK;
         }
         else if ((battlerHoldEffect == HOLD_EFFECT_CLEAR_AMULET
-              || CanAbilityPreventStatLoss(battlerAbility, GetBattlerAbility(gBattlerAttacker) == ABILITY_INTIMIDATE))
+              || CanAbilityPreventStatLoss(battlerAbility, GetBattlerAbility(gBattlerAttacker) == ABILITY_INTIMIDATE || GetBattlerAbility(gBattlerAttacker) == ABILITY_DEMORALIZE))
               && (!affectsUser || mirrorArmored) && !certain && gCurrentMove != MOVE_CURSE)
         {
             if (flags == STAT_CHANGE_ALLOW_PTR)

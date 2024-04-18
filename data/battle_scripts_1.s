@@ -444,6 +444,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectGlaiveRush              @ EFFECT_GLAIVE_RUSH
 	.4byte BattleScript_EffectBrickBreak              @ EFFECT_RAGING_BULL
 	.4byte BattleScript_EffectHit                     @ EFFECT_RAGE_FIST
+	.4byte BattleScript_EffectTwirl					  @ EFFET_TWIRL
 
 BattleScript_EffectGlaiveRush::
 	call BattleScript_EffectHit_Ret
@@ -741,7 +742,7 @@ BattleScript_EffectSpinOut::
 	setmoveeffect MOVE_EFFECT_SPD_MINUS_2 | MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_CERTAIN
 	goto BattleScript_EffectHit
 
-BattleScript_EffectAxeKick::
+BattleScript_EffectAxeKick:
 	setmoveeffect MOVE_EFFECT_CONFUSION
 	goto BattleScript_EffectRecoilIfMiss
 
@@ -5210,6 +5211,23 @@ BattleScript_EffectRapidSpinEnd::
 	goto BattleScript_EffectHit
 .endif
 
+BattleScript_EffectTwirl::
+	call BattleScript_EffectHit_Ret
+	jumpifhalfword CMP_COMMON_BITS, gMoveResultFlags, MOVE_RESULT_DOESNT_AFFECT_FOE, BattleScript_MoveEnd
+	setmoveeffect MOVE_EFFECT_RAPIDSPIN | MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_CERTAIN
+	seteffectwithchance
+	setstatchanger STAT_EVASION, 1, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_EffectTwirlEnd
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_EffectTwirlEnd
+	setgraphicalstatchangevalues
+	playanimation BS_ATTACKER, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_EffectTwirlEnd::
+	tryfaintmon BS_TARGET
+	moveendall
+	end
+
 BattleScript_EffectSonicboom::
 	attackcanceler
 	accuracycheck BattleScript_PrintMoveMissed, ACC_CURR_MOVE
@@ -8789,6 +8807,56 @@ BattleScript_IntimidateInReverse:
 	modifybattlerstatstage BS_TARGET, STAT_ATK, INCREASE, 1, BattleScript_IntimidateLoopIncrement, ANIM_ON
 	call BattleScript_TryAdrenalineOrb
 	goto BattleScript_IntimidateLoopIncrement
+
+
+BattleScript_DemoralizeActivates::
+	showabilitypopup BS_ATTACKER
+	pause B_WAIT_TIME_LONG
+	destroyabilitypopup
+	setbyte gBattlerTarget, 0
+BattleScript_DemoralizeLoop:
+	jumpifbyteequal gBattlerTarget, gBattlerAttacker, BattleScript_DemoralizeLoopIncrement
+	jumpiftargetally BattleScript_DemoralizeLoopIncrement
+	jumpifabsent BS_TARGET, BattleScript_DemoralizeLoopIncrement
+	jumpifstatus2 BS_TARGET, STATUS2_SUBSTITUTE, BattleScript_DemoralizeLoopIncrement
+	jumpifability BS_TARGET, ABILITY_GUARD_DOG, BattleScript_DemoralizeInReverse
+BattleScript_DemoralizeEffect:
+	copybyte sBATTLER, gBattlerAttacker
+	setstatchanger STAT_SPATK, 1, TRUE
+	statbuffchange STAT_CHANGE_NOT_PROTECT_AFFECTED | STAT_CHANGE_ALLOW_PTR, BattleScript_DemoralizeLoopIncrement
+	setgraphicalstatchangevalues
+	jumpifability BS_TARGET, ABILITY_CONTRARY, BattleScript_DemoralizeContrary
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printstring STRINGID_PKMNCUTSSPATKWITH
+BattleScript_DemoralizeEffect_WaitString:
+	waitmessage B_WAIT_TIME_LONG
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_TryAdrenalineOrb
+BattleScript_DemoralizeLoopIncrement:
+	addbyte gBattlerTarget, 1
+	jumpifbytenotequal gBattlerTarget, gBattlersCount, BattleScript_DemoralizeLoop
+BattleScript_DemoralizeEnd:
+	copybyte sBATTLER, gBattlerAttacker
+	destroyabilitypopup
+	pause B_WAIT_TIME_MED
+	end3
+
+BattleScript_DemoralizeContrary:
+	call BattleScript_AbilityPopUpTarget
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_DemoralizeContrary_WontIncrease
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printfromtable gStatUpStringIds
+	goto BattleScript_DemoralizeEffect_WaitString
+BattleScript_DemoralizeContrary_WontIncrease:
+	printstring STRINGID_TARGETSTATWONTGOHIGHER
+	goto BattleScript_DemoralizeEffect_WaitString
+
+BattleScript_DemoralizeInReverse:
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_AbilityPopUpTarget
+	pause B_WAIT_TIME_SHORT
+	modifybattlerstatstage BS_TARGET, STAT_SPATK, INCREASE, 1, BattleScript_DemoralizeLoopIncrement, ANIM_ON
+	goto BattleScript_DemoralizeLoopIncrement
 
 BattleScript_DroughtActivates::
 	pause B_WAIT_TIME_SHORT

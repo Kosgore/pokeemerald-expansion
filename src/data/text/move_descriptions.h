@@ -153,7 +153,7 @@ static const u8 sWrapDescription[] = _(
     BINDING_TURNS" times with vines, etc.");
 
 static const u8 sTakeDownDescription[] = _(
-    "A reckless charge attack\n"
+    "A vicious charge attack\n"
     "that also hurts the user.");
 
 static const u8 sThrashDescription[] = _(
@@ -1658,7 +1658,7 @@ static const u8 sDragonPulseDescription[] = _(
 
 static const u8 sDragonRushDescription[] = _(
     "Tackles the foe with menace.\n"
-    "May cause flinching.");
+    "May raise speed.");
 
 static const u8 sPowerGemDescription[] = _(
     "Attacks with rays of light\n"
@@ -2137,8 +2137,8 @@ static const u8 sHurricaneDescription[] = _(
     "wind. May cause confusion.");
 
 static const u8 sHeadChargeDescription[] = _(
-    "A charge using guard hair.\n"
-    "It hurts the user a little.");
+    "A violent tackle that\n"
+    "hurts the user a little.");
 
 static const u8 sGearGrindDescription[] = _(
     "Throws two steel gears\n"
@@ -2329,8 +2329,8 @@ static const u8 sSteamEruptionDescription[] = _(
     "steam. May inflict a burn.");
 
 static const u8 sHyperspaceHoleDescription[] = _(
-    "Uses a warp hole to attack.\n"
-    "Can't be evaded.");
+    "Opens a warp hole to damage\n"
+    "foes. Lowers Sp. Atk.");
 
 static const u8 sWaterShurikenDescription[] = _(
     "Throws 2 to 5 stars that\n"
@@ -2377,8 +2377,8 @@ static const u8 sElectricTerrainDescription[] = _(
     "5 turns. Prevents sleep.");
 
 static const u8 sDazzlingGleamDescription[] = _(
-    "Damages foes by emitting\n"
-    "a bright flash.");
+    "Damages foes and lowers\n"
+    "SpAtk with a bright flash.");
 
 static const u8 sCelebrateDescription[] = _(
     "Congratulates you on your\n"
@@ -2981,8 +2981,8 @@ static const u8 sDireClawDescription[] = _(
     "High critical hit chance. May\n"
     "paralyze, poison or drowse.");
 
-static const u8 sPsyshieldBashDescription[] = _(
-    "Hits a foe with psychic\n"
+static const u8 sStarshieldBashDescription[] = _(
+    "Rams a foe with cosmic\n"
     "energy. May raise Defense.");
 
 static const u8 sPowerShiftDescription[] = _(
@@ -3055,7 +3055,7 @@ static const u8 sCeaselessEdgeDescription[] = _(
 
 static const u8 sBleakwindStormDescription[] = _(
     "Hits with brutal, cold winds.\n"
-    "May lower the foe's Speed.");
+    "May leave foe with frostbite.");
 
 static const u8 sWildboltStormDescription[] = _(
     "Hits with a brutal tempest.\n"
@@ -3371,6 +3371,30 @@ static const u8 sVirulentVaporsDescription[] = _(
 static const u8 sSynapticStaticDescription[] = _(
     "A mind-numbing attack that\n"
     "may paralyze the foe.");
+
+static const u8 sTwirlDescription[] = _(
+    "Erases trap moves and Leech\n"
+    "Seed. May raise evasion.");
+
+static const u8 sFlurryKickDescription[] = _(
+    "Repeatedly kicks the foe\n"
+    "2 to 5 times.");
+
+static const u8 sBurningCindersDescription[] = _(
+    "Launches molten cinders\n"
+    "at foes. May cause burn.");
+
+static const u8 sFlybyDescription[] = _(
+    "A speedy swoop that may\n"
+    "confuse. Doesn't contact.");
+
+static const u8 sMeteorShowerDescription[] = _(
+    "Rains comets onto all foes.\n"
+    "May cause flinching.");
+
+static const u8 sVolcalithDescription[] = _(
+    "Erupts igneous stones that\n"
+    "May leave targets burned.");
 
 const u8 gNotDoneYetDescription[] = _(
     "This move can't be used. Its\n"
@@ -4138,7 +4162,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ASTRAL_BARRAGE - 1] = sAstralBarrageDescription,
     [MOVE_EERIE_SPELL - 1] = sEerieSpellDescription,
     [MOVE_DIRE_CLAW - 1] = sDireClawDescription,
-    [MOVE_PSYSHIELD_BASH - 1] = sPsyshieldBashDescription,
+    [MOVE_STARSHIELD_BASH - 1] = sStarshieldBashDescription,
     [MOVE_POWER_SHIFT - 1] = sPowerShiftDescription,
     [MOVE_STONE_AXE - 1] = sStoneAxeDescription,
     [MOVE_SPRINGTIDE_STORM - 1] = sSpringtideStormDescription,
@@ -4240,4 +4264,10 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SOULBIND - 1] = sSoulbindDescription,
     [MOVE_VIRULENT_VAPORS - 1] = sVirulentVaporsDescription,
     [MOVE_SYNAPTIC_STATIC - 1] = sSynapticStaticDescription,
+    [MOVE_TWIRL - 1] = sTwirlDescription,
+    [MOVE_FLURRY_KICK - 1] = sFlurryKickDescription,
+    [MOVE_BURNING_CINDERS - 1] = sBurningCindersDescription,
+    [MOVE_FLYBY - 1] = sFlybyDescription,
+    [MOVE_METEOR_SHOWER - 1] = sMeteorShowerDescription,
+    [MOVE_VOLCALITH - 1] = sEruptionDescription,
 };

@@ -251,7 +251,7 @@ const struct SpriteTemplate gDragonRushSpriteTemplate =
     .callback = AnimDragonRushStep,
 };
 
-const struct SpriteTemplate gDracoMetorSpriteTemplate =
+const struct SpriteTemplate gDracoMeteorSpriteTemplate =
 {
     .tileTag = ANIM_TAG_IMPACT,
     .paletteTag = ANIM_TAG_IMPACT,

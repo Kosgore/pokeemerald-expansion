@@ -1177,6 +1177,11 @@ extern const u32 gItemIcon_Audinite[];
 extern const u32 gItemIconPalette_Audinite[];
 extern const u32 gItemIcon_Diancite[];
 extern const u32 gItemIconPalette_Diancite[];
+extern const u32 gItemIcon_Coalossalite[];
+extern const u32 gItemIcon_Orbeetilite[];
+extern const u32 gItemIcon_Grimmsnarlite[];
+extern const u32 gItemIcon_Copperajite[];
+extern const u32 gItemIcon_Inteleonite[];
 // Gems
 extern const u32 gItemIcon_NormalGem[];
 extern const u32 gItemIconPalette_NormalGem[];
@@ -1689,6 +1694,8 @@ extern const u32 gItemIconPalette_DragonTMHM[];
 extern const u32 gItemIconPalette_DarkTMHM[];
 extern const u32 gItemIconPalette_SteelTMHM[];
 extern const u32 gItemIconPalette_FairyTMHM[];
+extern const u32 gItemIconPalette_CosmicTMHM[];
+extern const u32 gItemIconPalette_PrimalTMHM[];
 // Charms
 extern const u32 gItemIcon_OvalCharm[];
 extern const u32 gItemIconPalette_OvalCharm[];

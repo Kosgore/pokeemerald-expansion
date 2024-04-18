@@ -105,6 +105,7 @@ MauvilleCity_House2_EvoShop::
 	.2byte ITEM_KINGS_ROCK
     .2byte ITEM_METAL_COAT
     .2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_ROTOM_CATALOG
 	.2byte ITEM_NONE
 	release
 	end

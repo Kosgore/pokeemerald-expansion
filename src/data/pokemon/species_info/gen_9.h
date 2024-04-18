@@ -311,7 +311,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_WATER_1 },
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_MOXIE },
+        .abilities = { ABILITY_MOXIE, ABILITY_NONE, ABILITY_BIG_PECKS },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Quaxly"),
         .cryId = CRY_QUAXLY,
@@ -359,7 +359,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_WATER_1 },
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_MOXIE },
+        .abilities = { ABILITY_MOXIE, ABILITY_NONE, ABILITY_BIG_PECKS },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Quaxwell"),
         .cryId = CRY_QUAXWELL,
@@ -407,7 +407,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_FLYING, EGG_GROUP_WATER_1 },
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_MOXIE },
+        .abilities = { ABILITY_MOXIE, ABILITY_NONE, ABILITY_DANCER },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Quaquaval"),
         .cryId = CRY_QUAQUAVAL,
@@ -2059,7 +2059,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS },
-        .abilities = { ABILITY_WIND_RIDER, ABILITY_NONE, ABILITY_INFILTRATOR },
+        .abilities = { ABILITY_WIND_RIDER, ABILITY_NONE, ABILITY_SHARP_THORNS },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Bramblin"),
         .cryId = CRY_BRAMBLIN,
@@ -2087,7 +2087,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         ICON(Bramblin, 3),
         //.footprint = gMonFootprint_Bramblin,
         LEARNSETS(Bramblin),
-        .evolutions = EVOLUTION({EVO_NONE, 0, SPECIES_BRAMBLEGHAST}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_BRAMBLEGHAST}),
     },
 
     [SPECIES_BRAMBLEGHAST] =
@@ -2107,7 +2107,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_GRASS, EGG_GROUP_GRASS },
-        .abilities = { ABILITY_WIND_RIDER, ABILITY_NONE, ABILITY_INFILTRATOR },
+        .abilities = { ABILITY_WIND_RIDER, ABILITY_NONE, ABILITY_SHARP_THORNS },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Brmblghast"),
         .cryId = CRY_BRAMBLEGHAST,
@@ -2399,7 +2399,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_COMPOUND_EYES, ABILITY_NONE, ABILITY_SHED_SKIN },
+        .abilities = { ABILITY_COMPOUND_EYES, ABILITY_NONE, ABILITY_BALLISTIC },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Rellor"),
         .cryId = CRY_RELLOR,
@@ -2427,7 +2427,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         ICON(Rellor, 5),
         //.footprint = gMonFootprint_Rellor,
         LEARNSETS(Rellor),
-        .evolutions = EVOLUTION({EVO_NONE, 0, SPECIES_RABSCA}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_DAWN_STONE, SPECIES_RABSCA}),
     },
 
     [SPECIES_RABSCA] =
@@ -2447,7 +2447,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = { EGG_GROUP_BUG, EGG_GROUP_BUG },
-        .abilities = { ABILITY_SYNCHRONIZE, ABILITY_NONE, ABILITY_TELEPATHY },
+        .abilities = { ABILITY_TELEPATHY, ABILITY_NONE, ABILITY_BALLISTIC },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Rabsca"),
         .cryId = CRY_RABSCA,
@@ -3763,56 +3763,6 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         LEARNSETS(GreatTusk),
     },
 #endif //P_FAMILY_GREAT_TUSK
-
-#if P_FAMILY_SCREAM_TAIL
-    [SPECIES_SCREAM_TAIL] =
-    {
-        .baseHP        = 115,
-        .baseAttack    = 65,
-        .baseDefense   = 99,
-        .baseSpeed     = 111,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 115,
-        .types = { TYPE_FAIRY, TYPE_PSYCHIC },
-        .catchRate = 50,
-        .expYield = 285,
-        .evYield_HP = 3,
-        .genderRatio = MON_GENDERLESS,
-        .eggCycles = 50,
-        .friendship = 0,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
-        .abilities = { ABILITY_PROTOSYNTHESIS, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_PINK,
-        .isParadoxForm = TRUE,
-        .speciesName = _("ScreamTail"),
-        .cryId = CRY_SCREAM_TAIL,
-        .natDexNum = NATIONAL_DEX_SCREAM_TAIL,
-        .categoryName = _("Paradox"),
-        .height = 12,
-        .weight = 80,
-        .description = COMPOUND_STRING(
-            "There has been only one reported\n"
-            "sighting of this Pokémon. It\n"
-            "resembles a mysterious creature depicted\n"
-            "in an old expedition journal."),
-        .pokemonScale = 356,
-        .pokemonOffset = 17,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        FRONT_PIC(ScreamTail, 64, 64),
-        .frontPicYOffset = 7,
-        .frontAnimFrames = sAnims_ScreamTail,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        BACK_PIC(ScreamTail, 64, 64),
-        .backPicYOffset = 0,
-        //.backAnimId = BACK_ANIM_NONE,
-        PALETTES(ScreamTail),
-        ICON(ScreamTail, 0),
-        //.footprint = gMonFootprint_ScreamTail,
-        LEARNSETS(ScreamTail),
-    },
-#endif //P_FAMILY_SCREAM_TAIL
 
 #if P_FAMILY_BRUTE_BONNET
     [SPECIES_BRUTE_BONNET] =

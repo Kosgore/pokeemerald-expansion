@@ -952,6 +952,17 @@ const u32 gItemIconPalette_Audinite[] = INCBIN_U32("graphics/items/icon_palettes
 const u32 gItemIcon_Diancite[] = INCBIN_U32("graphics/items/icons/diancite.4bpp.lz");
 const u32 gItemIconPalette_Diancite[] = INCBIN_U32("graphics/items/icon_palettes/diancite.gbapal.lz");
 
+const u32 gItemIcon_Coalossalite[] = INCBIN_U32("graphics/items/icons/coalossalite.4bpp.lz");
+
+const u32 gItemIcon_Orbeetilite[] = INCBIN_U32("graphics/items/icons/orbeetilite.4bpp.lz");
+
+const u32 gItemIcon_Grimmsnarlite[] = INCBIN_U32("graphics/items/icons/grimmsnarlite.4bpp.lz");
+
+const u32 gItemIcon_Copperajite[] = INCBIN_U32("graphics/items/icons/copperajite.4bpp.lz");
+
+const u32 gItemIcon_Inteleonite[] = INCBIN_U32("graphics/items/icons/inteleonite.4bpp.lz");
+
+
 // Gems
 
 const u32 gItemIcon_NormalGem[] = INCBIN_U32("graphics/items/icons/normal_gem.4bpp.lz");
@@ -1740,6 +1751,11 @@ const u32 gItemIconPalette_DarkTMHM[] = INCBIN_U32("graphics/items/icon_palettes
 const u32 gItemIconPalette_SteelTMHM[] = INCBIN_U32("graphics/items/icon_palettes/steel_tm_hm.gbapal.lz");
 
 const u32 gItemIconPalette_FairyTMHM[] = INCBIN_U32("graphics/items/icon_palettes/fairy_tm_hm.gbapal.lz");
+
+const u32 gItemIconPalette_CosmicTMHM[] = INCBIN_U32("graphics/items/icon_palettes/poison_tm_hm.gbapal.lz");
+
+const u32 gItemIconPalette_PrimalTMHM[] = INCBIN_U32("graphics/items/icon_palettes/rock_tm_hm.gbapal.lz");
+
 
 // Charms
 

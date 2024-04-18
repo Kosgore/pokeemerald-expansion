@@ -117,28 +117,41 @@ MauvilleCity_GemMart::
 
 .align 2
 MauvilleCity_TMMart::
-    .2byte ITEM_TM55
+    .2byte ITEM_TM_FACADE
     .2byte ITEM_TM_PROTECT
     .2byte ITEM_TM_FLAMETHROWER
-    .2byte ITEM_TM53
-    .2byte ITEM_TM98
-    .2byte ITEM_TM54
+    .2byte ITEM_TM53                @ Flame Charge
+    .2byte ITEM_TM98                @ Liquidation
+    .2byte ITEM_TM54                @ Chilling Water
     .2byte ITEM_TM_THUNDERBOLT
-    .2byte ITEM_TM86
-    .2byte ITEM_TM52
-    .2byte ITEM_TM51
+    .2byte ITEM_TM72                @ Volt Switch
+    .2byte ITEM_TM86                @ Grass Knot
+    .2byte ITEM_TM52                @ Trailblaze    
+    .2byte ITEM_TM_ICE_BEAM    
+    .2byte ITEM_TM51                @ Icy Wind
     .2byte ITEM_TM_BRICK_BREAK
+    .2byte ITEM_TM56                @ Aura Sphere
+    .2byte ITEM_TM83                @ Poison Jab
     .2byte ITEM_TM_SLUDGE_BOMB
-    .2byte ITEM_TM84
+    .2byte ITEM_TM84                @ Stomping Tantrum
+    .2byte ITEM_TM81                @ Bulldoze
+    .2byte ITEM_TM94                @ Air Slash
     .2byte ITEM_TM_AERIAL_ACE
-    .2byte ITEM_TM29
-    .2byte ITEM_TM96
-    .2byte ITEM_TM76
+    .2byte ITEM_TM29                @ Psychic
+    .2byte ITEM_TM59                @ Zen Headbutt
+    .2byte ITEM_TM96                @ Pollen Puff
+    .2byte ITEM_TM89                @ U-Turn
+    .2byte ITEM_TM87                @ Rock Slide
+    .2byte ITEM_TM76                @ Stealth Rock
     .2byte ITEM_TM_SHADOW_BALL
-    .2byte ITEM_TM99    
-    .2byte ITEM_TM95
-    .2byte ITEM_TM80
-    .2byte ITEM_TM79
+    .2byte ITEM_TM60                @ Shadow Claw
+    .2byte ITEM_TM99                @ Breaking Swipe
+    .2byte ITEM_TM58                @ Dark Pulse
+    .2byte ITEM_TM95                @ Snarl
+    .2byte ITEM_TM80                @ Heavy Slam
+    .2byte ITEM_TM29                @ Mist Ball
+    .2byte ITEM_TM79                @ Dazzling Gleam
+    .2byte ITEM_TM55                @ Swift
     .2byte ITEM_NONE
     release
     end
